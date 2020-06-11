@@ -4,3 +4,4 @@ matplotlib==3.2.1
 geopandas==0.7.0
 scipy==1.4.1
 descartes==1.1.0
+PyYAML==5.3.1

@@ -5,32 +5,40 @@ from scipy.optimize import curve_fit
 import numpy as np
 import datetime
 import os
+import yaml
 
 # filename for shapefile and WHO input dataset
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 WHO_COVID_FILENAME='WHO_data/Data_ WHO Coronavirus Covid-19 Cases and Deaths - WHO-COVID-19-global-data.csv'
 FILENAME_SHP = 'ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
-HRP_iso3 = ['AFG','BFA','BDI','CMR','CAF','TCD','COD','ETH','HTI','IRQ','LBY','MLI','MMR','NER','NGA','PSE','SOM','SSD','SDN','SYR','UKR','VEN','YEM']
 # number of days to be selected for the analysis
 # use 15 days as reference with error bands from 7 and 30 days
 # additional uncertainity from comparison between fit and counts
-#TIME_RANGE={'mid': 15, 'min': 7, 'max': 30}
+ #TIME_RANGE={'mid': 15, 'min': 7, 'max': 30}
 TIME_RANGE={'mid': 7}
+
+# Suppress warnings that come from the doubling time calc
+np.seterr(divide='ignore')
 
 
 def main():
+    # Read in list of countries
+    with open('countries/admins.yaml', 'r') as stream:
+        country_list = yaml.safe_load(stream)['admin_info']
+    HRP_iso3 = sorted(list(set([country.get('alpha_3', None) for country in country_list])))
+    print(HRP_iso3)
     # get WHO data and calculate sum as 'HRP'
-    df_WHO=get_WHO_data()
+    df_WHO=get_WHO_data(HRP_iso3)
     # create canvas
     # TODO adjust rows and columns depending on the number of countries
-    fig,axs=plt.subplots(figsize=[15,10],nrows=4,ncols=6)
+    fig,axs=plt.subplots(figsize=[15,10],nrows=8,ncols=8)
     # create output df
     # TODO do we need a dictionary for the columns names?
     output_df=pd.DataFrame(columns=['iso3','date','pc_growth_rate','doubling_time'])
     # Loop over countries
     for ifig,iso3 in enumerate(HRP_iso3):
         df_country = df_WHO[df_WHO['ISO_3_CODE'] == iso3]
-        axis = axs[ifig // 6][ifig % 6]
+        axis = axs[ifig // 8][ifig % 8]
         # Loop over the dates
         for iwindow, date in enumerate(df_country['date_epicrv'][::-1]):
             if iwindow + max(TIME_RANGE.values()) > len(df_country):
@@ -74,7 +82,6 @@ def main():
                     print(f'{iso3} Doubling time (fit): ',doubling_time_fit)
                     print(f'{iso3} Doubling time (values): ',doubling_time_val)
                 if time_type == 'mid':
-                    # TODO: fix this and make it add the errors
                     output_df=output_df.append({'iso3':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,
                                                 'doubling_time':doubling_time_fit},ignore_index=True)
                 else:
@@ -112,7 +119,7 @@ def get_df_date(df_country, date, time_range):
 def func(x, p0, growth):
     return p0 * np.exp(x*growth)
 
-def get_WHO_data():
+def get_WHO_data(HRP_iso3):
     df=pd.read_csv(f'{DIR_PATH}/{WHO_COVID_FILENAME}')
     # get only HRP countries
     df = df.loc[df['ISO_3_CODE'].isin(HRP_iso3),:]
