@@ -30,21 +30,21 @@ def main():
         df_country = df_WHO[df_WHO['ISO_3_CODE'] == iso3]
         axis = axs[ifig // 6][ifig % 6]
         # Loop over the dates
-        for i, date in enumerate(df_country['date_epicrv'][::-1]):
+        for iwindow, date in enumerate(df_country['date_epicrv'][::-1]):
             df_date=get_df_date(df_country, date)
             # start fit
             x = df_date['day_fit']
             initial_caseload=df_date['CumCase'].iloc[0]
-            initial_parameters=[initial_caseload,0.3]
+            initial_parameters=[initial_caseload,0.03]
             popt, pcov = curve_fit(func,x,df_date['CumCase'],p0=initial_parameters)
             # TODO check quality of the fit
             # calculate growth rate and doubling time
             growth_rate=np.exp(popt[1])-1
             doubling_time_fit=np.log(2)/growth_rate
-            axis.plot(x.iloc[0]-i, df_date['CumCase'].iloc[0], 'ko')
-            axis.plot(x-i, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
-            if i == 0:
-                axis.plot(x - i, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
+            axis.plot(x.iloc[0]-iwindow, df_date['CumCase'].iloc[0], 'ko')
+            axis.plot(x-iwindow, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
+            if iwindow == 0:
+                axis.plot(x - iwindow, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
                 axis.legend()
             # altertnative way of calculating doubling time form observations
             # This is using the first and the last observations and not the exponentinal fit
@@ -54,11 +54,11 @@ def main():
             doubling_time_val=ndays*np.log(2)/np.log(final_val/initial_val)
             # TODO quality check: the two emasurements sohuld agree within 20%
             # print values
-            if i == 0:
+            if iwindow == 0:
                 print(f'{iso3} Doubling time (fit): ',doubling_time_fit)
                 print(f'{iso3} Doubling time (values): ',doubling_time_val)
             output_df=output_df.append({'iso3':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,'doubling_time':doubling_time_fit},ignore_index=True)
-            if i + TIME_RANGE > len(df_country):
+            if iwindow + TIME_RANGE > len(df_country):
                 break
 
     # Save file
