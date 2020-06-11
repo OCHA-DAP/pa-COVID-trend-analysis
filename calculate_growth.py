@@ -12,6 +12,8 @@ WHO_COVID_FILENAME='WHO_data/Data_ WHO Coronavirus Covid-19 Cases and Deaths - W
 FILENAME_SHP = 'ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
 HRP_iso3 = ['AFG','BFA','BDI','CMR','CAF','TCD','COD','ETH','HTI','IRQ','LBY','MLI','MMR','NER','NGA','PSE','SOM','SSD','SDN','SYR','UKR','VEN','YEM']
 # number of days to be selected for the analysis
+# use 15 days as reference with error bands from 7 and 30 days
+# additional uncertainity from comparison between fit and counts
 TIME_RANGE=15
 
 def main():
@@ -58,7 +60,7 @@ def main():
     output_df_geo.plot(column='pc_growth_rate',cmap='OrRd',ax=ax_map, legend=True)
     output_df_geo.boundary.plot(ax=ax_map,lw=0.5)
 
-    # print(df_WHO)
+    print(output_df)
     plt.show()
 
 def get_country_df(input_df,iso3):
@@ -67,7 +69,6 @@ def get_country_df(input_df,iso3):
     df.loc[:,'day_fit']=df['day_fit'].dt.days
     df=df[df['day_fit']>0]
     return df
-
 
 def func(x, p0, growth):
     return p0 * np.exp(x*growth)
