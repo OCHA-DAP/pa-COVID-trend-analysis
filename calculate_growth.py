@@ -5,6 +5,7 @@ from scipy.optimize import curve_fit
 import numpy as np
 import datetime
 import os
+import json
 
 # filename for shapefile and WHO input dataset
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -55,6 +56,8 @@ def main():
                         axis.plot(x - iwindow, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
                         axis.legend()
                     axis.set_xticks([])
+                elif time_type in ['min', 'max']:
+                    axis.plot(x - iwindow, func(x, *popt), 'y-', label=f"{iso3} - Fitted Curve", alpha=0.2)
                 # altertnative way of calculating doubling time form observations
                 # This is using the first and the last observations and not the exponentinal fit
                 initial_val=df_date['CumCase'].iloc[0]
@@ -72,11 +75,20 @@ def main():
                     print(f'{iso3} Doubling time (values): ',doubling_time_val)
                 if time_type == 'mid':
                     # TODO: fix this and make it add the errors
-                    output_df=output_df.append({'iso4':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,'doubling_time':doubling_time_fit},ignore_index=True)
-
-
+                    output_df=output_df.append({'iso3':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,
+                                                'doubling_time':doubling_time_fit},ignore_index=True)
+                else:
+                    output_df.loc[(output_df['iso3'] == iso3) & (output_df['date'] == date),
+                                  f'pc_growth_rate_{time_type}_window'] = growth_rate * 100,
+                    output_df.loc[(output_df['iso3'] == iso3) & (output_df['date'] == date),
+                                  f'doubling_time_{time_type}_window'] = doubling_time_fit
     # Save file
-    output_df.to_json('hrp_covid_rates.json')
+    output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
+    data = output_df.to_dict(orient='index')
+    with open('hrp_covid_rates.json', 'w') as f:
+        json.dump(data, f, indent=2)
+
+    plt.show()
 
     world_boundaries=gpd.read_file('{}/{}'.format(DIR_PATH,FILENAME_SHP))
     output_df_geo=world_boundaries.merge(output_df.drop_duplicates(keep='first'),
