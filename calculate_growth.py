@@ -5,7 +5,6 @@ from scipy.optimize import curve_fit
 import numpy as np
 import datetime
 import os
-import json
 
 # filename for shapefile and WHO input dataset
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -84,9 +83,8 @@ def main():
                                   f'doubling_time_{time_type}_window'] = doubling_time_fit
     # Save file
     output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
-    data = output_df.to_dict(orient='index')
-    with open('hrp_covid_rates.json', 'w') as f:
-        json.dump(data, f, indent=2)
+    data = output_df.groupby('date').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_rates.json',
+                                                                                              orient='index', indent=2)
 
     plt.show()
 
