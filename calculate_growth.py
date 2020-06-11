@@ -26,7 +26,6 @@ def main():
     with open('countries/admins.yaml', 'r') as stream:
         country_list = yaml.safe_load(stream)['admin_info']
     HRP_iso3 = sorted(list(set([country.get('alpha_3', None) for country in country_list])))
-    print(HRP_iso3)
     # get WHO data and calculate sum as 'HRP'
     df_WHO=get_WHO_data(HRP_iso3)
     # create canvas
@@ -89,6 +88,9 @@ def main():
                                   f'pc_growth_rate_{time_type}_window'] = growth_rate * 100,
                     output_df.loc[(output_df['iso3'] == iso3) & (output_df['date'] == date),
                                   f'doubling_time_{time_type}_window'] = doubling_time_fit
+    # Add PRK
+    output_df = output_df.append({'iso3': 'PRK', 'date': datetime.datetime.today(), 'pc_growth_rate': 0.0 },
+                                 ignore_index=True)
     # Save file
     output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
     output_df.groupby('iso3').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_rates.json', orient='index', indent=2)

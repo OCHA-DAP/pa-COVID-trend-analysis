@@ -23197,6 +23197,14 @@
       "doubling_time":3.6348280593
     }
   ],
+  "PRK":[
+    {
+      "iso3":"PRK",
+      "date":"2020-06-11",
+      "pc_growth_rate":0.0,
+      "doubling_time":null
+    }
+  ],
   "PRY":[
     {
       "iso3":"PRY",
