@@ -72,7 +72,7 @@ def main():
                     print(f'{iso3} Doubling time (values): ',doubling_time_val)
                 if time_type == 'mid':
                     # TODO: fix this and make it add the errors
-                    output_df=output_df.append({'iso4':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,'doubling_time':doubling_time_fit},ignore_index=True)I
+                    output_df=output_df.append({'iso4':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,'doubling_time':doubling_time_fit},ignore_index=True)
 
 
     # Save file
@@ -96,7 +96,7 @@ def get_df_date(df_country, date, time_range):
     df = df_country.copy()
     df.loc[:,'day_fit']=df['date_epicrv']-date+datetime.timedelta(days=time_range)
     df.loc[:,'day_fit']=df['day_fit'].dt.days
-    df = df[(df['day_fit'] > 0) & (df['day_fit'] <= TIME_RANGE)]
+    df = df[(df['day_fit'] > 0) & (df['day_fit'] <= time_range)]
     return df
 
 def func(x, p0, growth):
