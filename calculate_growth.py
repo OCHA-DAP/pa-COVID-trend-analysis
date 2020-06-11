@@ -24,36 +24,49 @@ def main():
     fig,axs=plt.subplots(figsize=[15,10],nrows=4,ncols=6)
     # create output df
     # TODO do we need a dictionary for the columns names?
-    output_df=pd.DataFrame(columns=['iso3','pc_growth_rate','doubling_time'])
+    output_df=pd.DataFrame(columns=['iso3','date','pc_growth_rate','doubling_time'])
+    # Loop over countries
     for ifig,iso3 in enumerate(HRP_iso3):
-        axis=axs[ifig // 6][ifig % 6]
-        df_country=get_country_df(df_WHO,iso3)
-        # start fit
-        x = df_country['day_fit']
-        initial_caseload=df_country['CumCase'].iloc[0]
-        initial_parameters=[initial_caseload,0.3]
-        popt, pcov = curve_fit(func,x,df_country['CumCase'],p0=initial_parameters)
-        # TODO check quality of the fit
-        # calculate growth rate and doubling time
-        growth_rate=np.exp(popt[1])-1
-        doubling_time_fit=np.log(2)/growth_rate
-        axis.plot(x, df_country['CumCase'], 'ko', label=f"{iso3} - Original Data")
-        axis.plot(x, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve")
-        # altertnative way of calculating doubling time form observations
-        # This is using the first and the last observations and not the exponentinal fit
-        initial_val=df_country['CumCase'].iloc[0]
-        final_val=df_country['CumCase'].iloc[-1]
-        ndays=df_country['day_fit'].iloc[-1]
-        doubling_time_val=ndays*np.log(2)/np.log(final_val/initial_val)
-        # TODO quality check: the two emasurements sohuld agree within 20%
-        # print values
-        print(f'{iso3} Doubling time (fit): ',doubling_time_fit)
-        print(f'{iso3} Doubling time (values): ',doubling_time_val)
-        output_df=output_df.append({'iso3':iso3,'pc_growth_rate':growth_rate*100,'doubling_time':doubling_time_fit},ignore_index=True)
-        axis.legend()
-   
+        df_country = df_WHO[df_WHO['ISO_3_CODE'] == iso3]
+        axis = axs[ifig // 6][ifig % 6]
+        # Loop over the dates
+        for i, date in enumerate(df_country['date_epicrv'][::-1]):
+            df_date=get_df_date(df_country, date)
+            # start fit
+            x = df_date['day_fit']
+            initial_caseload=df_date['CumCase'].iloc[0]
+            initial_parameters=[initial_caseload,0.3]
+            popt, pcov = curve_fit(func,x,df_date['CumCase'],p0=initial_parameters)
+            # TODO check quality of the fit
+            # calculate growth rate and doubling time
+            growth_rate=np.exp(popt[1])-1
+            doubling_time_fit=np.log(2)/growth_rate
+            axis.plot(x.iloc[0]-i, df_date['CumCase'].iloc[0], 'ko')
+            axis.plot(x-i, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
+            if i == 0:
+                axis.plot(x - i, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
+                axis.legend()
+            # altertnative way of calculating doubling time form observations
+            # This is using the first and the last observations and not the exponentinal fit
+            initial_val=df_date['CumCase'].iloc[0]
+            final_val=df_date['CumCase'].iloc[-1]
+            ndays=df_date['day_fit'].iloc[-1]
+            doubling_time_val=ndays*np.log(2)/np.log(final_val/initial_val)
+            # TODO quality check: the two emasurements sohuld agree within 20%
+            # print values
+            if i == 0:
+                print(f'{iso3} Doubling time (fit): ',doubling_time_fit)
+                print(f'{iso3} Doubling time (values): ',doubling_time_val)
+            output_df=output_df.append({'iso3':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,'doubling_time':doubling_time_fit},ignore_index=True)
+            if i + TIME_RANGE > len(df_country):
+                break
+
+    # Save file
+    output_df.to_csv('hrp_covid_rates.csv', index=False)
+
     world_boundaries=gpd.read_file('{}/{}'.format(DIR_PATH,FILENAME_SHP))
-    output_df_geo=world_boundaries.merge(output_df,left_on='ADM0_A3',right_on='iso3',how='left')
+    output_df_geo=world_boundaries.merge(output_df.drop_duplicates(keep='first'),
+                                         left_on='ADM0_A3',right_on='iso3',how='left')
     # plotting map
     print(output_df_geo)
     fig_map, ax_map = plt.subplots(1, 1)
@@ -63,9 +76,11 @@ def main():
     print(output_df)
     plt.show()
 
-def get_country_df(input_df,iso3):
-    df=input_df[input_df['ISO_3_CODE']==iso3].copy()
-    df.loc[:,'day_fit']=df['date_epicrv']-datetime.date.today()+datetime.timedelta(days=TIME_RANGE)
+
+def get_df_date(df_country, date):
+    # TODO: fill in date gaps with repeated values
+    df = df_country.copy()
+    df.loc[:,'day_fit']=df['date_epicrv']-date+datetime.timedelta(days=TIME_RANGE)
     df.loc[:,'day_fit']=df['day_fit'].dt.days
     df=df[df['day_fit']>0]
     return df
