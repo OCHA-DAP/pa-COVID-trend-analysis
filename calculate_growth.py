@@ -14,7 +14,8 @@ HRP_iso3 = ['AFG','BFA','BDI','CMR','CAF','TCD','COD','ETH','HTI','IRQ','LBY','M
 # number of days to be selected for the analysis
 # use 15 days as reference with error bands from 7 and 30 days
 # additional uncertainity from comparison between fit and counts
-TIME_RANGE=15
+TIME_RANGE={'mid': 15, 'min': 7, 'max': 30}
+
 
 def main():
     # get WHO data and calculate sum as 'HRP'
@@ -31,38 +32,51 @@ def main():
         axis = axs[ifig // 6][ifig % 6]
         # Loop over the dates
         for iwindow, date in enumerate(df_country['date_epicrv'][::-1]):
-            df_date=get_df_date(df_country, date)
-            # start fit
-            x = df_date['day_fit']
-            initial_caseload=df_date['CumCase'].iloc[0]
-            initial_parameters=[initial_caseload,0.03]
-            popt, pcov = curve_fit(func,x,df_date['CumCase'],p0=initial_parameters)
-            # TODO check quality of the fit
-            # calculate growth rate and doubling time
-            growth_rate=np.exp(popt[1])-1
-            doubling_time_fit=np.log(2)/growth_rate
-            axis.plot(x.iloc[0]-iwindow, df_date['CumCase'].iloc[0], 'ko')
-            axis.plot(x-iwindow, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
-            if iwindow == 0:
-                axis.plot(x - iwindow, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
-                axis.legend()
-            # altertnative way of calculating doubling time form observations
-            # This is using the first and the last observations and not the exponentinal fit
-            initial_val=df_date['CumCase'].iloc[0]
-            final_val=df_date['CumCase'].iloc[-1]
-            ndays=df_date['day_fit'].iloc[-1]
-            doubling_time_val=ndays*np.log(2)/np.log(final_val/initial_val)
-            # TODO quality check: the two emasurements sohuld agree within 20%
-            # print values
-            if iwindow == 0:
-                print(f'{iso3} Doubling time (fit): ',doubling_time_fit)
-                print(f'{iso3} Doubling time (values): ',doubling_time_val)
-            output_df=output_df.append({'iso3':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,'doubling_time':doubling_time_fit},ignore_index=True)
-            if iwindow + TIME_RANGE > len(df_country):
+            if iwindow + max(TIME_RANGE.values()) > len(df_country):
                 break
+            growth_rate_dict = {}
+            doubling_time_fit_dict = {}
+            doubling_time_val_dict = {}
+            for time_type, time_range in TIME_RANGE.items():
+                df_date=get_df_date(df_country, date, time_range)
+                # start fit
+                x = df_date['day_fit']
+                initial_caseload=df_date['CumCase'].iloc[0]
+                initial_parameters=[initial_caseload,0.03]
+                popt, pcov = curve_fit(func,x,df_date['CumCase'],p0=initial_parameters)
+                # TODO check quality of the fit
+                # calculate growth rate and doubling time
+                growth_rate=np.exp(popt[1])-1
+                doubling_time_fit=np.log(2)/growth_rate
+                if time_type == 'mid':
+                    axis.plot(x.iloc[0]-iwindow, df_date['CumCase'].iloc[0], 'ko')
+                    axis.plot(x-iwindow, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
+                    if iwindow == 0:
+                        axis.plot(x - iwindow, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
+                        axis.legend()
+                    axis.set_xticks([])
+                # altertnative way of calculating doubling time form observations
+                # This is using the first and the last observations and not the exponentinal fit
+                initial_val=df_date['CumCase'].iloc[0]
+                final_val=df_date['CumCase'].iloc[-1]
+                ndays=df_date['day_fit'].iloc[-1]
+                doubling_time_val=ndays*np.log(2)/np.log(final_val/initial_val)
+                # Append stuff to dicts
+                growth_rate_dict[time_type] = growth_rate
+                doubling_time_fit_dict[time_type] = doubling_time_fit
+                doubling_time_val_dict[time_type] = doubling_time_val
+                # TODO quality check: the two emasurements sohuld agree within 20%
+                # print values
+                if iwindow == 0 and time_type == 'mid':
+                    print(f'{iso3} Doubling time (fit): ',doubling_time_fit)
+                    print(f'{iso3} Doubling time (values): ',doubling_time_val)
+                if time_type == 'mid':
+                    # TODO: fix this and make it add the errors
+                    output_df=output_df.append({'iso4':iso3, 'date': date, 'pc_growth_rate':growth_rate*100,'doubling_time':doubling_time_fit},ignore_index=True)I
+
 
     # Save file
-    output_df.to_csv('hrp_covid_rates.csv', index=False)
+    output_df.to_json('hrp_covid_rates.json')
 
     world_boundaries=gpd.read_file('{}/{}'.format(DIR_PATH,FILENAME_SHP))
     output_df_geo=world_boundaries.merge(output_df.drop_duplicates(keep='first'),
@@ -77,12 +91,12 @@ def main():
     plt.show()
 
 
-def get_df_date(df_country, date):
+def get_df_date(df_country, date, time_range):
     # TODO: fill in date gaps with repeated values
     df = df_country.copy()
-    df.loc[:,'day_fit']=df['date_epicrv']-date+datetime.timedelta(days=TIME_RANGE)
+    df.loc[:,'day_fit']=df['date_epicrv']-date+datetime.timedelta(days=time_range)
     df.loc[:,'day_fit']=df['day_fit'].dt.days
-    df=df[df['day_fit']>0]
+    df = df[(df['day_fit'] > 0) & (df['day_fit'] <= TIME_RANGE)]
     return df
 
 def func(x, p0, growth):
