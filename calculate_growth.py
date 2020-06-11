@@ -14,7 +14,8 @@ HRP_iso3 = ['AFG','BFA','BDI','CMR','CAF','TCD','COD','ETH','HTI','IRQ','LBY','M
 # number of days to be selected for the analysis
 # use 15 days as reference with error bands from 7 and 30 days
 # additional uncertainity from comparison between fit and counts
-TIME_RANGE={'mid': 15, 'min': 7, 'max': 30}
+#TIME_RANGE={'mid': 15, 'min': 7, 'max': 30}
+TIME_RANGE={'mid': 7}
 
 
 def main():
@@ -83,8 +84,7 @@ def main():
                                   f'doubling_time_{time_type}_window'] = doubling_time_fit
     # Save file
     output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
-    data = output_df.groupby('date').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_rates.json',
-                                                                                              orient='index', indent=2)
+    output_df.groupby('iso3').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_rates.json', orient='index', indent=2)
 
     plt.show()
 
