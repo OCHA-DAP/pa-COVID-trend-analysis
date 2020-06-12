@@ -65,7 +65,7 @@ def main():
     # Save as JSON
     output_df['date_epicrv'] = output_df['date_epicrv'].apply(lambda x: x.strftime('%Y-%m-%d'))
     output_df.groupby('ISO_3_CODE').apply(lambda x: x.to_dict('r')).to_json(
-        'hrp_covid_cases.json', orient='index', indent=2)
+        'hrp_covid_weekly_trend.json', orient='index', indent=2)
 
 
 def get_WHO_data(HRP_iso3):
