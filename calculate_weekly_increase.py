@@ -28,6 +28,7 @@ def main():
     output_df=pd.merge(left=new_cases_w,right=cumulative_w,left_index=True,right_index=True,how='inner')
     output_df=pd.merge(left=output_df,right=ndays_w,left_index=True,right_index=True,how='inner')
     output_df=output_df[output_df['ndays']==7]
+    output_df=output_df[output_df['CumCase']>100]
     output_df=output_df.reset_index()
     output_df['NewCase_Rel']=output_df['NewCase']/output_df['CumCase']
     
@@ -35,7 +36,7 @@ def main():
     df_pop=pd.read_excel(POPULATION_FILENAME,sheet_name='Data',header=1,skiprows=[0,1],usecols='B,BK').rename(
         columns={'2018': 'population'})
     # Add HRP
-    df_pop = df_pop.append({'Country Code': 'HRP',
+    df_pop = df_pop.append({'Country Code': 'H63',
                             'population':  df_pop.loc[df_pop['Country Code'].isin(HRP_iso3), 'population'].sum()},
                            ignore_index=True)
 
@@ -76,9 +77,9 @@ def get_WHO_data(HRP_iso3):
 
     # adding global by date
     df_all=df.groupby('date_epicrv').sum()
-    df_all['ISO_3_CODE']='HRP'
+    df_all['ISO_3_CODE']='H63'
+    HRP_iso3=HRP_iso3.insert(0,'H63')
     df_all=df_all.reset_index()
-    HRP_iso3.insert(0,'HRP')
     df=df.append(df_all)
     return df
 
