@@ -39,10 +39,11 @@ def main():
         columns=['Country Code'])
     # Get cases per hundred thousand
     output_df['weekly_new_cases_per_ht'] = output_df['NewCase'] / output_df['population'] * 1E5
-    output_df['weekly_inc_cases_per_ht'] = output_df['NewCase_Rel'] / output_df['population'] * 1E5
+    output_df['weekly_pc_increase'] = output_df['NewCase_Rel'] * 100
 
     # Show plots
-    for q in ['weekly_new_cases_per_ht', 'weekly_inc_cases_per_ht']:
+    pd.plotting.register_matplotlib_converters()
+    for q in ['weekly_new_cases_per_ht', 'weekly_pc_increase']:
         fig,axs=plt.subplots(figsize=[15,10],nrows=8,ncols=8)
         fig.suptitle(q)
         ifig = 0
