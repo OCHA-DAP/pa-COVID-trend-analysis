@@ -20,12 +20,17 @@ def main():
     df_WHO=get_WHO_data(HRP_iso3)
     
     # get weekly new cases
-    new_cases_w=df_WHO.groupby(['ISO_3_CODE']).resample('W-Mon', on='date_epicrv').sum()['NewCase']
-    cumulative_w=df_WHO.groupby(['ISO_3_CODE']).resample('W-Mon', on='date_epicrv').min()['CumCase']
+    new_cases_w=df_WHO.groupby(['ISO_3_CODE']).resample('W', on='date_epicrv').sum()['NewCase']
+    cumulative_w=df_WHO.groupby(['ISO_3_CODE']).resample('W', on='date_epicrv').min()['CumCase']
+    ndays_w=df_WHO.groupby(['ISO_3_CODE']).resample('W', on='date_epicrv').count()['NewCase']
+    ndays_w=ndays_w.rename('ndays')
 
-    output_df=pd.merge(left=new_cases_w,right=cumulative_w,left_index=True,right_index=True,how='inner').reset_index()
+    output_df=pd.merge(left=new_cases_w,right=cumulative_w,left_index=True,right_index=True,how='inner')
+    output_df=pd.merge(left=output_df,right=ndays_w,left_index=True,right_index=True,how='inner')
+    output_df=output_df[output_df['ndays']==7]
+    output_df=output_df.reset_index()
     output_df['NewCase_Rel']=output_df['NewCase']/output_df['CumCase']
-
+    
     # Read in pop
     df_pop=pd.read_excel(POPULATION_FILENAME,sheet_name='Data',header=1,skiprows=[0,1],usecols='B,BK').rename(
         columns={'2018': 'population'})
