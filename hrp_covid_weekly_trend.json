@@ -7,9 +7,11 @@
       "CumCase":101,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":105845.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"ABW",
@@ -18,9 +20,11 @@
       "CumCase":101,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":105845.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"ABW",
@@ -29,9 +33,11 @@
       "CumCase":101,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":105845.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"ABW",
@@ -40,9 +46,11 @@
       "CumCase":101,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":105845.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     }
   ],
   "AFG":[
@@ -53,9 +61,11 @@
       "CumCase":114,
       "ndays":7,
       "NewCase_Rel":1.6228070175,
+      "NewCase_PercentDiff":null,
       "population":37172386.0,
       "weekly_new_cases_per_ht":0.4976812626,
-      "weekly_pc_increase":162.2807017544
+      "weekly_pc_increase":162.2807017544,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"AFG",
@@ -64,9 +74,11 @@
       "CumCase":337,
       "ndays":7,
       "NewCase_Rel":0.7596439169,
+      "NewCase_PercentDiff":0.3837837838,
       "population":37172386.0,
       "weekly_new_cases_per_ht":0.6886832607,
-      "weekly_pc_increase":75.9643916914
+      "weekly_pc_increase":75.9643916914,
+      "weekly_pc_change":38.3783783784
     },
     {
       "ISO_3_CODE":"AFG",
@@ -75,9 +87,11 @@
       "CumCase":665,
       "ndays":7,
       "NewCase_Rel":0.6631578947,
+      "NewCase_PercentDiff":0.72265625,
       "population":37172386.0,
       "weekly_new_cases_per_ht":1.1863645234,
-      "weekly_pc_increase":66.3157894737
+      "weekly_pc_increase":66.3157894737,
+      "weekly_pc_change":72.265625
     },
     {
       "ISO_3_CODE":"AFG",
@@ -86,9 +100,11 @@
       "CumCase":996,
       "ndays":7,
       "NewCase_Rel":0.468875502,
+      "NewCase_PercentDiff":0.0589569161,
       "population":37172386.0,
       "weekly_new_cases_per_ht":1.2563089171,
-      "weekly_pc_increase":46.8875502008
+      "weekly_pc_increase":46.8875502008,
+      "weekly_pc_change":5.89569161
     },
     {
       "ISO_3_CODE":"AFG",
@@ -97,9 +113,11 @@
       "CumCase":1703,
       "ndays":7,
       "NewCase_Rel":0.5907222548,
+      "NewCase_PercentDiff":1.1541755889,
       "population":37172386.0,
       "weekly_new_cases_per_ht":2.7063100012,
-      "weekly_pc_increase":59.0722254844
+      "weekly_pc_increase":59.0722254844,
+      "weekly_pc_change":115.4175588865
     },
     {
       "ISO_3_CODE":"AFG",
@@ -108,9 +126,11 @@
       "CumCase":2469,
       "ndays":7,
       "NewCase_Rel":0.7829080599,
+      "NewCase_PercentDiff":0.921471173,
       "population":37172386.0,
       "weekly_new_cases_per_ht":5.2000966524,
-      "weekly_pc_increase":78.2908059943
+      "weekly_pc_increase":78.2908059943,
+      "weekly_pc_change":92.1471172962
     },
     {
       "ISO_3_CODE":"AFG",
@@ -119,9 +139,11 @@
       "CumCase":4664,
       "ndays":7,
       "NewCase_Rel":0.4849914237,
+      "NewCase_PercentDiff":0.1702017589,
       "population":37172386.0,
       "weekly_new_cases_per_ht":6.0851622492,
-      "weekly_pc_increase":48.4991423671
+      "weekly_pc_increase":48.4991423671,
+      "weekly_pc_change":17.0201758924
     },
     {
       "ISO_3_CODE":"AFG",
@@ -130,9 +152,11 @@
       "CumCase":7072,
       "ndays":7,
       "NewCase_Rel":0.5540158371,
+      "NewCase_PercentDiff":0.7320954907,
       "population":37172386.0,
       "weekly_new_cases_per_ht":10.5400820921,
-      "weekly_pc_increase":55.4015837104
+      "weekly_pc_increase":55.4015837104,
+      "weekly_pc_change":73.2095490716
     },
     {
       "ISO_3_CODE":"AFG",
@@ -141,9 +165,11 @@
       "CumCase":11094,
       "ndays":7,
       "NewCase_Rel":0.4067063277,
+      "NewCase_PercentDiff":0.1516079632,
       "population":37172386.0,
       "weekly_new_cases_per_ht":12.1380424706,
-      "weekly_pc_increase":40.6706327745
+      "weekly_pc_increase":40.6706327745,
+      "weekly_pc_change":15.1607963247
     },
     {
       "ISO_3_CODE":"AFG",
@@ -152,9 +178,11 @@
       "CumCase":15750,
       "ndays":7,
       "NewCase_Rel":0.3332063492,
+      "NewCase_PercentDiff":0.1631205674,
       "population":37172386.0,
       "weekly_new_cases_per_ht":14.1180068452,
-      "weekly_pc_increase":33.3206349206
+      "weekly_pc_increase":33.3206349206,
+      "weekly_pc_change":16.3120567376
     }
   ],
   "ARG":[
@@ -165,9 +193,11 @@
       "CumCase":225,
       "ndays":7,
       "NewCase_Rel":2.3644444444,
+      "NewCase_PercentDiff":null,
       "population":44494502.0,
       "weekly_new_cases_per_ht":1.1956533416,
-      "weekly_pc_increase":236.4444444444
+      "weekly_pc_increase":236.4444444444,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"ARG",
@@ -176,9 +206,11 @@
       "CumCase":745,
       "ndays":7,
       "NewCase_Rel":0.8899328859,
+      "NewCase_PercentDiff":0.2462406015,
       "population":44494502.0,
       "weekly_new_cases_per_ht":1.4900717396,
-      "weekly_pc_increase":88.9932885906
+      "weekly_pc_increase":88.9932885906,
+      "weekly_pc_change":24.6240601504
     },
     {
       "ISO_3_CODE":"ARG",
@@ -187,9 +219,11 @@
       "CumCase":1451,
       "ndays":7,
       "NewCase_Rel":0.4286698828,
+      "NewCase_PercentDiff":-0.0618401207,
       "population":44494502.0,
       "weekly_new_cases_per_ht":1.3979255235,
-      "weekly_pc_increase":42.8669882839
+      "weekly_pc_increase":42.8669882839,
+      "weekly_pc_change":-6.1840120664
     },
     {
       "ISO_3_CODE":"ARG",
@@ -198,9 +232,11 @@
       "CumCase":1975,
       "ndays":7,
       "NewCase_Rel":0.4096202532,
+      "NewCase_PercentDiff":0.3006430868,
       "population":44494502.0,
       "weekly_new_cases_per_ht":1.818202168,
-      "weekly_pc_increase":40.9620253165
+      "weekly_pc_increase":40.9620253165,
+      "weekly_pc_change":30.0643086817
     },
     {
       "ISO_3_CODE":"ARG",
@@ -209,9 +245,11 @@
       "CumCase":2839,
       "ndays":7,
       "NewCase_Rel":0.3230010567,
+      "NewCase_PercentDiff":0.1334981459,
       "population":44494502.0,
       "weekly_new_cases_per_ht":2.0609287862,
-      "weekly_pc_increase":32.300105671
+      "weekly_pc_increase":32.300105671,
+      "weekly_pc_change":13.3498145859
     },
     {
       "ISO_3_CODE":"ARG",
@@ -220,9 +258,11 @@
       "CumCase":3838,
       "ndays":7,
       "NewCase_Rel":0.2165190203,
+      "NewCase_PercentDiff":-0.0937840785,
       "population":44494502.0,
       "weekly_new_cases_per_ht":1.8676464791,
-      "weekly_pc_increase":21.6519020323
+      "weekly_pc_increase":21.6519020323,
+      "weekly_pc_change":-9.3784078517
     },
     {
       "ISO_3_CODE":"ARG",
@@ -231,9 +271,11 @@
       "CumCase":4681,
       "ndays":7,
       "NewCase_Rel":0.2452467421,
+      "NewCase_PercentDiff":0.3814681107,
       "population":44494502.0,
       "weekly_new_cases_per_ht":2.580094053,
-      "weekly_pc_increase":24.5246742149
+      "weekly_pc_increase":24.5246742149,
+      "weekly_pc_change":38.146811071
     },
     {
       "ISO_3_CODE":"ARG",
@@ -242,9 +284,11 @@
       "CumCase":5924,
       "ndays":7,
       "NewCase_Rel":0.303679946,
+      "NewCase_PercentDiff":0.5670731707,
       "population":44494502.0,
       "weekly_new_cases_per_ht":4.0431961684,
-      "weekly_pc_increase":30.3679945982
+      "weekly_pc_increase":30.3679945982,
+      "weekly_pc_change":56.7073170732
     },
     {
       "ISO_3_CODE":"ARG",
@@ -253,9 +297,11 @@
       "CumCase":7805,
       "ndays":7,
       "NewCase_Rel":0.4061499039,
+      "NewCase_PercentDiff":0.76209005,
       "population":44494502.0,
       "weekly_new_cases_per_ht":7.1244757386,
-      "weekly_pc_increase":40.6149903908
+      "weekly_pc_increase":40.6149903908,
+      "weekly_pc_change":76.2090050028
     },
     {
       "ISO_3_CODE":"ARG",
@@ -264,9 +310,11 @@
       "CumCase":11353,
       "ndays":7,
       "NewCase_Rel":0.3569981503,
+      "NewCase_PercentDiff":0.2785488959,
       "population":44494502.0,
       "weekly_new_cases_per_ht":9.1089905894,
-      "weekly_pc_increase":35.6998150269
+      "weekly_pc_increase":35.6998150269,
+      "weekly_pc_change":27.8548895899
     },
     {
       "ISO_3_CODE":"ARG",
@@ -275,9 +323,11 @@
       "CumCase":16214,
       "ndays":7,
       "NewCase_Rel":0.3907117306,
+      "NewCase_PercentDiff":0.5630397237,
       "population":44494502.0,
       "weekly_new_cases_per_ht":14.2377141338,
-      "weekly_pc_increase":39.0711730603
+      "weekly_pc_increase":39.0711730603,
+      "weekly_pc_change":56.3039723661
     }
   ],
   "BEN":[
@@ -288,9 +338,11 @@
       "CumCase":319,
       "ndays":7,
       "NewCase_Rel":0.1724137931,
+      "NewCase_PercentDiff":null,
       "population":11485048.0,
       "weekly_new_cases_per_ht":0.4788835014,
-      "weekly_pc_increase":17.2413793103
+      "weekly_pc_increase":17.2413793103,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"BEN",
@@ -299,9 +351,11 @@
       "CumCase":129,
       "ndays":7,
       "NewCase_Rel":-1.5813953488,
+      "NewCase_PercentDiff":-4.7090909091,
       "population":11485048.0,
       "weekly_new_cases_per_ht":-1.7762224416,
-      "weekly_pc_increase":-158.1395348837
+      "weekly_pc_increase":-158.1395348837,
+      "weekly_pc_change":-470.9090909091
     },
     {
       "ISO_3_CODE":"BEN",
@@ -310,9 +364,11 @@
       "CumCase":191,
       "ndays":7,
       "NewCase_Rel":0.5078534031,
+      "NewCase_PercentDiff":-1.4754901961,
       "population":11485048.0,
       "weekly_new_cases_per_ht":0.844576357,
-      "weekly_pc_increase":50.7853403141
+      "weekly_pc_increase":50.7853403141,
+      "weekly_pc_change":-147.5490196078
     },
     {
       "ISO_3_CODE":"BEN",
@@ -321,9 +377,11 @@
       "CumCase":232,
       "ndays":7,
       "NewCase_Rel":0.1551724138,
+      "NewCase_PercentDiff":-0.6288659794,
       "population":11485048.0,
       "weekly_new_cases_per_ht":0.3134510191,
-      "weekly_pc_increase":15.5172413793
+      "weekly_pc_increase":15.5172413793,
+      "weekly_pc_change":-62.8865979381
     }
   ],
   "BFA":[
@@ -334,9 +392,11 @@
       "CumCase":222,
       "ndays":7,
       "NewCase_Rel":0.7027027027,
+      "NewCase_PercentDiff":null,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.7898120323,
-      "weekly_pc_increase":70.2702702703
+      "weekly_pc_increase":70.2702702703,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"BFA",
@@ -345,9 +405,11 @@
       "CumCase":345,
       "ndays":7,
       "NewCase_Rel":0.4086956522,
+      "NewCase_PercentDiff":-0.0961538462,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.7138685677,
-      "weekly_pc_increase":40.8695652174
+      "weekly_pc_increase":40.8695652174,
+      "weekly_pc_change":-9.6153846154
     },
     {
       "ISO_3_CODE":"BFA",
@@ -356,9 +418,11 @@
       "CumCase":443,
       "ndays":7,
       "NewCase_Rel":0.2347629797,
+      "NewCase_PercentDiff":-0.2624113475,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.5265413549,
-      "weekly_pc_increase":23.4762979684
+      "weekly_pc_increase":23.4762979684,
+      "weekly_pc_change":-26.2411347518
     },
     {
       "ISO_3_CODE":"BFA",
@@ -367,9 +431,11 @@
       "CumCase":565,
       "ndays":7,
       "NewCase_Rel":0.1451327434,
+      "NewCase_PercentDiff":-0.2115384615,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.4151576067,
-      "weekly_pc_increase":14.5132743363
+      "weekly_pc_increase":14.5132743363,
+      "weekly_pc_change":-21.1538461538
     },
     {
       "ISO_3_CODE":"BFA",
@@ -378,9 +444,11 @@
       "CumCase":632,
       "ndays":7,
       "NewCase_Rel":0.0363924051,
+      "NewCase_PercentDiff":-0.7195121951,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.1164466458,
-      "weekly_pc_increase":3.6392405063
+      "weekly_pc_increase":3.6392405063,
+      "weekly_pc_change":-71.9512195122
     },
     {
       "ISO_3_CODE":"BFA",
@@ -389,9 +457,11 @@
       "CumCase":662,
       "ndays":7,
       "NewCase_Rel":0.1450151057,
+      "NewCase_PercentDiff":3.1739130435,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.4860381737,
-      "weekly_pc_increase":14.501510574
+      "weekly_pc_increase":14.501510574,
+      "weekly_pc_change":317.3913043478
     },
     {
       "ISO_3_CODE":"BFA",
@@ -400,9 +470,11 @@
       "CumCase":751,
       "ndays":7,
       "NewCase_Rel":0.0452729694,
+      "NewCase_PercentDiff":-0.6458333333,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.1721385199,
-      "weekly_pc_increase":4.5272969374
+      "weekly_pc_increase":4.5272969374,
+      "weekly_pc_change":-64.5833333333
     },
     {
       "ISO_3_CODE":"BFA",
@@ -411,9 +483,11 @@
       "CumCase":796,
       "ndays":7,
       "NewCase_Rel":0.0615577889,
+      "NewCase_PercentDiff":0.4411764706,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.2480819845,
-      "weekly_pc_increase":6.1557788945
+      "weekly_pc_increase":6.1557788945,
+      "weekly_pc_change":44.1176470588
     },
     {
       "ISO_3_CODE":"BFA",
@@ -422,9 +496,11 @@
       "CumCase":832,
       "ndays":7,
       "NewCase_Rel":0.0264423077,
+      "NewCase_PercentDiff":-0.5510204082,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.1113837481,
-      "weekly_pc_increase":2.6442307692
+      "weekly_pc_increase":2.6442307692,
+      "weekly_pc_change":-55.1020408163
     },
     {
       "ISO_3_CODE":"BFA",
@@ -433,9 +509,11 @@
       "CumCase":881,
       "ndays":7,
       "NewCase_Rel":0.0397275823,
+      "NewCase_PercentDiff":0.5909090909,
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.1772014175,
-      "weekly_pc_increase":3.9727582293
+      "weekly_pc_increase":3.9727582293,
+      "weekly_pc_change":59.0909090909
     }
   ],
   "BGD":[
@@ -446,9 +524,11 @@
       "CumCase":123,
       "ndays":7,
       "NewCase_Rel":4.3333333333,
+      "NewCase_PercentDiff":null,
       "population":161356039.0,
       "weekly_new_cases_per_ht":0.3303254116,
-      "weekly_pc_increase":433.3333333333
+      "weekly_pc_increase":433.3333333333,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"BGD",
@@ -457,9 +537,11 @@
       "CumCase":803,
       "ndays":7,
       "NewCase_Rel":2.2851805729,
+      "NewCase_PercentDiff":2.4427767355,
       "population":161356039.0,
       "weekly_new_cases_per_ht":1.1372366423,
-      "weekly_pc_increase":228.5180572852
+      "weekly_pc_increase":228.5180572852,
+      "weekly_pc_change":244.277673546
     },
     {
       "ISO_3_CODE":"BGD",
@@ -468,9 +550,11 @@
       "CumCase":2948,
       "ndays":7,
       "NewCase_Rel":1.0040705563,
+      "NewCase_PercentDiff":0.6130790191,
       "population":161356039.0,
       "weekly_new_cases_per_ht":1.8344525673,
-      "weekly_pc_increase":100.4070556309
+      "weekly_pc_increase":100.4070556309,
+      "weekly_pc_change":61.3079019074
     },
     {
       "ISO_3_CODE":"BGD",
@@ -479,9 +563,11 @@
       "CumCase":5913,
       "ndays":7,
       "NewCase_Rel":0.6830711991,
+      "NewCase_PercentDiff":0.364527027,
       "population":161356039.0,
       "weekly_new_cases_per_ht":2.5031601079,
-      "weekly_pc_increase":68.3071199053
+      "weekly_pc_increase":68.3071199053,
+      "weekly_pc_change":36.4527027027
     },
     {
       "ISO_3_CODE":"BGD",
@@ -490,9 +576,11 @@
       "CumCase":10143,
       "ndays":7,
       "NewCase_Rel":0.512866016,
+      "NewCase_PercentDiff":0.28794256,
       "population":161356039.0,
       "weekly_new_cases_per_ht":3.2239264376,
-      "weekly_pc_increase":51.2866015972
+      "weekly_pc_increase":51.2866015972,
+      "weekly_pc_change":28.794256004
     },
     {
       "ISO_3_CODE":"BGD",
@@ -501,9 +589,11 @@
       "CumCase":15691,
       "ndays":7,
       "NewCase_Rel":0.4039258173,
+      "NewCase_PercentDiff":0.2183775471,
       "population":161356039.0,
       "weekly_new_cases_per_ht":3.9279595851,
-      "weekly_pc_increase":40.3925817348
+      "weekly_pc_increase":40.3925817348,
+      "weekly_pc_change":21.8377547097
     },
     {
       "ISO_3_CODE":"BGD",
@@ -512,9 +602,11 @@
       "CumCase":23870,
       "ndays":7,
       "NewCase_Rel":0.5284876414,
+      "NewCase_PercentDiff":0.9903755128,
       "population":161356039.0,
       "weekly_new_cases_per_ht":7.8181145733,
-      "weekly_pc_increase":52.8487641391
+      "weekly_pc_increase":52.8487641391,
+      "weekly_pc_change":99.037551278
     },
     {
       "ISO_3_CODE":"BGD",
@@ -523,9 +615,11 @@
       "CumCase":35585,
       "ndays":7,
       "NewCase_Rel":0.3805817058,
+      "NewCase_PercentDiff":0.0735632184,
       "population":161356039.0,
       "weekly_new_cases_per_ht":8.3932402431,
-      "weekly_pc_increase":38.0581705775
+      "weekly_pc_increase":38.0581705775,
+      "weekly_pc_change":7.3563218391
     },
     {
       "ISO_3_CODE":"BGD",
@@ -534,9 +628,11 @@
       "CumCase":47153,
       "ndays":7,
       "NewCase_Rel":0.3366275741,
+      "NewCase_PercentDiff":0.1720445987,
       "population":161356039.0,
       "weekly_new_cases_per_ht":9.8372518924,
-      "weekly_pc_increase":33.6627574067
+      "weekly_pc_increase":33.6627574067,
+      "weekly_pc_change":17.2044598686
     }
   ],
   "BOL":[
@@ -547,9 +643,11 @@
       "CumCase":157,
       "ndays":7,
       "NewCase_Rel":0.8662420382,
+      "NewCase_PercentDiff":null,
       "population":11353142.0,
       "weekly_new_cases_per_ht":1.1979062712,
-      "weekly_pc_increase":86.6242038217
+      "weekly_pc_increase":86.6242038217,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"BOL",
@@ -558,9 +656,11 @@
       "CumCase":300,
       "ndays":7,
       "NewCase_Rel":0.7266666667,
+      "NewCase_PercentDiff":0.6029411765,
       "population":11353142.0,
       "weekly_new_cases_per_ht":1.9201732877,
-      "weekly_pc_increase":72.6666666667
+      "weekly_pc_increase":72.6666666667,
+      "weekly_pc_change":60.2941176471
     },
     {
       "ISO_3_CODE":"BOL",
@@ -569,9 +669,11 @@
       "CumCase":520,
       "ndays":7,
       "NewCase_Rel":0.6038461538,
+      "NewCase_PercentDiff":0.4403669725,
       "population":11353142.0,
       "weekly_new_cases_per_ht":2.7657541851,
-      "weekly_pc_increase":60.3846153846
+      "weekly_pc_increase":60.3846153846,
+      "weekly_pc_change":44.0366972477
     },
     {
       "ISO_3_CODE":"BOL",
@@ -580,9 +682,11 @@
       "CumCase":866,
       "ndays":7,
       "NewCase_Rel":0.4872979215,
+      "NewCase_PercentDiff":0.3439490446,
       "population":11353142.0,
       "weekly_new_cases_per_ht":3.7170326946,
-      "weekly_pc_increase":48.7297921478
+      "weekly_pc_increase":48.7297921478,
+      "weekly_pc_change":34.3949044586
     },
     {
       "ISO_3_CODE":"BOL",
@@ -591,9 +695,11 @@
       "CumCase":1470,
       "ndays":7,
       "NewCase_Rel":0.7054421769,
+      "NewCase_PercentDiff":1.4573459716,
       "population":11353142.0,
       "weekly_new_cases_per_ht":9.1340353182,
-      "weekly_pc_increase":70.5442176871
+      "weekly_pc_increase":70.5442176871,
+      "weekly_pc_change":145.7345971564
     },
     {
       "ISO_3_CODE":"BOL",
@@ -602,9 +708,11 @@
       "CumCase":2437,
       "ndays":7,
       "NewCase_Rel":0.5379565039,
+      "NewCase_PercentDiff":0.2642237223,
       "population":11353142.0,
       "weekly_new_cases_per_ht":11.5474641293,
-      "weekly_pc_increase":53.7956503898
+      "weekly_pc_increase":53.7956503898,
+      "weekly_pc_change":26.4223722276
     },
     {
       "ISO_3_CODE":"BOL",
@@ -613,9 +721,11 @@
       "CumCase":3826,
       "ndays":7,
       "NewCase_Rel":0.5232618923,
+      "NewCase_PercentDiff":0.527078566,
       "population":11353142.0,
       "weekly_new_cases_per_ht":17.6338849633,
-      "weekly_pc_increase":52.3261892316
+      "weekly_pc_increase":52.3261892316,
+      "weekly_pc_change":52.707856598
     },
     {
       "ISO_3_CODE":"BOL",
@@ -624,9 +734,11 @@
       "CumCase":5915,
       "ndays":7,
       "NewCase_Rel":0.5328825021,
+      "NewCase_PercentDiff":0.5744255744,
       "population":11353142.0,
       "weekly_new_cases_per_ht":27.7632394627,
-      "weekly_pc_increase":53.2882502113
+      "weekly_pc_increase":53.2882502113,
+      "weekly_pc_change":57.4425574426
     },
     {
       "ISO_3_CODE":"BOL",
@@ -635,9 +747,11 @@
       "CumCase":9592,
       "ndays":7,
       "NewCase_Rel":0.4167014178,
+      "NewCase_PercentDiff":0.2680837563,
       "population":11353142.0,
       "weekly_new_cases_per_ht":35.2061129862,
-      "weekly_pc_increase":41.6701417848
+      "weekly_pc_increase":41.6701417848,
+      "weekly_pc_change":26.8083756345
     }
   ],
   "BRA":[
@@ -648,9 +762,11 @@
       "CumCase":200,
       "ndays":7,
       "NewCase_Rel":3.915,
+      "NewCase_PercentDiff":null,
       "population":209469333.0,
       "weekly_new_cases_per_ht":0.3738017345,
-      "weekly_pc_increase":391.5
+      "weekly_pc_increase":391.5,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"BRA",
@@ -659,9 +775,11 @@
       "CumCase":904,
       "ndays":7,
       "NewCase_Rel":2.7798672566,
+      "NewCase_PercentDiff":2.2094508301,
       "population":209469333.0,
       "weekly_new_cases_per_ht":1.1996982871,
-      "weekly_pc_increase":277.9867256637
+      "weekly_pc_increase":277.9867256637,
+      "weekly_pc_change":220.945083014
     },
     {
       "ISO_3_CODE":"BRA",
@@ -670,9 +788,11 @@
       "CumCase":3904,
       "ndays":7,
       "NewCase_Rel":1.4444159836,
+      "NewCase_PercentDiff":1.2439315559,
       "population":209469333.0,
       "weekly_new_cases_per_ht":2.692040844,
-      "weekly_pc_increase":144.4415983607
+      "weekly_pc_increase":144.4415983607,
+      "weekly_pc_change":124.3931555909
     },
     {
       "ISO_3_CODE":"BRA",
@@ -681,9 +801,11 @@
       "CumCase":10278,
       "ndays":7,
       "NewCase_Rel":1.0295777389,
+      "NewCase_PercentDiff":0.8765738606,
       "population":209469333.0,
       "weekly_new_cases_per_ht":5.0518134795,
-      "weekly_pc_increase":102.957773886
+      "weekly_pc_increase":102.957773886,
+      "weekly_pc_change":87.6573860614
     },
     {
       "ISO_3_CODE":"BRA",
@@ -692,9 +814,11 @@
       "CumCase":20727,
       "ndays":7,
       "NewCase_Rel":0.6775703189,
+      "NewCase_PercentDiff":0.3271593272,
       "population":209469333.0,
       "weekly_new_cases_per_ht":6.7045613784,
-      "weekly_pc_increase":67.7570318908
+      "weekly_pc_increase":67.7570318908,
+      "weekly_pc_change":32.7159327159
     },
     {
       "ISO_3_CODE":"BRA",
@@ -703,9 +827,11 @@
       "CumCase":36599,
       "ndays":7,
       "NewCase_Rel":0.5276920134,
+      "NewCase_PercentDiff":0.375178012,
       "population":209469333.0,
       "weekly_new_cases_per_ht":9.2199653875,
-      "weekly_pc_increase":52.7692013443
+      "weekly_pc_increase":52.7692013443,
+      "weekly_pc_change":37.5178011962
     },
     {
       "ISO_3_CODE":"BRA",
@@ -714,9 +840,11 @@
       "CumCase":58509,
       "ndays":7,
       "NewCase_Rel":0.659625015,
+      "NewCase_PercentDiff":0.998343085,
       "population":209469333.0,
       "weekly_new_cases_per_ht":18.4246540757,
-      "weekly_pc_increase":65.9625014955
+      "weekly_pc_increase":65.9625014955,
+      "weekly_pc_change":99.8343084969
     },
     {
       "ISO_3_CODE":"BRA",
@@ -725,9 +853,11 @@
       "CumCase":96559,
       "ndays":7,
       "NewCase_Rel":0.5565405607,
+      "NewCase_PercentDiff":0.3924185106,
       "population":209469333.0,
       "weekly_new_cases_per_ht":25.6548293874,
-      "weekly_pc_increase":55.6540560693
+      "weekly_pc_increase":55.6540560693,
+      "weekly_pc_change":39.2418510649
     },
     {
       "ISO_3_CODE":"BRA",
@@ -736,9 +866,11 @@
       "CumCase":155939,
       "ndays":7,
       "NewCase_Rel":0.4674584293,
+      "NewCase_PercentDiff":0.3564636484,
       "population":209469333.0,
       "weekly_new_cases_per_ht":34.7998434692,
-      "weekly_pc_increase":46.7458429258
+      "weekly_pc_increase":46.7458429258,
+      "weekly_pc_change":35.6463648375
     },
     {
       "ISO_3_CODE":"BRA",
@@ -747,9 +879,11 @@
       "CumCase":233142,
       "ndays":7,
       "NewCase_Rel":0.4832548404,
+      "NewCase_PercentDiff":0.5456066946,
       "population":209469333.0,
       "weekly_new_cases_per_ht":53.7868710357,
-      "weekly_pc_increase":48.3254840398
+      "weekly_pc_increase":48.3254840398,
+      "weekly_pc_change":54.5606694561
     },
     {
       "ISO_3_CODE":"BRA",
@@ -758,9 +892,11 @@
       "CumCase":347398,
       "ndays":7,
       "NewCase_Rel":0.3865192085,
+      "NewCase_PercentDiff":0.1917952905,
       "population":209469333.0,
       "weekly_new_cases_per_ht":64.1029395935,
-      "weekly_pc_increase":38.6519208516
+      "weekly_pc_increase":38.6519208516,
+      "weekly_pc_change":19.1795290546
     },
     {
       "ISO_3_CODE":"BRA",
@@ -769,9 +905,11 @@
       "CumCase":498440,
       "ndays":7,
       "NewCase_Rel":0.3623405024,
+      "NewCase_PercentDiff":0.345028151,
       "population":209469333.0,
       "weekly_new_cases_per_ht":86.2202583134,
-      "weekly_pc_increase":36.2340502367
+      "weekly_pc_increase":36.2340502367,
+      "weekly_pc_change":34.5028150973
     }
   ],
   "CAF":[
@@ -782,9 +920,11 @@
       "CumCase":179,
       "ndays":7,
       "NewCase_Rel":0.8826815642,
+      "NewCase_PercentDiff":null,
       "population":4666377.0,
       "weekly_new_cases_per_ht":3.3859244549,
-      "weekly_pc_increase":88.2681564246
+      "weekly_pc_increase":88.2681564246,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"CAF",
@@ -793,9 +933,11 @@
       "CumCase":327,
       "ndays":7,
       "NewCase_Rel":0.7675840979,
+      "NewCase_PercentDiff":0.5886075949,
       "population":4666377.0,
       "weekly_new_cases_per_ht":5.3789053049,
-      "weekly_pc_increase":76.7584097859
+      "weekly_pc_increase":76.7584097859,
+      "weekly_pc_change":58.8607594937
     },
     {
       "ISO_3_CODE":"CAF",
@@ -804,9 +946,11 @@
       "CumCase":604,
       "ndays":7,
       "NewCase_Rel":0.5331125828,
+      "NewCase_PercentDiff":0.2828685259,
       "population":4666377.0,
       "weekly_new_cases_per_ht":6.9004283194,
-      "weekly_pc_increase":53.3112582781
+      "weekly_pc_increase":53.3112582781,
+      "weekly_pc_change":28.2868525896
     },
     {
       "ISO_3_CODE":"CAF",
@@ -815,9 +959,11 @@
       "CumCase":1011,
       "ndays":7,
       "NewCase_Rel":0.6884272997,
+      "NewCase_PercentDiff":1.1614906832,
       "population":4666377.0,
       "weekly_new_cases_per_ht":14.9152115228,
-      "weekly_pc_increase":68.8427299703
+      "weekly_pc_increase":68.8427299703,
+      "weekly_pc_change":116.149068323
     }
   ],
   "CHL":[
@@ -828,9 +974,11 @@
       "CumCase":632,
       "ndays":7,
       "NewCase_Rel":2.3338607595,
+      "NewCase_PercentDiff":null,
       "population":18729160.0,
       "weekly_new_cases_per_ht":7.8754199334,
-      "weekly_pc_increase":233.3860759494
+      "weekly_pc_increase":233.3860759494,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"CHL",
@@ -839,9 +987,11 @@
       "CumCase":1909,
       "ndays":7,
       "NewCase_Rel":1.1796752226,
+      "NewCase_PercentDiff":0.526779661,
       "population":18729160.0,
       "weekly_new_cases_per_ht":12.0240309763,
-      "weekly_pc_increase":117.967522263
+      "weekly_pc_increase":117.967522263,
+      "weekly_pc_change":52.6779661017
     },
     {
       "ISO_3_CODE":"CHL",
@@ -850,9 +1000,11 @@
       "CumCase":4471,
       "ndays":7,
       "NewCase_Rel":0.6186535451,
+      "NewCase_PercentDiff":0.2282415631,
       "population":18729160.0,
       "weekly_new_cases_per_ht":14.7684146005,
-      "weekly_pc_increase":61.8653545068
+      "weekly_pc_increase":61.8653545068,
+      "weekly_pc_change":22.8241563055
     },
     {
       "ISO_3_CODE":"CHL",
@@ -861,9 +1013,11 @@
       "CumCase":7213,
       "ndays":7,
       "NewCase_Rel":0.3886039096,
+      "NewCase_PercentDiff":0.0133767173,
       "population":18729160.0,
       "weekly_new_cases_per_ht":14.9659675074,
-      "weekly_pc_increase":38.8603909608
+      "weekly_pc_increase":38.8603909608,
+      "weekly_pc_change":1.3376717281
     },
     {
       "ISO_3_CODE":"CHL",
@@ -872,9 +1026,11 @@
       "CumCase":10088,
       "ndays":7,
       "NewCase_Rel":0.3100713719,
+      "NewCase_PercentDiff":0.1159471994,
       "population":18729160.0,
       "weekly_new_cases_per_ht":16.7012295266,
-      "weekly_pc_increase":31.0071371927
+      "weekly_pc_increase":31.0071371927,
+      "weekly_pc_change":11.5947199429
     },
     {
       "ISO_3_CODE":"CHL",
@@ -883,9 +1039,11 @@
       "CumCase":13331,
       "ndays":7,
       "NewCase_Rel":0.4183482109,
+      "NewCase_PercentDiff":0.7829283887,
       "population":18729160.0,
       "weekly_new_cases_per_ht":29.7770962499,
-      "weekly_pc_increase":41.8348210937
+      "weekly_pc_increase":41.8348210937,
+      "weekly_pc_change":78.2928388747
     },
     {
       "ISO_3_CODE":"CHL",
@@ -894,9 +1052,11 @@
       "CumCase":19663,
       "ndays":7,
       "NewCase_Rel":0.4467273559,
+      "NewCase_PercentDiff":0.5750403443,
       "population":18729160.0,
       "weekly_new_cases_per_ht":46.9001279289,
-      "weekly_pc_increase":44.6727355948
+      "weekly_pc_increase":44.6727355948,
+      "weekly_pc_change":57.5040344271
     },
     {
       "ISO_3_CODE":"CHL",
@@ -905,9 +1065,11 @@
       "CumCase":28866,
       "ndays":7,
       "NewCase_Rel":0.4922400055,
+      "NewCase_PercentDiff":0.6176001821,
       "population":18729160.0,
       "weekly_new_cases_per_ht":75.8656554805,
-      "weekly_pc_increase":49.2240005543
+      "weekly_pc_increase":49.2240005543,
+      "weekly_pc_change":61.7600182149
     },
     {
       "ISO_3_CODE":"CHL",
@@ -916,9 +1078,11 @@
       "CumCase":43781,
       "ndays":7,
       "NewCase_Rel":0.5473835682,
+      "NewCase_PercentDiff":0.68660708,
       "population":18729160.0,
       "weekly_new_cases_per_ht":127.9555516638,
-      "weekly_pc_increase":54.7383568215
+      "weekly_pc_increase":54.7383568215,
+      "weekly_pc_change":68.660708002
     },
     {
       "ISO_3_CODE":"CHL",
@@ -927,9 +1091,11 @@
       "CumCase":69102,
       "ndays":7,
       "NewCase_Rel":0.4263986571,
+      "NewCase_PercentDiff":0.2295013561,
       "population":18729160.0,
       "weekly_new_cases_per_ht":157.3215242969,
-      "weekly_pc_increase":42.6398657058
+      "weekly_pc_increase":42.6398657058,
+      "weekly_pc_change":22.9501356144
     },
     {
       "ISO_3_CODE":"CHL",
@@ -938,9 +1104,11 @@
       "CumCase":99688,
       "ndays":7,
       "NewCase_Rel":0.3298992858,
+      "NewCase_PercentDiff":0.1161377906,
       "population":18729160.0,
       "weekly_new_cases_per_ht":175.5924985424,
-      "weekly_pc_increase":32.9899285772
+      "weekly_pc_increase":32.9899285772,
+      "weekly_pc_change":11.6137790599
     }
   ],
   "CMR":[
@@ -951,9 +1119,11 @@
       "CumCase":113,
       "ndays":7,
       "NewCase_Rel":4.1061946903,
+      "NewCase_PercentDiff":null,
       "population":25216237.0,
       "weekly_new_cases_per_ht":1.8400842283,
-      "weekly_pc_increase":410.6194690265
+      "weekly_pc_increase":410.6194690265,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"CMR",
@@ -962,9 +1132,11 @@
       "CumCase":555,
       "ndays":7,
       "NewCase_Rel":0.4468468468,
+      "NewCase_PercentDiff":-0.4655172414,
       "population":25216237.0,
       "weekly_new_cases_per_ht":0.9834932944,
-      "weekly_pc_increase":44.6846846847
+      "weekly_pc_increase":44.6846846847,
+      "weekly_pc_change":-46.5517241379
     },
     {
       "ISO_3_CODE":"CMR",
@@ -973,9 +1145,11 @@
       "CumCase":803,
       "ndays":7,
       "NewCase_Rel":0.2652552927,
+      "NewCase_PercentDiff":-0.1411290323,
       "population":25216237.0,
       "weekly_new_cases_per_ht":0.8446938375,
-      "weekly_pc_increase":26.5255292653
+      "weekly_pc_increase":26.5255292653,
+      "weekly_pc_change":-14.1129032258
     },
     {
       "ISO_3_CODE":"CMR",
@@ -984,9 +1158,11 @@
       "CumCase":1016,
       "ndays":7,
       "NewCase_Rel":0.4940944882,
+      "NewCase_PercentDiff":1.3568075117,
       "population":25216237.0,
       "weekly_new_cases_per_ht":1.9907807814,
-      "weekly_pc_increase":49.4094488189
+      "weekly_pc_increase":49.4094488189,
+      "weekly_pc_change":135.6807511737
     },
     {
       "ISO_3_CODE":"CMR",
@@ -995,9 +1171,11 @@
       "CumCase":1621,
       "ndays":7,
       "NewCase_Rel":0.3448488587,
+      "NewCase_PercentDiff":0.1135458167,
       "population":25216237.0,
       "weekly_new_cases_per_ht":2.2168256112,
-      "weekly_pc_increase":34.4848858729
+      "weekly_pc_increase":34.4848858729,
+      "weekly_pc_change":11.3545816733
     },
     {
       "ISO_3_CODE":"CMR",
@@ -1006,9 +1184,11 @@
       "CumCase":2077,
       "ndays":7,
       "NewCase_Rel":0.1242176216,
+      "NewCase_PercentDiff":-0.5384615385,
       "population":25216237.0,
       "weekly_new_cases_per_ht":1.0231502821,
-      "weekly_pc_increase":12.421762157
+      "weekly_pc_increase":12.421762157,
+      "weekly_pc_change":-53.8461538462
     },
     {
       "ISO_3_CODE":"CMR",
@@ -1017,9 +1197,11 @@
       "CumCase":2579,
       "ndays":7,
       "NewCase_Rel":0.2760759984,
+      "NewCase_PercentDiff":1.7596899225,
       "population":25216237.0,
       "weekly_new_cases_per_ht":2.8235775227,
-      "weekly_pc_increase":27.6075998449
+      "weekly_pc_increase":27.6075998449,
+      "weekly_pc_change":175.9689922481
     },
     {
       "ISO_3_CODE":"CMR",
@@ -1028,9 +1210,11 @@
       "CumCase":3047,
       "ndays":7,
       "NewCase_Rel":0.4440433213,
+      "NewCase_PercentDiff":0.9002808989,
       "population":25216237.0,
       "weekly_new_cases_per_ht":5.3655904329,
-      "weekly_pc_increase":44.40433213
+      "weekly_pc_increase":44.40433213,
+      "weekly_pc_change":90.0280898876
     },
     {
       "ISO_3_CODE":"CMR",
@@ -1039,9 +1223,11 @@
       "CumCase":4400,
       "ndays":7,
       "NewCase_Rel":0.2861363636,
+      "NewCase_PercentDiff":-0.0694752402,
       "population":25216237.0,
       "weekly_new_cases_per_ht":4.9928147487,
-      "weekly_pc_increase":28.6136363636
+      "weekly_pc_increase":28.6136363636,
+      "weekly_pc_change":-6.9475240207
     },
     {
       "ISO_3_CODE":"CMR",
@@ -1050,9 +1236,11 @@
       "CumCase":5904,
       "ndays":7,
       "NewCase_Rel":0.3285907859,
+      "NewCase_PercentDiff":0.5409054805,
       "population":25216237.0,
       "weekly_new_cases_per_ht":7.6934556096,
-      "weekly_pc_increase":32.8590785908
+      "weekly_pc_increase":32.8590785908,
+      "weekly_pc_change":54.090548054
     }
   ],
   "COD":[
@@ -1063,9 +1251,11 @@
       "CumCase":161,
       "ndays":7,
       "NewCase_Rel":0.4658385093,
+      "NewCase_PercentDiff":null,
       "population":84068091.0,
       "weekly_new_cases_per_ht":0.0892133973,
-      "weekly_pc_increase":46.5838509317
+      "weekly_pc_increase":46.5838509317,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"COD",
@@ -1074,9 +1264,11 @@
       "CumCase":235,
       "ndays":7,
       "NewCase_Rel":0.4425531915,
+      "NewCase_PercentDiff":0.3866666667,
       "population":84068091.0,
       "weekly_new_cases_per_ht":0.1237092442,
-      "weekly_pc_increase":44.2553191489
+      "weekly_pc_increase":44.2553191489,
+      "weekly_pc_change":38.6666666667
     },
     {
       "ISO_3_CODE":"COD",
@@ -1085,9 +1277,11 @@
       "CumCase":332,
       "ndays":7,
       "NewCase_Rel":0.3463855422,
+      "NewCase_PercentDiff":0.1057692308,
       "population":84068091.0,
       "weekly_new_cases_per_ht":0.1367938758,
-      "weekly_pc_increase":34.6385542169
+      "weekly_pc_increase":34.6385542169,
+      "weekly_pc_change":10.5769230769
     },
     {
       "ISO_3_CODE":"COD",
@@ -1096,9 +1290,11 @@
       "CumCase":459,
       "ndays":7,
       "NewCase_Rel":0.5054466231,
+      "NewCase_PercentDiff":1.0173913043,
       "population":84068091.0,
       "weekly_new_cases_per_ht":0.2759667756,
-      "weekly_pc_increase":50.5446623094
+      "weekly_pc_increase":50.5446623094,
+      "weekly_pc_change":101.7391304348
     },
     {
       "ISO_3_CODE":"COD",
@@ -1107,9 +1303,11 @@
       "CumCase":682,
       "ndays":7,
       "NewCase_Rel":0.4648093842,
+      "NewCase_PercentDiff":0.3663793103,
       "population":84068091.0,
       "weekly_new_cases_per_ht":0.3770752925,
-      "weekly_pc_increase":46.4809384164
+      "weekly_pc_increase":46.4809384164,
+      "weekly_pc_change":36.6379310345
     },
     {
       "ISO_3_CODE":"COD",
@@ -1118,9 +1316,11 @@
       "CumCase":1024,
       "ndays":7,
       "NewCase_Rel":0.4521484375,
+      "NewCase_PercentDiff":0.4605678233,
       "population":84068091.0,
       "weekly_new_cases_per_ht":0.5507440391,
-      "weekly_pc_increase":45.21484375
+      "weekly_pc_increase":45.21484375,
+      "weekly_pc_change":46.0567823344
     },
     {
       "ISO_3_CODE":"COD",
@@ -1129,9 +1329,11 @@
       "CumCase":1454,
       "ndays":7,
       "NewCase_Rel":0.4718019257,
+      "NewCase_PercentDiff":0.4816414687,
       "population":84068091.0,
       "weekly_new_cases_per_ht":0.816005207,
-      "weekly_pc_increase":47.1801925722
+      "weekly_pc_increase":47.1801925722,
+      "weekly_pc_change":48.1641468683
     },
     {
       "ISO_3_CODE":"COD",
@@ -1140,9 +1342,11 @@
       "CumCase":2140,
       "ndays":7,
       "NewCase_Rel":0.3855140187,
+      "NewCase_PercentDiff":0.2026239067,
       "population":84068091.0,
       "weekly_new_cases_per_ht":0.98134737,
-      "weekly_pc_increase":38.5514018692
+      "weekly_pc_increase":38.5514018692,
+      "weekly_pc_change":20.2623906706
     },
     {
       "ISO_3_CODE":"COD",
@@ -1151,9 +1355,11 @@
       "CumCase":3048,
       "ndays":7,
       "NewCase_Rel":0.2992125984,
+      "NewCase_PercentDiff":0.1054545455,
       "population":84068091.0,
       "weekly_new_cases_per_ht":1.0848349108,
-      "weekly_pc_increase":29.9212598425
+      "weekly_pc_increase":29.9212598425,
+      "weekly_pc_change":10.5454545455
     }
   ],
   "COG":[
@@ -1164,9 +1370,11 @@
       "CumCase":143,
       "ndays":7,
       "NewCase_Rel":0.3986013986,
+      "NewCase_PercentDiff":null,
       "population":5244363.0,
       "weekly_new_cases_per_ht":1.0868812857,
-      "weekly_pc_increase":39.8601398601
+      "weekly_pc_increase":39.8601398601,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"COG",
@@ -1175,9 +1383,11 @@
       "CumCase":200,
       "ndays":7,
       "NewCase_Rel":0.145,
+      "NewCase_PercentDiff":-0.4912280702,
       "population":5244363.0,
       "weekly_new_cases_per_ht":0.5529746892,
-      "weekly_pc_increase":14.5
+      "weekly_pc_increase":14.5,
+      "weekly_pc_change":-49.1228070175
     },
     {
       "ISO_3_CODE":"COG",
@@ -1186,9 +1396,11 @@
       "CumCase":229,
       "ndays":7,
       "NewCase_Rel":0.2532751092,
+      "NewCase_PercentDiff":1.0,
       "population":5244363.0,
       "weekly_new_cases_per_ht":1.1059493784,
-      "weekly_pc_increase":25.327510917
+      "weekly_pc_increase":25.327510917,
+      "weekly_pc_change":100.0
     },
     {
       "ISO_3_CODE":"COG",
@@ -1197,9 +1409,11 @@
       "CumCase":287,
       "ndays":7,
       "NewCase_Rel":0.362369338,
+      "NewCase_PercentDiff":0.7931034483,
       "population":5244363.0,
       "weekly_new_cases_per_ht":1.983081644,
-      "weekly_pc_increase":36.2369337979
+      "weekly_pc_increase":36.2369337979,
+      "weekly_pc_change":79.3103448276
     },
     {
       "ISO_3_CODE":"COG",
@@ -1208,9 +1422,11 @@
       "CumCase":410,
       "ndays":7,
       "NewCase_Rel":0.2341463415,
+      "NewCase_PercentDiff":-0.0769230769,
       "population":5244363.0,
       "weekly_new_cases_per_ht":1.8305369022,
-      "weekly_pc_increase":23.4146341463
+      "weekly_pc_increase":23.4146341463,
+      "weekly_pc_change":-7.6923076923
     },
     {
       "ISO_3_CODE":"COG",
@@ -1219,9 +1435,11 @@
       "CumCase":487,
       "ndays":7,
       "NewCase_Rel":0.205338809,
+      "NewCase_PercentDiff":0.0416666667,
       "population":5244363.0,
       "weekly_new_cases_per_ht":1.9068092731,
-      "weekly_pc_increase":20.5338809035
+      "weekly_pc_increase":20.5338809035,
+      "weekly_pc_change":4.1666666667
     },
     {
       "ISO_3_CODE":"COG",
@@ -1230,9 +1448,11 @@
       "CumCase":604,
       "ndays":7,
       "NewCase_Rel":0.1092715232,
+      "NewCase_PercentDiff":-0.34,
       "population":5244363.0,
       "weekly_new_cases_per_ht":1.2584941203,
-      "weekly_pc_increase":10.9271523179
+      "weekly_pc_increase":10.9271523179,
+      "weekly_pc_change":-34.0
     }
   ],
   "COL":[
@@ -1243,9 +1463,11 @@
       "CumCase":196,
       "ndays":7,
       "NewCase_Rel":1.75,
+      "NewCase_PercentDiff":null,
       "population":49648685.0,
       "weekly_new_cases_per_ht":0.6908541485,
-      "weekly_pc_increase":175.0
+      "weekly_pc_increase":175.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"COL",
@@ -1254,9 +1476,11 @@
       "CumCase":608,
       "ndays":7,
       "NewCase_Rel":1.1973684211,
+      "NewCase_PercentDiff":1.1224489796,
       "population":49648685.0,
       "weekly_new_cases_per_ht":1.4663026825,
-      "weekly_pc_increase":119.7368421053
+      "weekly_pc_increase":119.7368421053,
+      "weekly_pc_change":112.2448979592
     },
     {
       "ISO_3_CODE":"COL",
@@ -1265,9 +1489,11 @@
       "CumCase":1406,
       "ndays":7,
       "NewCase_Rel":0.8577524893,
+      "NewCase_PercentDiff":0.6565934066,
       "population":49648685.0,
       "weekly_new_cases_per_ht":2.429067356,
-      "weekly_pc_increase":85.7752489331
+      "weekly_pc_increase":85.7752489331,
+      "weekly_pc_change":65.6593406593
     },
     {
       "ISO_3_CODE":"COL",
@@ -1276,9 +1502,11 @@
       "CumCase":2709,
       "ndays":7,
       "NewCase_Rel":0.3565891473,
+      "NewCase_PercentDiff":-0.1990049751,
       "population":49648685.0,
       "weekly_new_cases_per_ht":1.9456708672,
-      "weekly_pc_increase":35.6589147287
+      "weekly_pc_increase":35.6589147287,
+      "weekly_pc_change":-19.9004975124
     },
     {
       "ISO_3_CODE":"COL",
@@ -1287,9 +1515,11 @@
       "CumCase":3621,
       "ndays":7,
       "NewCase_Rel":0.3982325324,
+      "NewCase_PercentDiff":0.4927536232,
       "population":49648685.0,
       "weekly_new_cases_per_ht":2.9044072366,
-      "weekly_pc_increase":39.823253245
+      "weekly_pc_increase":39.823253245,
+      "weekly_pc_change":49.2753623188
     },
     {
       "ISO_3_CODE":"COL",
@@ -1298,9 +1528,11 @@
       "CumCase":5142,
       "ndays":7,
       "NewCase_Rel":0.4132633217,
+      "NewCase_PercentDiff":0.4736477115,
       "population":49648685.0,
       "weekly_new_cases_per_ht":4.2800730775,
-      "weekly_pc_increase":41.3263321665
+      "weekly_pc_increase":41.3263321665,
+      "weekly_pc_change":47.3647711512
     },
     {
       "ISO_3_CODE":"COL",
@@ -1309,9 +1541,11 @@
       "CumCase":7285,
       "ndays":7,
       "NewCase_Rel":0.4179821551,
+      "NewCase_PercentDiff":0.4329411765,
       "population":49648685.0,
       "weekly_new_cases_per_ht":6.133092951,
-      "weekly_pc_increase":41.7982155113
+      "weekly_pc_increase":41.7982155113,
+      "weekly_pc_change":43.2941176471
     },
     {
       "ISO_3_CODE":"COL",
@@ -1320,9 +1554,11 @@
       "CumCase":10495,
       "ndays":7,
       "NewCase_Rel":0.3968556455,
+      "NewCase_PercentDiff":0.367816092,
       "population":49648685.0,
       "weekly_new_cases_per_ht":8.3889432318,
-      "weekly_pc_increase":39.6855645545
+      "weekly_pc_increase":39.6855645545,
+      "weekly_pc_change":36.7816091954
     },
     {
       "ISO_3_CODE":"COL",
@@ -1331,9 +1567,11 @@
       "CumCase":14939,
       "ndays":7,
       "NewCase_Rel":0.3290046188,
+      "NewCase_PercentDiff":0.1800720288,
       "population":49648685.0,
       "weekly_new_cases_per_ht":9.8995572592,
-      "weekly_pc_increase":32.9004618783
+      "weekly_pc_increase":32.9004618783,
+      "weekly_pc_change":18.0072028812
     },
     {
       "ISO_3_CODE":"COL",
@@ -1342,9 +1580,11 @@
       "CumCase":20177,
       "ndays":7,
       "NewCase_Rel":0.374535362,
+      "NewCase_PercentDiff":0.5375381485,
       "population":49648685.0,
       "weekly_new_cases_per_ht":15.2209469395,
-      "weekly_pc_increase":37.4535362046
+      "weekly_pc_increase":37.4535362046,
+      "weekly_pc_change":53.7538148525
     },
     {
       "ISO_3_CODE":"COL",
@@ -1353,9 +1593,11 @@
       "CumCase":28236,
       "ndays":7,
       "NewCase_Rel":0.3522807763,
+      "NewCase_PercentDiff":0.3162630674,
       "population":49648685.0,
       "weekly_new_cases_per_ht":20.0347703066,
-      "weekly_pc_increase":35.2280776314
+      "weekly_pc_increase":35.2280776314,
+      "weekly_pc_change":31.6263067355
     }
   ],
   "CRI":[
@@ -1366,9 +1608,11 @@
       "CumCase":117,
       "ndays":7,
       "NewCase_Rel":1.2820512821,
+      "NewCase_PercentDiff":null,
       "population":4999441.0,
       "weekly_new_cases_per_ht":3.0003354375,
-      "weekly_pc_increase":128.2051282051
+      "weekly_pc_increase":128.2051282051,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1377,9 +1621,11 @@
       "CumCase":295,
       "ndays":7,
       "NewCase_Rel":0.5186440678,
+      "NewCase_PercentDiff":0.02,
       "population":4999441.0,
       "weekly_new_cases_per_ht":3.0603421463,
-      "weekly_pc_increase":51.8644067797
+      "weekly_pc_increase":51.8644067797,
+      "weekly_pc_change":2.0
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1388,9 +1634,11 @@
       "CumCase":435,
       "ndays":7,
       "NewCase_Rel":0.3264367816,
+      "NewCase_PercentDiff":-0.0718954248,
       "population":4999441.0,
       "weekly_new_cases_per_ht":2.8403175475,
-      "weekly_pc_increase":32.6436781609
+      "weekly_pc_increase":32.6436781609,
+      "weekly_pc_change":-7.1895424837
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1399,9 +1647,11 @@
       "CumCase":577,
       "ndays":7,
       "NewCase_Rel":0.157712305,
+      "NewCase_PercentDiff":-0.3591549296,
       "population":4999441.0,
       "weekly_new_cases_per_ht":1.8202034988,
-      "weekly_pc_increase":15.7712305026
+      "weekly_pc_increase":15.7712305026,
+      "weekly_pc_change":-35.9154929577
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1410,9 +1660,11 @@
       "CumCase":655,
       "ndays":7,
       "NewCase_Rel":0.0580152672,
+      "NewCase_PercentDiff":-0.5824175824,
       "population":4999441.0,
       "weekly_new_cases_per_ht":0.7600849775,
-      "weekly_pc_increase":5.8015267176
+      "weekly_pc_increase":5.8015267176,
+      "weekly_pc_change":-58.2417582418
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1421,9 +1673,11 @@
       "CumCase":693,
       "ndays":7,
       "NewCase_Rel":0.0548340548,
+      "NewCase_PercentDiff":0.0,
       "population":4999441.0,
       "weekly_new_cases_per_ht":0.7600849775,
-      "weekly_pc_increase":5.4834054834
+      "weekly_pc_increase":5.4834054834,
+      "weekly_pc_change":0.0
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1432,9 +1686,11 @@
       "CumCase":733,
       "ndays":7,
       "NewCase_Rel":0.0654843111,
+      "NewCase_PercentDiff":0.2631578947,
       "population":4999441.0,
       "weekly_new_cases_per_ht":0.96010734,
-      "weekly_pc_increase":6.548431105
+      "weekly_pc_increase":6.548431105,
+      "weekly_pc_change":26.3157894737
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1443,9 +1699,11 @@
       "CumCase":780,
       "ndays":7,
       "NewCase_Rel":0.0897435897,
+      "NewCase_PercentDiff":0.4583333333,
       "population":4999441.0,
       "weekly_new_cases_per_ht":1.4001565375,
-      "weekly_pc_increase":8.9743589744
+      "weekly_pc_increase":8.9743589744,
+      "weekly_pc_change":45.8333333333
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1454,9 +1712,11 @@
       "CumCase":853,
       "ndays":7,
       "NewCase_Rel":0.0797186401,
+      "NewCase_PercentDiff":-0.0285714286,
       "population":4999441.0,
       "weekly_new_cases_per_ht":1.360152065,
-      "weekly_pc_increase":7.9718640094
+      "weekly_pc_increase":7.9718640094,
+      "weekly_pc_change":-2.8571428571
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1465,9 +1725,11 @@
       "CumCase":918,
       "ndays":7,
       "NewCase_Rel":0.1209150327,
+      "NewCase_PercentDiff":0.6323529412,
       "population":4999441.0,
       "weekly_new_cases_per_ht":2.2202482238,
-      "weekly_pc_increase":12.091503268
+      "weekly_pc_increase":12.091503268,
+      "weekly_pc_change":63.2352941176
     },
     {
       "ISO_3_CODE":"CRI",
@@ -1476,9 +1738,11 @@
       "CumCase":1047,
       "ndays":7,
       "NewCase_Rel":0.2301814709,
+      "NewCase_PercentDiff":1.1711711712,
       "population":4999441.0,
       "weekly_new_cases_per_ht":4.8205389363,
-      "weekly_pc_increase":23.0181470869
+      "weekly_pc_increase":23.0181470869,
+      "weekly_pc_change":117.1171171171
     }
   ],
   "DJI":[
@@ -1489,9 +1753,11 @@
       "CumCase":298,
       "ndays":7,
       "NewCase_Rel":1.7348993289,
+      "NewCase_PercentDiff":null,
       "population":958920.0,
       "weekly_new_cases_per_ht":53.9148208401,
-      "weekly_pc_increase":173.4899328859
+      "weekly_pc_increase":173.4899328859,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"DJI",
@@ -1500,9 +1766,11 @@
       "CumCase":846,
       "ndays":7,
       "NewCase_Rel":0.3439716312,
+      "NewCase_PercentDiff":-0.4371373308,
       "population":958920.0,
       "weekly_new_cases_per_ht":30.34663997,
-      "weekly_pc_increase":34.3971631206
+      "weekly_pc_increase":34.3971631206,
+      "weekly_pc_change":-43.7137330754
     },
     {
       "ISO_3_CODE":"DJI",
@@ -1511,9 +1779,11 @@
       "CumCase":1035,
       "ndays":7,
       "NewCase_Rel":0.0859903382,
+      "NewCase_PercentDiff":-0.6941580756,
       "population":958920.0,
       "weekly_new_cases_per_ht":9.2812747674,
-      "weekly_pc_increase":8.5990338164
+      "weekly_pc_increase":8.5990338164,
+      "weekly_pc_change":-69.4158075601
     },
     {
       "ISO_3_CODE":"DJI",
@@ -1522,9 +1792,11 @@
       "CumCase":1112,
       "ndays":7,
       "NewCase_Rel":0.0692446043,
+      "NewCase_PercentDiff":-0.1348314607,
       "population":958920.0,
       "weekly_new_cases_per_ht":8.0298669336,
-      "weekly_pc_increase":6.9244604317
+      "weekly_pc_increase":6.9244604317,
+      "weekly_pc_change":-13.4831460674
     },
     {
       "ISO_3_CODE":"DJI",
@@ -1533,9 +1805,11 @@
       "CumCase":1210,
       "ndays":7,
       "NewCase_Rel":0.1752066116,
+      "NewCase_PercentDiff":1.7532467532,
       "population":958920.0,
       "weekly_new_cases_per_ht":22.108205064,
-      "weekly_pc_increase":17.520661157
+      "weekly_pc_increase":17.520661157,
+      "weekly_pc_change":175.3246753247
     },
     {
       "ISO_3_CODE":"DJI",
@@ -1544,9 +1818,11 @@
       "CumCase":1518,
       "ndays":7,
       "NewCase_Rel":0.5724637681,
+      "NewCase_PercentDiff":3.0990566038,
       "population":958920.0,
       "weekly_new_cases_per_ht":90.6227839653,
-      "weekly_pc_increase":57.2463768116
+      "weekly_pc_increase":57.2463768116,
+      "weekly_pc_change":309.9056603774
     },
     {
       "ISO_3_CODE":"DJI",
@@ -1555,9 +1831,11 @@
       "CumCase":2270,
       "ndays":7,
       "NewCase_Rel":0.4070484581,
+      "NewCase_PercentDiff":0.0632911392,
       "population":958920.0,
       "weekly_new_cases_per_ht":96.3584032036,
-      "weekly_pc_increase":40.704845815
+      "weekly_pc_increase":40.704845815,
+      "weekly_pc_change":6.3291139241
     },
     {
       "ISO_3_CODE":"DJI",
@@ -1566,9 +1844,11 @@
       "CumCase":3354,
       "ndays":7,
       "NewCase_Rel":0.2906976744,
+      "NewCase_PercentDiff":0.0551948052,
       "population":958920.0,
       "weekly_new_cases_per_ht":101.6768864973,
-      "weekly_pc_increase":29.0697674419
+      "weekly_pc_increase":29.0697674419,
+      "weekly_pc_change":5.5194805195
     }
   ],
   "DOM":[
@@ -1579,9 +1859,11 @@
       "CumCase":581,
       "ndays":7,
       "NewCase_Rel":1.5611015491,
+      "NewCase_PercentDiff":null,
       "population":10627165.0,
       "weekly_new_cases_per_ht":8.5347315112,
-      "weekly_pc_increase":156.1101549053
+      "weekly_pc_increase":156.1101549053,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1590,9 +1872,11 @@
       "CumCase":1488,
       "ndays":7,
       "NewCase_Rel":0.7607526882,
+      "NewCase_PercentDiff":0.2480705623,
       "population":10627165.0,
       "weekly_new_cases_per_ht":10.6519471562,
-      "weekly_pc_increase":76.0752688172
+      "weekly_pc_increase":76.0752688172,
+      "weekly_pc_change":24.8070562293
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1601,9 +1885,11 @@
       "CumCase":2967,
       "ndays":7,
       "NewCase_Rel":0.578024941,
+      "NewCase_PercentDiff":0.5150176678,
       "population":10627165.0,
       "weekly_new_cases_per_ht":16.1378881386,
-      "weekly_pc_increase":57.8024941018
+      "weekly_pc_increase":57.8024941018,
+      "weekly_pc_change":51.5017667845
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1612,9 +1898,11 @@
       "CumCase":4680,
       "ndays":7,
       "NewCase_Rel":0.339957265,
+      "NewCase_PercentDiff":-0.072303207,
       "population":10627165.0,
       "weekly_new_cases_per_ht":14.971067072,
-      "weekly_pc_increase":33.9957264957
+      "weekly_pc_increase":33.9957264957,
+      "weekly_pc_change":-7.2303206997
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1623,9 +1911,11 @@
       "CumCase":6135,
       "ndays":7,
       "NewCase_Rel":0.2692746536,
+      "NewCase_PercentDiff":0.0383406662,
       "population":10627165.0,
       "weekly_new_cases_per_ht":15.545067758,
-      "weekly_pc_increase":26.9274653627
+      "weekly_pc_increase":26.9274653627,
+      "weekly_pc_change":3.8340666248
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1634,9 +1924,11 @@
       "CumCase":7954,
       "ndays":7,
       "NewCase_Rel":0.2896655771,
+      "NewCase_PercentDiff":0.3946731235,
       "population":10627165.0,
       "weekly_new_cases_per_ht":21.6802882048,
-      "weekly_pc_increase":28.9665577068
+      "weekly_pc_increase":28.9665577068,
+      "weekly_pc_change":39.4673123487
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1645,9 +1937,11 @@
       "CumCase":10347,
       "ndays":7,
       "NewCase_Rel":0.2153281144,
+      "NewCase_PercentDiff":-0.0329861111,
       "population":10627165.0,
       "weekly_new_cases_per_ht":20.9651398092,
-      "weekly_pc_increase":21.5328114429
+      "weekly_pc_increase":21.5328114429,
+      "weekly_pc_change":-3.2986111111
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1656,9 +1950,11 @@
       "CumCase":12314,
       "ndays":7,
       "NewCase_Rel":0.1877537762,
+      "NewCase_PercentDiff":0.0377019749,
       "population":10627165.0,
       "weekly_new_cases_per_ht":21.7555669833,
-      "weekly_pc_increase":18.775377619
+      "weekly_pc_increase":18.775377619,
+      "weekly_pc_change":3.7701974865
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1667,9 +1963,11 @@
       "CumCase":14801,
       "ndays":7,
       "NewCase_Rel":0.1679616242,
+      "NewCase_PercentDiff":0.0752595156,
       "population":10627165.0,
       "weekly_new_cases_per_ht":23.3928804154,
-      "weekly_pc_increase":16.7961624215
+      "weekly_pc_increase":16.7961624215,
+      "weekly_pc_change":7.5259515571
     },
     {
       "ISO_3_CODE":"DOM",
@@ -1678,9 +1976,11 @@
       "CumCase":17285,
       "ndays":7,
       "NewCase_Rel":0.1323112525,
+      "NewCase_PercentDiff":-0.0800482703,
       "population":10627165.0,
       "weekly_new_cases_per_ht":21.5203208005,
-      "weekly_pc_increase":13.2311252531
+      "weekly_pc_increase":13.2311252531,
+      "weekly_pc_change":-8.0048270314
     }
   ],
   "ECU":[
@@ -1691,9 +1991,11 @@
       "CumCase":532,
       "ndays":7,
       "NewCase_Rel":2.4755639098,
+      "NewCase_PercentDiff":null,
       "population":17084357.0,
       "weekly_new_cases_per_ht":7.708806366,
-      "weekly_pc_increase":247.5563909774
+      "weekly_pc_increase":247.5563909774,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1702,9 +2004,11 @@
       "CumCase":1835,
       "ndays":7,
       "NewCase_Rel":0.8948228883,
+      "NewCase_PercentDiff":0.2467729689,
       "population":17084357.0,
       "weekly_new_cases_per_ht":9.6111313993,
-      "weekly_pc_increase":89.4822888283
+      "weekly_pc_increase":89.4822888283,
+      "weekly_pc_change":24.6772968869
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1713,9 +2017,11 @@
       "CumCase":3465,
       "ndays":7,
       "NewCase_Rel":1.0943722944,
+      "NewCase_PercentDiff":1.3093788063,
       "population":17084357.0,
       "weekly_new_cases_per_ht":22.1957431585,
-      "weekly_pc_increase":109.4372294372
+      "weekly_pc_increase":109.4372294372,
+      "weekly_pc_change":130.9378806334
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1724,9 +2030,11 @@
       "CumCase":7466,
       "ndays":7,
       "NewCase_Rel":0.2364050362,
+      "NewCase_PercentDiff":-0.5345464135,
       "population":17084357.0,
       "weekly_new_cases_per_ht":10.3310882581,
-      "weekly_pc_increase":23.6405036164
+      "weekly_pc_increase":23.6405036164,
+      "weekly_pc_change":-53.4546413502
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1735,9 +2043,11 @@
       "CumCase":9468,
       "ndays":7,
       "NewCase_Rel":1.4466624419,
+      "NewCase_PercentDiff":6.7603399433,
       "population":17084357.0,
       "weekly_new_cases_per_ht":80.1727568676,
-      "weekly_pc_increase":144.666244191
+      "weekly_pc_increase":144.666244191,
+      "weekly_pc_change":676.0339943343
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1746,9 +2056,11 @@
       "CumCase":22719,
       "ndays":7,
       "NewCase_Rel":0.2088560236,
+      "NewCase_PercentDiff":-0.6535737753,
       "population":17084357.0,
       "weekly_new_cases_per_ht":27.7739454871,
-      "weekly_pc_increase":20.8856023593
+      "weekly_pc_increase":20.8856023593,
+      "weekly_pc_change":-65.3573775279
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1757,9 +2069,11 @@
       "CumCase":28818,
       "ndays":7,
       "NewCase_Rel":0.0469845236,
+      "NewCase_PercentDiff":-0.7146469968,
       "population":17084357.0,
       "weekly_new_cases_per_ht":7.9253787544,
-      "weekly_pc_increase":4.6984523562
+      "weekly_pc_increase":4.6984523562,
+      "weekly_pc_change":-71.4646996839
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1768,9 +2082,11 @@
       "CumCase":29509,
       "ndays":7,
       "NewCase_Rel":0.0897692229,
+      "NewCase_PercentDiff":0.9564254062,
       "population":17084357.0,
       "weekly_new_cases_per_ht":15.5054123489,
-      "weekly_pc_increase":8.9769222949
+      "weekly_pc_increase":8.9769222949,
+      "weekly_pc_change":95.6425406204
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1779,9 +2095,11 @@
       "CumCase":32723,
       "ndays":7,
       "NewCase_Rel":0.1464107814,
+      "NewCase_PercentDiff":0.8086070215,
       "population":17084357.0,
       "weekly_new_cases_per_ht":28.0431976457,
-      "weekly_pc_increase":14.6410781408
+      "weekly_pc_increase":14.6410781408,
+      "weekly_pc_change":80.8607021518
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1790,9 +2108,11 @@
       "CumCase":36756,
       "ndays":7,
       "NewCase_Rel":0.0629285015,
+      "NewCase_PercentDiff":-0.5172197871,
       "population":17084357.0,
       "weekly_new_cases_per_ht":13.5387009297,
-      "weekly_pc_increase":6.2928501469
+      "weekly_pc_increase":6.2928501469,
+      "weekly_pc_change":-51.7219787101
     },
     {
       "ISO_3_CODE":"ECU",
@@ -1801,9 +2121,11 @@
       "CumCase":39098,
       "ndays":7,
       "NewCase_Rel":0.106322574,
+      "NewCase_PercentDiff":0.7972330307,
       "population":17084357.0,
       "weekly_new_cases_per_ht":24.3322005037,
-      "weekly_pc_increase":10.6322574045
+      "weekly_pc_increase":10.6322574045,
+      "weekly_pc_change":79.7233030696
     }
   ],
   "EGY":[
@@ -1814,9 +2136,11 @@
       "CumCase":126,
       "ndays":7,
       "NewCase_Rel":1.4603174603,
+      "NewCase_PercentDiff":null,
       "population":98423595.0,
       "weekly_new_cases_per_ht":0.1869470425,
-      "weekly_pc_increase":146.0317460317
+      "weekly_pc_increase":146.0317460317,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1825,9 +2149,11 @@
       "CumCase":327,
       "ndays":7,
       "NewCase_Rel":0.8623853211,
+      "NewCase_PercentDiff":0.5326086957,
       "population":98423595.0,
       "weekly_new_cases_per_ht":0.286516663,
-      "weekly_pc_increase":86.2385321101
+      "weekly_pc_increase":86.2385321101,
+      "weekly_pc_change":53.2608695652
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1836,9 +2162,11 @@
       "CumCase":609,
       "ndays":7,
       "NewCase_Rel":0.8111658456,
+      "NewCase_PercentDiff":0.7517730496,
       "population":98423595.0,
       "weekly_new_cases_per_ht":0.5019121685,
-      "weekly_pc_increase":81.1165845649
+      "weekly_pc_increase":81.1165845649,
+      "weekly_pc_change":75.1773049645
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1847,9 +2175,11 @@
       "CumCase":1173,
       "ndays":7,
       "NewCase_Rel":0.7408354646,
+      "NewCase_PercentDiff":0.7591093117,
       "population":98423595.0,
       "weekly_new_cases_per_ht":0.8829183693,
-      "weekly_pc_increase":74.0835464621
+      "weekly_pc_increase":74.0835464621,
+      "weekly_pc_change":75.9109311741
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1858,9 +2188,11 @@
       "CumCase":2065,
       "ndays":7,
       "NewCase_Rel":0.5292978208,
+      "NewCase_PercentDiff":0.2577675489,
       "population":98423595.0,
       "weekly_new_cases_per_ht":1.1105060733,
-      "weekly_pc_increase":52.9297820823
+      "weekly_pc_increase":52.9297820823,
+      "weekly_pc_change":25.7767548907
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1869,9 +2201,11 @@
       "CumCase":3144,
       "ndays":7,
       "NewCase_Rel":0.409351145,
+      "NewCase_PercentDiff":0.1774931382,
       "population":98423595.0,
       "weekly_new_cases_per_ht":1.3076132811,
-      "weekly_pc_increase":40.9351145038
+      "weekly_pc_increase":40.9351145038,
+      "weekly_pc_change":17.7493138152
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1880,9 +2214,11 @@
       "CumCase":4782,
       "ndays":7,
       "NewCase_Rel":0.3918862401,
+      "NewCase_PercentDiff":0.4560994561,
       "population":98423595.0,
       "weekly_new_cases_per_ht":1.9040149875,
-      "weekly_pc_increase":39.1886240067
+      "weekly_pc_increase":39.1886240067,
+      "weekly_pc_change":45.6099456099
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1891,9 +2227,11 @@
       "CumCase":6465,
       "ndays":7,
       "NewCase_Rel":0.4960556845,
+      "NewCase_PercentDiff":0.7113127001,
       "population":98423595.0,
       "weekly_new_cases_per_ht":3.2583650292,
-      "weekly_pc_increase":49.6055684455
+      "weekly_pc_increase":49.6055684455,
+      "weekly_pc_change":71.1312700107
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1902,9 +2240,11 @@
       "CumCase":9746,
       "ndays":7,
       "NewCase_Rel":0.2379437718,
+      "NewCase_PercentDiff":-0.2768942937,
       "population":98423595.0,
       "weekly_new_cases_per_ht":2.3561423457,
-      "weekly_pc_increase":23.7943771804
+      "weekly_pc_increase":23.7943771804,
+      "weekly_pc_change":-27.6894293732
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1913,9 +2253,11 @@
       "CumCase":12229,
       "ndays":7,
       "NewCase_Rel":0.3920189713,
+      "NewCase_PercentDiff":1.0672703752,
       "population":98423595.0,
       "weekly_new_cases_per_ht":4.870783271,
-      "weekly_pc_increase":39.2018971298
+      "weekly_pc_increase":39.2018971298,
+      "weekly_pc_change":106.7270375162
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1924,9 +2266,11 @@
       "CumCase":17265,
       "ndays":7,
       "NewCase_Rel":0.4017376195,
+      "NewCase_PercentDiff":0.4468085106,
       "population":98423595.0,
       "weekly_new_cases_per_ht":7.04709069,
-      "weekly_pc_increase":40.1737619461
+      "weekly_pc_increase":40.1737619461,
+      "weekly_pc_change":44.6808510638
     },
     {
       "ISO_3_CODE":"EGY",
@@ -1935,9 +2279,11 @@
       "CumCase":24985,
       "ndays":7,
       "NewCase_Rel":0.366740044,
+      "NewCase_PercentDiff":0.3210784314,
       "population":98423595.0,
       "weekly_new_cases_per_ht":9.3097595145,
-      "weekly_pc_increase":36.6740044026
+      "weekly_pc_increase":36.6740044026,
+      "weekly_pc_change":32.1078431373
     }
   ],
   "ETH":[
@@ -1948,9 +2294,11 @@
       "CumCase":108,
       "ndays":7,
       "NewCase_Rel":0.1574074074,
+      "NewCase_PercentDiff":null,
       "population":109224559.0,
       "weekly_new_cases_per_ht":0.0155642652,
-      "weekly_pc_increase":15.7407407407
+      "weekly_pc_increase":15.7407407407,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"ETH",
@@ -1959,9 +2307,11 @@
       "CumCase":123,
       "ndays":7,
       "NewCase_Rel":0.0894308943,
+      "NewCase_PercentDiff":-0.3529411765,
       "population":109224559.0,
       "weekly_new_cases_per_ht":0.0100709951,
-      "weekly_pc_increase":8.9430894309
+      "weekly_pc_increase":8.9430894309,
+      "weekly_pc_change":-35.2941176471
     },
     {
       "ISO_3_CODE":"ETH",
@@ -1970,9 +2320,11 @@
       "CumCase":135,
       "ndays":7,
       "NewCase_Rel":0.5703703704,
+      "NewCase_PercentDiff":6.0,
       "population":109224559.0,
       "weekly_new_cases_per_ht":0.0704969658,
-      "weekly_pc_increase":57.037037037
+      "weekly_pc_increase":57.037037037,
+      "weekly_pc_change":600.0
     },
     {
       "ISO_3_CODE":"ETH",
@@ -1981,9 +2333,11 @@
       "CumCase":239,
       "ndays":7,
       "NewCase_Rel":0.4016736402,
+      "NewCase_PercentDiff":0.2467532468,
       "population":109224559.0,
       "weekly_new_cases_per_ht":0.087892321,
-      "weekly_pc_increase":40.1673640167
+      "weekly_pc_increase":40.1673640167,
+      "weekly_pc_change":24.6753246753
     },
     {
       "ISO_3_CODE":"ETH",
@@ -1992,9 +2346,11 @@
       "CumCase":317,
       "ndays":7,
       "NewCase_Rel":0.5930599369,
+      "NewCase_PercentDiff":0.9583333333,
       "population":109224559.0,
       "weekly_new_cases_per_ht":0.1721224619,
-      "weekly_pc_increase":59.3059936909
+      "weekly_pc_increase":59.3059936909,
+      "weekly_pc_change":95.8333333333
     },
     {
       "ISO_3_CODE":"ETH",
@@ -2003,9 +2359,11 @@
       "CumCase":582,
       "ndays":7,
       "NewCase_Rel":0.9776632302,
+      "NewCase_PercentDiff":2.0265957447,
       "population":109224559.0,
       "weekly_new_cases_per_ht":0.5209451109,
-      "weekly_pc_increase":97.7663230241
+      "weekly_pc_increase":97.7663230241,
+      "weekly_pc_change":202.6595744681
     },
     {
       "ISO_3_CODE":"ETH",
@@ -2014,9 +2372,11 @@
       "CumCase":1172,
       "ndays":7,
       "NewCase_Rel":0.7431740614,
+      "NewCase_PercentDiff":0.5307557118,
       "population":109224559.0,
       "weekly_new_cases_per_ht":0.797439704,
-      "weekly_pc_increase":74.3174061433
+      "weekly_pc_increase":74.3174061433,
+      "weekly_pc_change":53.0755711775
     }
   ],
   "GUY":[
@@ -2027,9 +2387,11 @@
       "CumCase":117,
       "ndays":7,
       "NewCase_Rel":0.094017094,
+      "NewCase_PercentDiff":null,
       "population":779004.0,
       "weekly_new_cases_per_ht":1.4120595016,
-      "weekly_pc_increase":9.4017094017
+      "weekly_pc_increase":9.4017094017,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"GUY",
@@ -2038,9 +2400,11 @@
       "CumCase":127,
       "ndays":7,
       "NewCase_Rel":0.1811023622,
+      "NewCase_PercentDiff":1.0909090909,
       "population":779004.0,
       "weekly_new_cases_per_ht":2.9524880488,
-      "weekly_pc_increase":18.1102362205
+      "weekly_pc_increase":18.1102362205,
+      "weekly_pc_change":109.0909090909
     },
     {
       "ISO_3_CODE":"GUY",
@@ -2049,9 +2413,11 @@
       "CumCase":152,
       "ndays":7,
       "NewCase_Rel":0.0197368421,
+      "NewCase_PercentDiff":-0.8695652174,
       "population":779004.0,
       "weekly_new_cases_per_ht":0.3851071368,
-      "weekly_pc_increase":1.9736842105
+      "weekly_pc_increase":1.9736842105,
+      "weekly_pc_change":-86.9565217391
     }
   ],
   "H63":[
@@ -2062,9 +2428,11 @@
       "CumCase":1567,
       "ndays":7,
       "NewCase_Rel":3.9527760051,
+      "NewCase_PercentDiff":null,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":0.2512832654,
-      "weekly_pc_increase":395.2776005105
+      "weekly_pc_increase":395.2776005105,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"H63",
@@ -2073,9 +2441,11 @@
       "CumCase":7469,
       "ndays":7,
       "NewCase_Rel":1.1005489356,
+      "NewCase_PercentDiff":0.327090733,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":0.3334756928,
-      "weekly_pc_increase":110.05489356
+      "weekly_pc_increase":110.05489356,
+      "weekly_pc_change":32.7090732967
     },
     {
       "ISO_3_CODE":"H63",
@@ -2084,9 +2454,11 @@
       "CumCase":16359,
       "ndays":7,
       "NewCase_Rel":0.7957087842,
+      "NewCase_PercentDiff":0.5835766423,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":0.528084318,
-      "weekly_pc_increase":79.5708784156
+      "weekly_pc_increase":79.5708784156,
+      "weekly_pc_change":58.3576642336
     },
     {
       "ISO_3_CODE":"H63",
@@ -2095,9 +2467,11 @@
       "CumCase":30691,
       "ndays":7,
       "NewCase_Rel":1.1548010818,
+      "NewCase_PercentDiff":1.7227471768,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":1.4378400858,
-      "weekly_pc_increase":115.480108175
+      "weekly_pc_increase":115.480108175,
+      "weekly_pc_change":172.2747176769
     },
     {
       "ISO_3_CODE":"H63",
@@ -2106,9 +2480,11 @@
       "CumCase":70430,
       "ndays":7,
       "NewCase_Rel":0.8340621894,
+      "NewCase_PercentDiff":0.657440325,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":2.3831341392,
-      "weekly_pc_increase":83.4062189408
+      "weekly_pc_increase":83.4062189408,
+      "weekly_pc_change":65.7440325038
     },
     {
       "ISO_3_CODE":"H63",
@@ -2117,9 +2493,11 @@
       "CumCase":131084,
       "ndays":7,
       "NewCase_Rel":0.6023847304,
+      "NewCase_PercentDiff":0.3442112252,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":3.203435661,
-      "weekly_pc_increase":60.2384730402
+      "weekly_pc_increase":60.2384730402,
+      "weekly_pc_change":34.4211225167
     },
     {
       "ISO_3_CODE":"H63",
@@ -2128,9 +2506,11 @@
       "CumCase":213001,
       "ndays":7,
       "NewCase_Rel":0.4118806954,
+      "NewCase_PercentDiff":0.1110393475,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":3.5591430667,
-      "weekly_pc_increase":41.1880695396
+      "weekly_pc_increase":41.1880695396,
+      "weekly_pc_change":11.1039347543
     },
     {
       "ISO_3_CODE":"H63",
@@ -2139,9 +2519,11 @@
       "CumCase":302191,
       "ndays":7,
       "NewCase_Rel":0.3554970201,
+      "NewCase_PercentDiff":0.2245158496,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":4.3582270961,
-      "weekly_pc_increase":35.5497020097
+      "weekly_pc_increase":35.5497020097,
+      "weekly_pc_change":22.4515849586
     },
     {
       "ISO_3_CODE":"H63",
@@ -2150,9 +2532,11 @@
       "CumCase":414331,
       "ndays":7,
       "NewCase_Rel":0.3110097965,
+      "NewCase_PercentDiff":0.1995103697,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":5.2277385954,
-      "weekly_pc_increase":31.1009796515
+      "weekly_pc_increase":31.1009796515,
+      "weekly_pc_change":19.9510369736
     },
     {
       "ISO_3_CODE":"H63",
@@ -2161,9 +2545,11 @@
       "CumCase":544246,
       "ndays":7,
       "NewCase_Rel":0.2923475781,
+      "NewCase_PercentDiff":0.2347335501,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":6.454864235,
-      "weekly_pc_increase":29.2347578117
+      "weekly_pc_increase":29.2347578117,
+      "weekly_pc_change":23.4733550104
     },
     {
       "ISO_3_CODE":"H63",
@@ -2172,9 +2558,11 @@
       "CumCase":712131,
       "ndays":7,
       "NewCase_Rel":0.2731576072,
+      "NewCase_PercentDiff":0.2225832605,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":7.8916089627,
-      "weekly_pc_increase":27.3157607238
+      "weekly_pc_increase":27.3157607238,
+      "weekly_pc_change":22.2583260532
     },
     {
       "ISO_3_CODE":"H63",
@@ -2183,9 +2571,11 @@
       "CumCase":916693,
       "ndays":7,
       "NewCase_Rel":0.2957947754,
+      "NewCase_PercentDiff":0.393930826,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":11.0003569999,
-      "weekly_pc_increase":29.579477535
+      "weekly_pc_increase":29.579477535,
+      "weekly_pc_change":39.3930826016
     },
     {
       "ISO_3_CODE":"H63",
@@ -2194,9 +2584,11 @@
       "CumCase":1191123,
       "ndays":7,
       "NewCase_Rel":0.2753964116,
+      "NewCase_PercentDiff":0.2097634915,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":13.3078302915,
-      "weekly_pc_increase":27.5396411622
+      "weekly_pc_increase":27.5396411622,
+      "weekly_pc_change":20.9763491461
     },
     {
       "ISO_3_CODE":"H63",
@@ -2205,9 +2597,11 @@
       "CumCase":1542923,
       "ndays":7,
       "NewCase_Rel":0.272501609,
+      "NewCase_PercentDiff":0.2817355677,
       "population":2464947274.0,
       "weekly_new_cases_per_ht":17.0571194133,
-      "weekly_pc_increase":27.2501608959
+      "weekly_pc_increase":27.2501608959,
+      "weekly_pc_change":28.1735567675
     }
   ],
   "HTI":[
@@ -2218,9 +2612,11 @@
       "CumCase":151,
       "ndays":7,
       "NewCase_Rel":1.0860927152,
+      "NewCase_PercentDiff":null,
       "population":11123176.0,
       "weekly_new_cases_per_ht":1.4743990385,
-      "weekly_pc_increase":108.6092715232
+      "weekly_pc_increase":108.6092715232,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"HTI",
@@ -2229,9 +2625,11 @@
       "CumCase":358,
       "ndays":7,
       "NewCase_Rel":1.4022346369,
+      "NewCase_PercentDiff":2.0609756098,
       "population":11123176.0,
       "weekly_new_cases_per_ht":4.513099496,
-      "weekly_pc_increase":140.2234636872
+      "weekly_pc_increase":140.2234636872,
+      "weekly_pc_change":206.0975609756
     },
     {
       "ISO_3_CODE":"HTI",
@@ -2240,9 +2638,11 @@
       "CumCase":865,
       "ndays":7,
       "NewCase_Rel":0.8924855491,
+      "NewCase_PercentDiff":0.5378486056,
       "population":11123176.0,
       "weekly_new_cases_per_ht":6.9404637668,
-      "weekly_pc_increase":89.2485549133
+      "weekly_pc_increase":89.2485549133,
+      "weekly_pc_change":53.7848605578
     },
     {
       "ISO_3_CODE":"HTI",
@@ -2251,9 +2651,11 @@
       "CumCase":1865,
       "ndays":7,
       "NewCase_Rel":0.7184986595,
+      "NewCase_PercentDiff":0.7357512953,
       "population":11123176.0,
       "weekly_new_cases_per_ht":12.0469189735,
-      "weekly_pc_increase":71.8498659517
+      "weekly_pc_increase":71.8498659517,
+      "weekly_pc_change":73.5751295337
     }
   ],
   "IRN":[
@@ -2264,9 +2666,11 @@
       "CumCase":1501,
       "ndays":7,
       "NewCase_Rel":3.9793471019,
+      "NewCase_PercentDiff":null,
       "population":81800269.0,
       "weekly_new_cases_per_ht":7.3019319778,
-      "weekly_pc_increase":397.9347101932
+      "weekly_pc_increase":397.9347101932,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2275,9 +2679,11 @@
       "CumCase":7161,
       "ndays":7,
       "NewCase_Rel":1.035749197,
+      "NewCase_PercentDiff":0.2417545622,
       "population":81800269.0,
       "weekly_new_cases_per_ht":9.0672073462,
-      "weekly_pc_increase":103.574919704
+      "weekly_pc_increase":103.574919704,
+      "weekly_pc_change":24.1754562197
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2286,9 +2692,11 @@
       "CumCase":14991,
       "ndays":7,
       "NewCase_Rel":0.5106397172,
+      "NewCase_PercentDiff":0.0320884455,
       "population":81800269.0,
       "weekly_new_cases_per_ht":9.3581599347,
-      "weekly_pc_increase":51.0639717164
+      "weekly_pc_increase":51.0639717164,
+      "weekly_pc_change":3.2088445463
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2297,9 +2705,11 @@
       "CumCase":23049,
       "ndays":7,
       "NewCase_Rel":0.7232851751,
+      "NewCase_PercentDiff":1.1777922926,
       "population":81800269.0,
       "weekly_new_cases_per_ht":20.3801285788,
-      "weekly_pc_increase":72.3285175062
+      "weekly_pc_increase":72.3285175062,
+      "weekly_pc_change":117.7792292619
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2308,9 +2718,11 @@
       "CumCase":41495,
       "ndays":7,
       "NewCase_Rel":0.4799855404,
+      "NewCase_PercentDiff":0.1947093756,
       "population":81800269.0,
       "weekly_new_cases_per_ht":24.3483306883,
-      "weekly_pc_increase":47.9985540427
+      "weekly_pc_increase":47.9985540427,
+      "weekly_pc_change":19.4709375562
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2319,9 +2731,11 @@
       "CumCase":60500,
       "ndays":7,
       "NewCase_Rel":0.2224793388,
+      "NewCase_PercentDiff":-0.324195411,
       "population":81800269.0,
       "weekly_new_cases_per_ht":16.4547136147,
-      "weekly_pc_increase":22.2479338843
+      "weekly_pc_increase":22.2479338843,
+      "weekly_pc_change":-32.4195410955
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2330,9 +2744,11 @@
       "CumCase":73303,
       "ndays":7,
       "NewCase_Rel":0.1435821181,
+      "NewCase_PercentDiff":-0.2180534918,
       "population":81800269.0,
       "weekly_new_cases_per_ht":12.866705854,
-      "weekly_pc_increase":14.3582118058
+      "weekly_pc_increase":14.3582118058,
+      "weekly_pc_change":-21.8053491828
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2341,9 +2757,11 @@
       "CumCase":83505,
       "ndays":7,
       "NewCase_Rel":0.0990359859,
+      "NewCase_PercentDiff":-0.2142517815,
       "population":81800269.0,
       "weekly_new_cases_per_ht":10.1099912031,
-      "weekly_pc_increase":9.9035985869
+      "weekly_pc_increase":9.9035985869,
+      "weekly_pc_change":-21.4251781473
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2352,9 +2770,11 @@
       "CumCase":91472,
       "ndays":7,
       "NewCase_Rel":0.0759030086,
+      "NewCase_PercentDiff":-0.1604594921,
       "population":81800269.0,
       "weekly_new_cases_per_ht":8.4877471491,
-      "weekly_pc_increase":7.5903008571
+      "weekly_pc_increase":7.5903008571,
+      "weekly_pc_change":-16.045949214
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2363,9 +2783,11 @@
       "CumCase":98647,
       "ndays":7,
       "NewCase_Rel":0.103186108,
+      "NewCase_PercentDiff":0.4660809448,
       "population":81800269.0,
       "weekly_new_cases_per_ht":12.4437243599,
-      "weekly_pc_increase":10.3186108042
+      "weekly_pc_increase":10.3186108042,
+      "weekly_pc_change":46.6080944837
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2374,9 +2796,11 @@
       "CumCase":109286,
       "ndays":7,
       "NewCase_Rel":0.1152480647,
+      "NewCase_PercentDiff":0.2373514098,
       "population":81800269.0,
       "weekly_new_cases_per_ht":15.3972598794,
-      "weekly_pc_increase":11.5248064711
+      "weekly_pc_increase":11.5248064711,
+      "weekly_pc_change":23.7351409765
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2385,9 +2809,11 @@
       "CumCase":122492,
       "ndays":7,
       "NewCase_Rel":0.1087662868,
+      "NewCase_PercentDiff":0.0578007146,
       "population":81800269.0,
       "weekly_new_cases_per_ht":16.2872325029,
-      "weekly_pc_increase":10.8766286778
+      "weekly_pc_increase":10.8766286778,
+      "weekly_pc_change":5.7800714569
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2396,9 +2822,11 @@
       "CumCase":135701,
       "ndays":7,
       "NewCase_Rel":0.1136984989,
+      "NewCase_PercentDiff":0.1580725062,
       "population":81800269.0,
       "weekly_new_cases_per_ht":18.8617961635,
-      "weekly_pc_increase":11.3698498906
+      "weekly_pc_increase":11.3698498906,
+      "weekly_pc_change":15.8072506192
     },
     {
       "ISO_3_CODE":"IRN",
@@ -2407,9 +2835,11 @@
       "CumCase":151466,
       "ndays":7,
       "NewCase_Rel":0.135178852,
+      "NewCase_PercentDiff":0.3270464709,
       "population":81800269.0,
       "weekly_new_cases_per_ht":25.0304800342,
-      "weekly_pc_increase":13.517885202
+      "weekly_pc_increase":13.517885202,
+      "weekly_pc_change":32.7046470931
     }
   ],
   "IRQ":[
@@ -2420,9 +2850,11 @@
       "CumCase":124,
       "ndays":7,
       "NewCase_Rel":0.8790322581,
+      "NewCase_PercentDiff":null,
       "population":38433600.0,
       "weekly_new_cases_per_ht":0.2836060114,
-      "weekly_pc_increase":87.9032258065
+      "weekly_pc_increase":87.9032258065,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2431,9 +2863,11 @@
       "CumCase":266,
       "ndays":7,
       "NewCase_Rel":1.1804511278,
+      "NewCase_PercentDiff":1.880733945,
       "population":38433600.0,
       "weekly_new_cases_per_ht":0.8169934641,
-      "weekly_pc_increase":118.045112782
+      "weekly_pc_increase":118.045112782,
+      "weekly_pc_change":188.0733944954
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2442,9 +2876,11 @@
       "CumCase":547,
       "ndays":7,
       "NewCase_Rel":0.7568555759,
+      "NewCase_PercentDiff":0.3184713376,
       "population":38433600.0,
       "weekly_new_cases_per_ht":1.0771824653,
-      "weekly_pc_increase":75.6855575868
+      "weekly_pc_increase":75.6855575868,
+      "weekly_pc_change":31.847133758
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2453,9 +2889,11 @@
       "CumCase":1031,
       "ndays":7,
       "NewCase_Rel":0.379243453,
+      "NewCase_PercentDiff":-0.0555555556,
       "population":38433600.0,
       "weekly_new_cases_per_ht":1.017338995,
-      "weekly_pc_increase":37.9243452958
+      "weekly_pc_increase":37.9243452958,
+      "weekly_pc_change":-5.5555555556
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2464,9 +2902,11 @@
       "CumCase":1378,
       "ndays":7,
       "NewCase_Rel":0.1168359942,
+      "NewCase_PercentDiff":-0.5882352941,
       "population":38433600.0,
       "weekly_new_cases_per_ht":0.4189042921,
-      "weekly_pc_increase":11.6835994194
+      "weekly_pc_increase":11.6835994194,
+      "weekly_pc_change":-58.8235294118
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2475,9 +2915,11 @@
       "CumCase":1574,
       "ndays":7,
       "NewCase_Rel":0.1588310038,
+      "NewCase_PercentDiff":0.5527950311,
       "population":38433600.0,
       "weekly_new_cases_per_ht":0.6504725032,
-      "weekly_pc_increase":15.8831003812
+      "weekly_pc_increase":15.8831003812,
+      "weekly_pc_change":55.2795031056
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2486,9 +2928,11 @@
       "CumCase":1820,
       "ndays":7,
       "NewCase_Rel":0.2505494505,
+      "NewCase_PercentDiff":0.824,
       "population":38433600.0,
       "weekly_new_cases_per_ht":1.1864618459,
-      "weekly_pc_increase":25.0549450549
+      "weekly_pc_increase":25.0549450549,
+      "weekly_pc_change":82.4
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2497,9 +2941,11 @@
       "CumCase":2296,
       "ndays":7,
       "NewCase_Rel":0.2386759582,
+      "NewCase_PercentDiff":0.201754386,
       "population":38433600.0,
       "weekly_new_cases_per_ht":1.4258357271,
-      "weekly_pc_increase":23.8675958188
+      "weekly_pc_increase":23.8675958188,
+      "weekly_pc_change":20.1754385965
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2508,9 +2954,11 @@
       "CumCase":2818,
       "ndays":7,
       "NewCase_Rel":0.2260468417,
+      "NewCase_PercentDiff":0.1624087591,
       "population":38433600.0,
       "weekly_new_cases_per_ht":1.6574039382,
-      "weekly_pc_increase":22.6046841732
+      "weekly_pc_increase":22.6046841732,
+      "weekly_pc_change":16.2408759124
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2519,9 +2967,11 @@
       "CumCase":3554,
       "ndays":7,
       "NewCase_Rel":0.2442318514,
+      "NewCase_PercentDiff":0.3626373626,
       "population":38433600.0,
       "weekly_new_cases_per_ht":2.2584405312,
-      "weekly_pc_increase":24.4231851435
+      "weekly_pc_increase":24.4231851435,
+      "weekly_pc_change":36.2637362637
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2530,9 +2980,11 @@
       "CumCase":4469,
       "ndays":7,
       "NewCase_Rel":0.4267173864,
+      "NewCase_PercentDiff":1.1970046083,
       "population":38433600.0,
       "weekly_new_cases_per_ht":4.9618042546,
-      "weekly_pc_increase":42.671738644
+      "weekly_pc_increase":42.671738644,
+      "weekly_pc_change":119.7004608295
     },
     {
       "ISO_3_CODE":"IRQ",
@@ -2541,9 +2993,11 @@
       "CumCase":6439,
       "ndays":7,
       "NewCase_Rel":0.7639384998,
+      "NewCase_PercentDiff":1.5794441531,
       "population":38433600.0,
       "weekly_new_cases_per_ht":12.7986969735,
-      "weekly_pc_increase":76.3938499767
+      "weekly_pc_increase":76.3938499767,
+      "weekly_pc_change":157.944415312
     }
   ],
   "JOR":[
@@ -2554,9 +3008,11 @@
       "CumCase":112,
       "ndays":7,
       "NewCase_Rel":1.3125,
+      "NewCase_PercentDiff":null,
       "population":9956011.0,
       "weekly_new_cases_per_ht":1.4764949537,
-      "weekly_pc_increase":131.25
+      "weekly_pc_increase":131.25,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2565,9 +3021,11 @@
       "CumCase":259,
       "ndays":7,
       "NewCase_Rel":0.2972972973,
+      "NewCase_PercentDiff":-0.4761904762,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.7734021186,
-      "weekly_pc_increase":29.7297297297
+      "weekly_pc_increase":29.7297297297,
+      "weekly_pc_change":-47.619047619
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2576,9 +3034,11 @@
       "CumCase":345,
       "ndays":7,
       "NewCase_Rel":0.168115942,
+      "NewCase_PercentDiff":-0.2467532468,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.5825626348,
-      "weekly_pc_increase":16.8115942029
+      "weekly_pc_increase":16.8115942029,
+      "weekly_pc_change":-24.6753246753
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2587,9 +3047,11 @@
       "CumCase":389,
       "ndays":7,
       "NewCase_Rel":0.0822622108,
+      "NewCase_PercentDiff":-0.4482758621,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.3214138675,
-      "weekly_pc_increase":8.2262210797
+      "weekly_pc_increase":8.2262210797,
+      "weekly_pc_change":-44.8275862069
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2598,9 +3060,11 @@
       "CumCase":417,
       "ndays":7,
       "NewCase_Rel":0.0815347722,
+      "NewCase_PercentDiff":0.0625,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.3415022342,
-      "weekly_pc_increase":8.1534772182
+      "weekly_pc_increase":8.1534772182,
+      "weekly_pc_change":6.25
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2609,9 +3073,11 @@
       "CumCase":449,
       "ndays":7,
       "NewCase_Rel":0.0311804009,
+      "NewCase_PercentDiff":-0.5882352941,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.140618567,
-      "weekly_pc_increase":3.1180400891
+      "weekly_pc_increase":3.1180400891,
+      "weekly_pc_change":-58.8235294118
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2620,9 +3086,11 @@
       "CumCase":465,
       "ndays":7,
       "NewCase_Rel":0.1698924731,
+      "NewCase_PercentDiff":4.6428571429,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.7934904853,
-      "weekly_pc_increase":16.9892473118
+      "weekly_pc_increase":16.9892473118,
+      "weekly_pc_change":464.2857142857
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2631,9 +3099,11 @@
       "CumCase":562,
       "ndays":7,
       "NewCase_Rel":0.1298932384,
+      "NewCase_PercentDiff":-0.0759493671,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.7332253851,
-      "weekly_pc_increase":12.9893238434
+      "weekly_pc_increase":12.9893238434,
+      "weekly_pc_change":-7.5949367089
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2642,9 +3112,11 @@
       "CumCase":629,
       "ndays":7,
       "NewCase_Rel":0.1446740859,
+      "NewCase_PercentDiff":0.2465753425,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.9140206856,
-      "weekly_pc_increase":14.4674085851
+      "weekly_pc_increase":14.4674085851,
+      "weekly_pc_change":24.6575342466
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2653,9 +3125,11 @@
       "CumCase":708,
       "ndays":7,
       "NewCase_Rel":0.0423728814,
+      "NewCase_PercentDiff":-0.6703296703,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.3013255007,
-      "weekly_pc_increase":4.2372881356
+      "weekly_pc_increase":4.2372881356,
+      "weekly_pc_change":-67.032967033
     },
     {
       "ISO_3_CODE":"JOR",
@@ -2664,9 +3138,11 @@
       "CumCase":739,
       "ndays":7,
       "NewCase_Rel":0.0825439783,
+      "NewCase_PercentDiff":1.0333333333,
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.6126951848,
-      "weekly_pc_increase":8.2543978349
+      "weekly_pc_increase":8.2543978349,
+      "weekly_pc_change":103.3333333333
     }
   ],
   "KEN":[
@@ -2677,9 +3153,11 @@
       "CumCase":142,
       "ndays":7,
       "NewCase_Rel":0.485915493,
+      "NewCase_PercentDiff":null,
       "population":51393010.0,
       "weekly_new_cases_per_ht":0.1342595034,
-      "weekly_pc_increase":48.5915492958
+      "weekly_pc_increase":48.5915492958,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"KEN",
@@ -2688,9 +3166,11 @@
       "CumCase":197,
       "ndays":7,
       "NewCase_Rel":0.3604060914,
+      "NewCase_PercentDiff":0.0289855072,
       "population":51393010.0,
       "weekly_new_cases_per_ht":0.1381510832,
-      "weekly_pc_increase":36.0406091371
+      "weekly_pc_increase":36.0406091371,
+      "weekly_pc_change":2.8985507246
     },
     {
       "ISO_3_CODE":"KEN",
@@ -2699,9 +3179,11 @@
       "CumCase":270,
       "ndays":7,
       "NewCase_Rel":0.3,
+      "NewCase_PercentDiff":0.1408450704,
       "population":51393010.0,
       "weekly_new_cases_per_ht":0.1576089822,
-      "weekly_pc_increase":30.0
+      "weekly_pc_increase":30.0,
+      "weekly_pc_change":14.0845070423
     },
     {
       "ISO_3_CODE":"KEN",
@@ -2710,9 +3192,11 @@
       "CumCase":355,
       "ndays":7,
       "NewCase_Rel":0.2591549296,
+      "NewCase_PercentDiff":0.1358024691,
       "population":51393010.0,
       "weekly_new_cases_per_ht":0.1790126712,
-      "weekly_pc_increase":25.9154929577
+      "weekly_pc_increase":25.9154929577,
+      "weekly_pc_change":13.5802469136
     },
     {
       "ISO_3_CODE":"KEN",
@@ -2721,9 +3205,11 @@
       "CumCase":466,
       "ndays":7,
       "NewCase_Rel":0.4592274678,
+      "NewCase_PercentDiff":1.3260869565,
       "population":51393010.0,
       "weekly_new_cases_per_ht":0.4163990395,
-      "weekly_pc_increase":45.9227467811
+      "weekly_pc_increase":45.9227467811,
+      "weekly_pc_change":132.6086956522
     },
     {
       "ISO_3_CODE":"KEN",
@@ -2732,9 +3218,11 @@
       "CumCase":672,
       "ndays":7,
       "NewCase_Rel":0.2693452381,
+      "NewCase_PercentDiff":-0.1542056075,
       "population":51393010.0,
       "weekly_new_cases_per_ht":0.3521879726,
-      "weekly_pc_increase":26.9345238095
+      "weekly_pc_increase":26.9345238095,
+      "weekly_pc_change":-15.4205607477
     },
     {
       "ISO_3_CODE":"KEN",
@@ -2743,9 +3231,11 @@
       "CumCase":887,
       "ndays":7,
       "NewCase_Rel":0.4081172492,
+      "NewCase_PercentDiff":1.0,
       "population":51393010.0,
       "weekly_new_cases_per_ht":0.7043759453,
-      "weekly_pc_increase":40.8117249154
+      "weekly_pc_increase":40.8117249154,
+      "weekly_pc_change":100.0
     },
     {
       "ISO_3_CODE":"KEN",
@@ -2754,9 +3244,11 @@
       "CumCase":1214,
       "ndays":7,
       "NewCase_Rel":0.5733113674,
+      "NewCase_PercentDiff":0.9226519337,
       "population":51393010.0,
       "weekly_new_cases_per_ht":1.3542697733,
-      "weekly_pc_increase":57.3311367381
+      "weekly_pc_increase":57.3311367381,
+      "weekly_pc_change":92.2651933702
     },
     {
       "ISO_3_CODE":"KEN",
@@ -2765,9 +3257,11 @@
       "CumCase":1962,
       "ndays":7,
       "NewCase_Rel":0.3628950051,
+      "NewCase_PercentDiff":0.0229885057,
       "population":51393010.0,
       "weekly_new_cases_per_ht":1.3854024117,
-      "weekly_pc_increase":36.2895005097
+      "weekly_pc_increase":36.2895005097,
+      "weekly_pc_change":2.2988505747
     }
   ],
   "LBN":[
@@ -2778,9 +3272,11 @@
       "CumCase":267,
       "ndays":7,
       "NewCase_Rel":0.7116104869,
+      "NewCase_PercentDiff":null,
       "population":6848925.0,
       "weekly_new_cases_per_ht":2.7741579883,
-      "weekly_pc_increase":71.1610486891
+      "weekly_pc_increase":71.1610486891,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2789,9 +3285,11 @@
       "CumCase":446,
       "ndays":7,
       "NewCase_Rel":0.1995515695,
+      "NewCase_PercentDiff":-0.5315789474,
       "population":6848925.0,
       "weekly_new_cases_per_ht":1.299474005,
-      "weekly_pc_increase":19.9551569507
+      "weekly_pc_increase":19.9551569507,
+      "weekly_pc_change":-53.1578947368
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2800,9 +3298,11 @@
       "CumCase":541,
       "ndays":7,
       "NewCase_Rel":0.1903881701,
+      "NewCase_PercentDiff":0.1573033708,
       "population":6848925.0,
       "weekly_new_cases_per_ht":1.5038856463,
-      "weekly_pc_increase":19.0388170055
+      "weekly_pc_increase":19.0388170055,
+      "weekly_pc_change":15.7303370787
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2811,9 +3311,11 @@
       "CumCase":632,
       "ndays":7,
       "NewCase_Rel":0.0680379747,
+      "NewCase_PercentDiff":-0.5825242718,
       "population":6848925.0,
       "weekly_new_cases_per_ht":0.6278357552,
-      "weekly_pc_increase":6.8037974684
+      "weekly_pc_increase":6.8037974684,
+      "weekly_pc_change":-58.2524271845
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2822,9 +3324,11 @@
       "CumCase":677,
       "ndays":7,
       "NewCase_Rel":0.0502215657,
+      "NewCase_PercentDiff":-0.2093023256,
       "population":6848925.0,
       "weekly_new_cases_per_ht":0.4964282716,
-      "weekly_pc_increase":5.0221565731
+      "weekly_pc_increase":5.0221565731,
+      "weekly_pc_change":-20.9302325581
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2833,9 +3337,11 @@
       "CumCase":710,
       "ndays":7,
       "NewCase_Rel":0.0422535211,
+      "NewCase_PercentDiff":-0.1176470588,
       "population":6848925.0,
       "weekly_new_cases_per_ht":0.4380249455,
-      "weekly_pc_increase":4.2253521127
+      "weekly_pc_increase":4.2253521127,
+      "weekly_pc_change":-11.7647058824
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2844,9 +3350,11 @@
       "CumCase":740,
       "ndays":7,
       "NewCase_Rel":0.1459459459,
+      "NewCase_PercentDiff":2.6,
       "population":6848925.0,
       "weekly_new_cases_per_ht":1.5768898039,
-      "weekly_pc_increase":14.5945945946
+      "weekly_pc_increase":14.5945945946,
+      "weekly_pc_change":260.0
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2855,9 +3363,11 @@
       "CumCase":859,
       "ndays":7,
       "NewCase_Rel":0.0768335274,
+      "NewCase_PercentDiff":-0.3888888889,
       "population":6848925.0,
       "weekly_new_cases_per_ht":0.9636548801,
-      "weekly_pc_increase":7.6833527357
+      "weekly_pc_increase":7.6833527357,
+      "weekly_pc_change":-38.8888888889
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2866,9 +3376,11 @@
       "CumCase":931,
       "ndays":7,
       "NewCase_Rel":0.1997851772,
+      "NewCase_PercentDiff":1.8181818182,
       "population":6848925.0,
       "weekly_new_cases_per_ht":2.7157546622,
-      "weekly_pc_increase":19.9785177229
+      "weekly_pc_increase":19.9785177229,
+      "weekly_pc_change":181.8181818182
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2877,9 +3389,11 @@
       "CumCase":1114,
       "ndays":7,
       "NewCase_Rel":0.0843806104,
+      "NewCase_PercentDiff":-0.4946236559,
       "population":6848925.0,
       "weekly_new_cases_per_ht":1.3724781626,
-      "weekly_pc_increase":8.4380610413
+      "weekly_pc_increase":8.4380610413,
+      "weekly_pc_change":-49.4623655914
     },
     {
       "ISO_3_CODE":"LBN",
@@ -2888,9 +3402,11 @@
       "CumCase":1220,
       "ndays":7,
       "NewCase_Rel":0.1057377049,
+      "NewCase_PercentDiff":0.3723404255,
       "population":6848925.0,
       "weekly_new_cases_per_ht":1.8835072657,
-      "weekly_pc_increase":10.5737704918
+      "weekly_pc_increase":10.5737704918,
+      "weekly_pc_change":37.2340425532
     }
   ],
   "LBR":[
@@ -2901,9 +3417,11 @@
       "CumCase":124,
       "ndays":7,
       "NewCase_Rel":0.2741935484,
+      "NewCase_PercentDiff":null,
       "population":4818977.0,
       "weekly_new_cases_per_ht":0.705543936,
-      "weekly_pc_increase":27.4193548387
+      "weekly_pc_increase":27.4193548387,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"LBR",
@@ -2912,9 +3430,11 @@
       "CumCase":158,
       "ndays":7,
       "NewCase_Rel":0.2848101266,
+      "NewCase_PercentDiff":0.3235294118,
       "population":4818977.0,
       "weekly_new_cases_per_ht":0.9338081506,
-      "weekly_pc_increase":28.4810126582
+      "weekly_pc_increase":28.4810126582,
+      "weekly_pc_change":32.3529411765
     },
     {
       "ISO_3_CODE":"LBR",
@@ -2923,9 +3443,11 @@
       "CumCase":204,
       "ndays":7,
       "NewCase_Rel":0.1176470588,
+      "NewCase_PercentDiff":-0.4666666667,
       "population":4818977.0,
       "weekly_new_cases_per_ht":0.4980310136,
-      "weekly_pc_increase":11.7647058824
+      "weekly_pc_increase":11.7647058824,
+      "weekly_pc_change":-46.6666666667
     },
     {
       "ISO_3_CODE":"LBR",
@@ -2934,9 +3456,11 @@
       "CumCase":226,
       "ndays":7,
       "NewCase_Rel":0.1415929204,
+      "NewCase_PercentDiff":0.3333333333,
       "population":4818977.0,
       "weekly_new_cases_per_ht":0.6640413515,
-      "weekly_pc_increase":14.1592920354
+      "weekly_pc_increase":14.1592920354,
+      "weekly_pc_change":33.3333333333
     },
     {
       "ISO_3_CODE":"LBR",
@@ -2945,9 +3469,11 @@
       "CumCase":265,
       "ndays":7,
       "NewCase_Rel":0.0943396226,
+      "NewCase_PercentDiff":-0.21875,
       "population":4818977.0,
       "weekly_new_cases_per_ht":0.5187823059,
-      "weekly_pc_increase":9.4339622642
+      "weekly_pc_increase":9.4339622642,
+      "weekly_pc_change":-21.875
     },
     {
       "ISO_3_CODE":"LBR",
@@ -2956,9 +3482,11 @@
       "CumCase":288,
       "ndays":7,
       "NewCase_Rel":0.2256944444,
+      "NewCase_PercentDiff":1.6,
       "population":4818977.0,
       "weekly_new_cases_per_ht":1.3488339953,
-      "weekly_pc_increase":22.5694444444
+      "weekly_pc_increase":22.5694444444,
+      "weekly_pc_change":160.0
     }
   ],
   "LBY":[
@@ -2969,9 +3497,11 @@
       "CumCase":156,
       "ndays":7,
       "NewCase_Rel":0.8076923077,
+      "NewCase_PercentDiff":null,
       "population":6678567.0,
       "weekly_new_cases_per_ht":1.8866322671,
-      "weekly_pc_increase":80.7692307692
+      "weekly_pc_increase":80.7692307692,
+      "weekly_pc_change":null
     }
   ],
   "MEX":[
@@ -2982,9 +3512,11 @@
       "CumCase":251,
       "ndays":7,
       "NewCase_Rel":2.203187251,
+      "NewCase_PercentDiff":null,
       "population":126190788.0,
       "weekly_new_cases_per_ht":0.4382253323,
-      "weekly_pc_increase":220.3187250996
+      "weekly_pc_increase":220.3187250996,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"MEX",
@@ -2993,9 +3525,11 @@
       "CumCase":848,
       "ndays":7,
       "NewCase_Rel":1.1450471698,
+      "NewCase_PercentDiff":0.7558770344,
       "population":126190788.0,
       "weekly_new_cases_per_ht":0.7694697968,
-      "weekly_pc_increase":114.5047169811
+      "weekly_pc_increase":114.5047169811,
+      "weekly_pc_change":75.5877034358
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3004,9 +3538,11 @@
       "CumCase":1890,
       "ndays":7,
       "NewCase_Rel":1.1407407407,
+      "NewCase_PercentDiff":1.2203913491,
       "population":126190788.0,
       "weekly_new_cases_per_ht":1.7085240802,
-      "weekly_pc_increase":114.0740740741
+      "weekly_pc_increase":114.0740740741,
+      "weekly_pc_change":122.0391349125
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3015,9 +3551,11 @@
       "CumCase":4219,
       "ndays":7,
       "NewCase_Rel":0.7184166864,
+      "NewCase_PercentDiff":0.4058441558,
       "population":126190788.0,
       "weekly_new_cases_per_ht":2.4019185933,
-      "weekly_pc_increase":71.8416686419
+      "weekly_pc_increase":71.8416686419,
+      "weekly_pc_change":40.5844155844
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3026,9 +3564,11 @@
       "CumCase":7497,
       "ndays":7,
       "NewCase_Rel":0.799919968,
+      "NewCase_PercentDiff":0.9785549324,
       "population":126190788.0,
       "weekly_new_cases_per_ht":4.7523278799,
-      "weekly_pc_increase":79.9919967987
+      "weekly_pc_increase":79.9919967987,
+      "weekly_pc_change":97.8554932366
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3037,9 +3577,11 @@
       "CumCase":13842,
       "ndays":7,
       "NewCase_Rel":0.568342725,
+      "NewCase_PercentDiff":0.311822578,
       "population":126190788.0,
       "weekly_new_cases_per_ht":6.2342110107,
-      "weekly_pc_increase":56.834272504
+      "weekly_pc_increase":56.834272504,
+      "weekly_pc_change":31.1822577956
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3048,9 +3590,11 @@
       "CumCase":22088,
       "ndays":7,
       "NewCase_Rel":0.4881836291,
+      "NewCase_PercentDiff":0.3706622601,
       "population":126190788.0,
       "weekly_new_cases_per_ht":8.5449977537,
-      "weekly_pc_increase":48.818362912
+      "weekly_pc_increase":48.818362912,
+      "weekly_pc_change":37.0662260074
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3059,9 +3603,11 @@
       "CumCase":33460,
       "ndays":7,
       "NewCase_Rel":0.4037656904,
+      "NewCase_PercentDiff":0.2528980803,
       "population":126190788.0,
       "weekly_new_cases_per_ht":10.7060112819,
-      "weekly_pc_increase":40.3765690377
+      "weekly_pc_increase":40.3765690377,
+      "weekly_pc_change":25.2898080312
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3070,9 +3616,11 @@
       "CumCase":47144,
       "ndays":7,
       "NewCase_Rel":0.3710970643,
+      "NewCase_PercentDiff":0.2949666913,
       "population":126190788.0,
       "weekly_new_cases_per_ht":13.8639280072,
-      "weekly_pc_increase":37.1097064314
+      "weekly_pc_increase":37.1097064314,
+      "weekly_pc_change":29.496669134
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3081,9 +3629,11 @@
       "CumCase":65856,
       "ndays":7,
       "NewCase_Rel":0.3355806608,
+      "NewCase_PercentDiff":0.2632180623,
       "population":126190788.0,
       "weekly_new_cases_per_ht":17.5131642731,
-      "weekly_pc_increase":33.5580660836
+      "weekly_pc_increase":33.5580660836,
+      "weekly_pc_change":26.3218062304
     },
     {
       "ISO_3_CODE":"MEX",
@@ -3092,9 +3642,11 @@
       "CumCase":87512,
       "ndays":7,
       "NewCase_Rel":0.2902344821,
+      "NewCase_PercentDiff":0.1492760181,
       "population":126190788.0,
       "weekly_new_cases_per_ht":20.1274597001,
-      "weekly_pc_increase":29.0234482128
+      "weekly_pc_increase":29.0234482128,
+      "weekly_pc_change":14.92760181
     }
   ],
   "MLI":[
@@ -3105,9 +3657,11 @@
       "CumCase":224,
       "ndays":7,
       "NewCase_Rel":0.6875,
+      "NewCase_PercentDiff":null,
       "population":19077690.0,
       "weekly_new_cases_per_ht":0.8072256127,
-      "weekly_pc_increase":68.75
+      "weekly_pc_increase":68.75,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"MLI",
@@ -3116,9 +3670,11 @@
       "CumCase":389,
       "ndays":7,
       "NewCase_Rel":0.4473007712,
+      "NewCase_PercentDiff":0.1298701299,
       "population":19077690.0,
       "weekly_new_cases_per_ht":0.9120601079,
-      "weekly_pc_increase":44.7300771208
+      "weekly_pc_increase":44.7300771208,
+      "weekly_pc_change":12.987012987
     },
     {
       "ISO_3_CODE":"MLI",
@@ -3127,9 +3683,11 @@
       "CumCase":563,
       "ndays":7,
       "NewCase_Rel":0.2628774423,
+      "NewCase_PercentDiff":-0.1494252874,
       "population":19077690.0,
       "weekly_new_cases_per_ht":0.7757752642,
-      "weekly_pc_increase":26.2877442274
+      "weekly_pc_increase":26.2877442274,
+      "weekly_pc_change":-14.9425287356
     },
     {
       "ISO_3_CODE":"MLI",
@@ -3138,9 +3696,11 @@
       "CumCase":704,
       "ndays":7,
       "NewCase_Rel":0.203125,
+      "NewCase_PercentDiff":-0.0337837838,
       "population":19077690.0,
       "weekly_new_cases_per_ht":0.7495666404,
-      "weekly_pc_increase":20.3125
+      "weekly_pc_increase":20.3125,
+      "weekly_pc_change":-3.3783783784
     },
     {
       "ISO_3_CODE":"MLI",
@@ -3149,9 +3709,11 @@
       "CumCase":860,
       "ndays":7,
       "NewCase_Rel":0.2093023256,
+      "NewCase_PercentDiff":0.2587412587,
       "population":19077690.0,
       "weekly_new_cases_per_ht":0.9435104565,
-      "weekly_pc_increase":20.9302325581
+      "weekly_pc_increase":20.9302325581,
+      "weekly_pc_change":25.8741258741
     },
     {
       "ISO_3_CODE":"MLI",
@@ -3160,9 +3722,11 @@
       "CumCase":1030,
       "ndays":7,
       "NewCase_Rel":0.2281553398,
+      "NewCase_PercentDiff":0.3055555556,
       "population":19077690.0,
       "weekly_new_cases_per_ht":1.2318053181,
-      "weekly_pc_increase":22.8155339806
+      "weekly_pc_increase":22.8155339806,
+      "weekly_pc_change":30.5555555556
     },
     {
       "ISO_3_CODE":"MLI",
@@ -3171,9 +3735,11 @@
       "CumCase":1265,
       "ndays":7,
       "NewCase_Rel":0.2158102767,
+      "NewCase_PercentDiff":0.1617021277,
       "population":19077690.0,
       "weekly_new_cases_per_ht":1.430990859,
-      "weekly_pc_increase":21.581027668
+      "weekly_pc_increase":21.581027668,
+      "weekly_pc_change":16.170212766
     }
   ],
   "MMR":[
@@ -3184,9 +3750,11 @@
       "CumCase":111,
       "ndays":7,
       "NewCase_Rel":0.3513513514,
+      "NewCase_PercentDiff":null,
       "population":53708395.0,
       "weekly_new_cases_per_ht":0.0726143464,
-      "weekly_pc_increase":35.1351351351
+      "weekly_pc_increase":35.1351351351,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"MMR",
@@ -3195,9 +3763,11 @@
       "CumCase":146,
       "ndays":7,
       "NewCase_Rel":0.0342465753,
+      "NewCase_PercentDiff":-0.8717948718,
       "population":53708395.0,
       "weekly_new_cases_per_ht":0.0093095316,
-      "weekly_pc_increase":3.4246575342
+      "weekly_pc_increase":3.4246575342,
+      "weekly_pc_change":-87.1794871795
     },
     {
       "ISO_3_CODE":"MMR",
@@ -3206,9 +3776,11 @@
       "CumCase":155,
       "ndays":7,
       "NewCase_Rel":0.1741935484,
+      "NewCase_PercentDiff":4.4,
       "population":53708395.0,
       "weekly_new_cases_per_ht":0.0502714706,
-      "weekly_pc_increase":17.4193548387
+      "weekly_pc_increase":17.4193548387,
+      "weekly_pc_change":440.0
     },
     {
       "ISO_3_CODE":"MMR",
@@ -3217,9 +3789,11 @@
       "CumCase":180,
       "ndays":7,
       "NewCase_Rel":0.0333333333,
+      "NewCase_PercentDiff":-0.7777777778,
       "population":53708395.0,
       "weekly_new_cases_per_ht":0.0111714379,
-      "weekly_pc_increase":3.3333333333
+      "weekly_pc_increase":3.3333333333,
+      "weekly_pc_change":-77.7777777778
     },
     {
       "ISO_3_CODE":"MMR",
@@ -3228,9 +3802,11 @@
       "CumCase":188,
       "ndays":7,
       "NewCase_Rel":0.0904255319,
+      "NewCase_PercentDiff":1.8333333333,
       "population":53708395.0,
       "weekly_new_cases_per_ht":0.0316524074,
-      "weekly_pc_increase":9.0425531915
+      "weekly_pc_increase":9.0425531915,
+      "weekly_pc_change":183.3333333333
     },
     {
       "ISO_3_CODE":"MMR",
@@ -3239,9 +3815,11 @@
       "CumCase":201,
       "ndays":7,
       "NewCase_Rel":0.1144278607,
+      "NewCase_PercentDiff":0.3529411765,
       "population":53708395.0,
       "weekly_new_cases_per_ht":0.0428238453,
-      "weekly_pc_increase":11.4427860697
+      "weekly_pc_increase":11.4427860697,
+      "weekly_pc_change":35.2941176471
     },
     {
       "ISO_3_CODE":"MMR",
@@ -3250,9 +3828,11 @@
       "CumCase":224,
       "ndays":7,
       "NewCase_Rel":0.0714285714,
+      "NewCase_PercentDiff":-0.3043478261,
       "population":53708395.0,
       "weekly_new_cases_per_ht":0.0297905011,
-      "weekly_pc_increase":7.1428571429
+      "weekly_pc_increase":7.1428571429,
+      "weekly_pc_change":-30.4347826087
     }
   ],
   "MOZ":[
@@ -3263,9 +3843,11 @@
       "CumCase":137,
       "ndays":7,
       "NewCase_Rel":0.2846715328,
+      "NewCase_PercentDiff":null,
       "population":29495962.0,
       "weekly_new_cases_per_ht":0.1322214885,
-      "weekly_pc_increase":28.4671532847
+      "weekly_pc_increase":28.4671532847,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"MOZ",
@@ -3274,9 +3856,11 @@
       "CumCase":194,
       "ndays":7,
       "NewCase_Rel":0.3917525773,
+      "NewCase_PercentDiff":0.9487179487,
       "population":29495962.0,
       "weekly_new_cases_per_ht":0.2576623878,
-      "weekly_pc_increase":39.175257732
+      "weekly_pc_increase":39.175257732,
+      "weekly_pc_change":94.8717948718
     },
     {
       "ISO_3_CODE":"MOZ",
@@ -3285,9 +3869,11 @@
       "CumCase":254,
       "ndays":7,
       "NewCase_Rel":0.6496062992,
+      "NewCase_PercentDiff":1.1710526316,
       "population":29495962.0,
       "weekly_new_cases_per_ht":0.5593986051,
-      "weekly_pc_increase":64.9606299213
+      "weekly_pc_increase":64.9606299213,
+      "weekly_pc_change":117.1052631579
     }
   ],
   "NER":[
@@ -3298,9 +3884,11 @@
       "CumCase":184,
       "ndays":7,
       "NewCase_Rel":1.8858695652,
+      "NewCase_PercentDiff":null,
       "population":22442948.0,
       "weekly_new_cases_per_ht":1.5461426903,
-      "weekly_pc_increase":188.5869565217
+      "weekly_pc_increase":188.5869565217,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"NER",
@@ -3309,9 +3897,11 @@
       "CumCase":529,
       "ndays":7,
       "NewCase_Rel":0.2797731569,
+      "NewCase_PercentDiff":-0.5734870317,
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.6594499083,
-      "weekly_pc_increase":27.97731569
+      "weekly_pc_increase":27.97731569,
+      "weekly_pc_change":-57.34870317
     },
     {
       "ISO_3_CODE":"NER",
@@ -3320,9 +3910,11 @@
       "CumCase":648,
       "ndays":7,
       "NewCase_Rel":0.0694444444,
+      "NewCase_PercentDiff":-0.6959459459,
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.2005084181,
-      "weekly_pc_increase":6.9444444444
+      "weekly_pc_increase":6.9444444444,
+      "weekly_pc_change":-69.5945945946
     },
     {
       "ISO_3_CODE":"NER",
@@ -3331,9 +3923,11 @@
       "CumCase":696,
       "ndays":7,
       "NewCase_Rel":0.0747126437,
+      "NewCase_PercentDiff":0.1555555556,
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.2316986164,
-      "weekly_pc_increase":7.4712643678
+      "weekly_pc_increase":7.4712643678,
+      "weekly_pc_change":15.5555555556
     },
     {
       "ISO_3_CODE":"NER",
@@ -3342,9 +3936,11 @@
       "CumCase":750,
       "ndays":7,
       "NewCase_Rel":0.1053333333,
+      "NewCase_PercentDiff":0.5192307692,
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.3520036673,
-      "weekly_pc_increase":10.5333333333
+      "weekly_pc_increase":10.5333333333,
+      "weekly_pc_change":51.9230769231
     },
     {
       "ISO_3_CODE":"NER",
@@ -3353,9 +3949,11 @@
       "CumCase":821,
       "ndays":7,
       "NewCase_Rel":0.0901339829,
+      "NewCase_PercentDiff":-0.0632911392,
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.3297249541,
-      "weekly_pc_increase":9.0133982948
+      "weekly_pc_increase":9.0133982948,
+      "weekly_pc_change":-6.3291139241
     },
     {
       "ISO_3_CODE":"NER",
@@ -3364,9 +3962,11 @@
       "CumCase":904,
       "ndays":7,
       "NewCase_Rel":0.0597345133,
+      "NewCase_PercentDiff":-0.2702702703,
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.2406101017,
-      "weekly_pc_increase":5.9734513274
+      "weekly_pc_increase":5.9734513274,
+      "weekly_pc_change":-27.027027027
     },
     {
       "ISO_3_CODE":"NER",
@@ -3375,9 +3975,11 @@
       "CumCase":945,
       "ndays":7,
       "NewCase_Rel":0.0137566138,
+      "NewCase_PercentDiff":-0.7592592593,
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.0579246541,
-      "weekly_pc_increase":1.3756613757
+      "weekly_pc_increase":1.3756613757,
+      "weekly_pc_change":-75.9259259259
     },
     {
       "ISO_3_CODE":"NER",
@@ -3386,9 +3988,11 @@
       "CumCase":958,
       "ndays":7,
       "NewCase_Rel":0.0146137787,
+      "NewCase_PercentDiff":0.0769230769,
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.0623803967,
-      "weekly_pc_increase":1.4613778706
+      "weekly_pc_increase":1.4613778706,
+      "weekly_pc_change":7.6923076923
     }
   ],
   "NGA":[
@@ -3399,9 +4003,11 @@
       "CumCase":232,
       "ndays":7,
       "NewCase_Rel":0.474137931,
+      "NewCase_PercentDiff":null,
       "population":195874740.0,
       "weekly_new_cases_per_ht":0.0561583387,
-      "weekly_pc_increase":47.4137931034
+      "weekly_pc_increase":47.4137931034,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"NGA",
@@ -3410,9 +4016,11 @@
       "CumCase":323,
       "ndays":7,
       "NewCase_Rel":0.1702786378,
+      "NewCase_PercentDiff":-0.5,
       "population":195874740.0,
       "weekly_new_cases_per_ht":0.0280791694,
-      "weekly_pc_increase":17.0278637771
+      "weekly_pc_increase":17.0278637771,
+      "weekly_pc_change":-50.0
     },
     {
       "ISO_3_CODE":"NGA",
@@ -3421,9 +4029,11 @@
       "CumCase":541,
       "ndays":7,
       "NewCase_Rel":1.4953789279,
+      "NewCase_PercentDiff":13.7090909091,
       "population":195874740.0,
       "weekly_new_cases_per_ht":0.4130190549,
-      "weekly_pc_increase":149.5378927911
+      "weekly_pc_increase":149.5378927911,
+      "weekly_pc_change":1370.9090909091
     },
     {
       "ISO_3_CODE":"NGA",
@@ -3432,9 +4042,11 @@
       "CumCase":1273,
       "ndays":7,
       "NewCase_Rel":0.9473684211,
+      "NewCase_PercentDiff":0.4907292954,
       "population":195874740.0,
       "weekly_new_cases_per_ht":0.6156996048,
-      "weekly_pc_increase":94.7368421053
+      "weekly_pc_increase":94.7368421053,
+      "weekly_pc_change":49.0729295426
     },
     {
       "ISO_3_CODE":"NGA",
@@ -3443,9 +4055,11 @@
       "CumCase":2388,
       "ndays":7,
       "NewCase_Rel":0.7382747069,
+      "NewCase_PercentDiff":0.4618573798,
       "population":195874740.0,
       "weekly_new_cases_per_ht":0.9000650109,
-      "weekly_pc_increase":73.8274706868
+      "weekly_pc_increase":73.8274706868,
+      "weekly_pc_change":46.1857379768
     },
     {
       "ISO_3_CODE":"NGA",
@@ -3454,9 +4068,11 @@
       "CumCase":4399,
       "ndays":7,
       "NewCase_Rel":0.3341668561,
+      "NewCase_PercentDiff":-0.1661939875,
       "population":195874740.0,
       "weekly_new_cases_per_ht":0.7504796177,
-      "weekly_pc_increase":33.4166856104
+      "weekly_pc_increase":33.4166856104,
+      "weekly_pc_change":-16.6193987521
     },
     {
       "ISO_3_CODE":"NGA",
@@ -3465,9 +4081,11 @@
       "CumCase":5959,
       "ndays":7,
       "NewCase_Rel":0.3196845108,
+      "NewCase_PercentDiff":0.2959183673,
       "population":195874740.0,
       "weekly_new_cases_per_ht":0.9725603209,
-      "weekly_pc_increase":31.9684510824
+      "weekly_pc_increase":31.9684510824,
+      "weekly_pc_change":29.5918367347
     },
     {
       "ISO_3_CODE":"NGA",
@@ -3476,9 +4094,11 @@
       "CumCase":7839,
       "ndays":7,
       "NewCase_Rel":0.2971042225,
+      "NewCase_PercentDiff":0.2225721785,
       "population":195874740.0,
       "weekly_new_cases_per_ht":1.1890251903,
-      "weekly_pc_increase":29.7104222477
+      "weekly_pc_increase":29.7104222477,
+      "weekly_pc_change":22.2572178478
     },
     {
       "ISO_3_CODE":"NGA",
@@ -3487,9 +4107,11 @@
       "CumCase":10162,
       "ndays":7,
       "NewCase_Rel":0.2340090533,
+      "NewCase_PercentDiff":0.0210390726,
       "population":195874740.0,
       "weekly_new_cases_per_ht":1.2140411775,
-      "weekly_pc_increase":23.4009053336
+      "weekly_pc_increase":23.4009053336,
+      "weekly_pc_change":2.1039072563
     }
   ],
   "PAK":[
@@ -3500,9 +4122,11 @@
       "CumCase":784,
       "ndays":7,
       "NewCase_Rel":1.1224489796,
+      "NewCase_PercentDiff":null,
       "population":212215030.0,
       "weekly_new_cases_per_ht":0.4146737392,
-      "weekly_pc_increase":112.2448979592
+      "weekly_pc_increase":112.2448979592,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3511,9 +4135,11 @@
       "CumCase":1625,
       "ndays":7,
       "NewCase_Rel":0.9433846154,
+      "NewCase_PercentDiff":0.7420454545,
       "population":212215030.0,
       "weekly_new_cases_per_ht":0.7223805025,
-      "weekly_pc_increase":94.3384615385
+      "weekly_pc_increase":94.3384615385,
+      "weekly_pc_change":74.2045454545
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3522,9 +4148,11 @@
       "CumCase":3424,
       "ndays":7,
       "NewCase_Rel":0.6203271028,
+      "NewCase_PercentDiff":0.385518591,
       "population":212215030.0,
       "weekly_new_cases_per_ht":1.0008716159,
-      "weekly_pc_increase":62.0327102804
+      "weekly_pc_increase":62.0327102804,
+      "weekly_pc_change":38.5518590998
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3533,9 +4161,11 @@
       "CumCase":5496,
       "ndays":7,
       "NewCase_Rel":0.5112809316,
+      "NewCase_PercentDiff":0.3229755179,
       "population":212215030.0,
       "weekly_new_cases_per_ht":1.3241286444,
-      "weekly_pc_increase":51.1280931587
+      "weekly_pc_increase":51.1280931587,
+      "weekly_pc_change":32.2975517891
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3544,9 +4174,11 @@
       "CumCase":8418,
       "ndays":7,
       "NewCase_Rel":0.6181990972,
+      "NewCase_PercentDiff":0.8519572954,
       "population":212215030.0,
       "weekly_new_cases_per_ht":2.4522297031,
-      "weekly_pc_increase":61.8199097173
+      "weekly_pc_increase":61.8199097173,
+      "weekly_pc_change":85.1957295374
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3555,9 +4187,11 @@
       "CumCase":13915,
       "ndays":7,
       "NewCase_Rel":0.494933525,
+      "NewCase_PercentDiff":0.323405073,
       "population":212215030.0,
       "weekly_new_cases_per_ht":3.2452932292,
-      "weekly_pc_increase":49.4933524973
+      "weekly_pc_increase":49.4933524973,
+      "weekly_pc_change":32.3405073021
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3566,9 +4200,11 @@
       "CumCase":20884,
       "ndays":7,
       "NewCase_Rel":0.4491955564,
+      "NewCase_PercentDiff":0.3621315522,
       "population":212215030.0,
       "weekly_new_cases_per_ht":4.4205163037,
-      "weekly_pc_increase":44.9195556407
+      "weekly_pc_increase":44.9195556407,
+      "weekly_pc_change":36.21315522
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3577,9 +4213,11 @@
       "CumCase":30941,
       "ndays":7,
       "NewCase_Rel":0.3453669888,
+      "NewCase_PercentDiff":0.139110969,
       "population":212215030.0,
       "weekly_new_cases_per_ht":5.0354586101,
-      "weekly_pc_increase":34.5366988785
+      "weekly_pc_increase":34.5366988785,
+      "weekly_pc_change":13.911096898
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3588,9 +4226,11 @@
       "CumCase":42125,
       "ndays":7,
       "NewCase_Rel":0.3430267062,
+      "NewCase_PercentDiff":0.3522365712,
       "population":212215030.0,
       "weekly_new_cases_per_ht":6.8091312854,
-      "weekly_pc_increase":34.3026706231
+      "weekly_pc_increase":34.3026706231,
+      "weekly_pc_change":35.2236571215
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3599,9 +4239,11 @@
       "CumCase":56349,
       "ndays":7,
       "NewCase_Rel":0.2643347708,
+      "NewCase_PercentDiff":0.0307958478,
       "population":212215030.0,
       "weekly_new_cases_per_ht":7.0188242558,
-      "weekly_pc_increase":26.4334770803
+      "weekly_pc_increase":26.4334770803,
+      "weekly_pc_change":3.0795847751
     },
     {
       "ISO_3_CODE":"PAK",
@@ -3610,9 +4252,11 @@
       "CumCase":72460,
       "ndays":7,
       "NewCase_Rel":0.4063897323,
+      "NewCase_PercentDiff":0.9769721383,
       "population":212215030.0,
       "weekly_new_cases_per_ht":13.8760199973,
-      "weekly_pc_increase":40.6389732266
+      "weekly_pc_increase":40.6389732266,
+      "weekly_pc_change":97.6972138301
     }
   ],
   "PAN":[
@@ -3623,9 +4267,11 @@
       "CumCase":245,
       "ndays":7,
       "NewCase_Rel":2.6489795918,
+      "NewCase_PercentDiff":null,
       "population":4176873.0,
       "weekly_new_cases_per_ht":15.5379395064,
-      "weekly_pc_increase":264.8979591837
+      "weekly_pc_increase":264.8979591837,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3634,9 +4280,11 @@
       "CumCase":901,
       "ndays":7,
       "NewCase_Rel":0.9844617092,
+      "NewCase_PercentDiff":0.3667180277,
       "population":4176873.0,
       "weekly_new_cases_per_ht":21.2359820373,
-      "weekly_pc_increase":98.4461709212
+      "weekly_pc_increase":98.4461709212,
+      "weekly_pc_change":36.6718027735
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3645,9 +4293,11 @@
       "CumCase":1801,
       "ndays":7,
       "NewCase_Rel":0.7223764575,
+      "NewCase_PercentDiff":0.4667418264,
       "population":4176873.0,
       "weekly_new_cases_per_ht":31.1477030784,
-      "weekly_pc_increase":72.2376457524
+      "weekly_pc_increase":72.2376457524,
+      "weekly_pc_change":46.6741826381
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3656,9 +4306,11 @@
       "CumCase":3234,
       "ndays":7,
       "NewCase_Rel":0.3821892393,
+      "NewCase_PercentDiff":-0.049961568,
       "population":4176873.0,
       "weekly_new_cases_per_ht":29.5915149922,
-      "weekly_pc_increase":38.2189239332
+      "weekly_pc_increase":38.2189239332,
+      "weekly_pc_change":-4.9961568025
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3667,9 +4319,11 @@
       "CumCase":4273,
       "ndays":7,
       "NewCase_Rel":0.26398315,
+      "NewCase_PercentDiff":-0.0873786408,
       "population":4176873.0,
       "weekly_new_cases_per_ht":27.0058486337,
-      "weekly_pc_increase":26.3983150012
+      "weekly_pc_increase":26.3983150012,
+      "weekly_pc_change":-8.7378640777
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3678,9 +4332,11 @@
       "CumCase":5538,
       "ndays":7,
       "NewCase_Rel":0.2495485735,
+      "NewCase_PercentDiff":0.225177305,
       "population":4176873.0,
       "weekly_new_cases_per_ht":33.0869528473,
-      "weekly_pc_increase":24.9548573492
+      "weekly_pc_increase":24.9548573492,
+      "weekly_pc_change":22.5177304965
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3689,9 +4345,11 @@
       "CumCase":7090,
       "ndays":7,
       "NewCase_Rel":0.1904090268,
+      "NewCase_PercentDiff":-0.023154848,
       "population":4176873.0,
       "weekly_new_cases_per_ht":32.3208294818,
-      "weekly_pc_increase":19.0409026798
+      "weekly_pc_increase":19.0409026798,
+      "weekly_pc_change":-2.3154848046
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3700,9 +4358,11 @@
       "CumCase":8282,
       "ndays":7,
       "NewCase_Rel":0.1446510505,
+      "NewCase_PercentDiff":-0.1125925926,
       "population":4176873.0,
       "weekly_new_cases_per_ht":28.6817434957,
-      "weekly_pc_increase":14.4651050471
+      "weekly_pc_increase":14.4651050471,
+      "weekly_pc_change":-11.2592592593
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3711,9 +4371,11 @@
       "CumCase":9449,
       "ndays":7,
       "NewCase_Rel":0.1057254736,
+      "NewCase_PercentDiff":-0.1661101836,
       "population":4176873.0,
       "weekly_new_cases_per_ht":23.9174138165,
-      "weekly_pc_increase":10.5725473595
+      "weekly_pc_increase":10.5725473595,
+      "weekly_pc_change":-16.6110183639
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3722,9 +4384,11 @@
       "CumCase":10577,
       "ndays":7,
       "NewCase_Rel":0.2140493524,
+      "NewCase_PercentDiff":1.2662662663,
       "population":4176873.0,
       "weekly_new_cases_per_ht":54.2032281087,
-      "weekly_pc_increase":21.4049352368
+      "weekly_pc_increase":21.4049352368,
+      "weekly_pc_change":126.6266266266
     },
     {
       "ISO_3_CODE":"PAN",
@@ -3733,9 +4397,11 @@
       "CumCase":13018,
       "ndays":7,
       "NewCase_Rel":0.2252266093,
+      "NewCase_PercentDiff":0.2950530035,
       "population":4176873.0,
       "weekly_new_cases_per_ht":70.1960533634,
-      "weekly_pc_increase":22.522660931
+      "weekly_pc_increase":22.522660931,
+      "weekly_pc_change":29.5053003534
     }
   ],
   "PER":[
@@ -3746,9 +4412,11 @@
       "CumCase":318,
       "ndays":7,
       "NewCase_Rel":0.9968553459,
+      "NewCase_PercentDiff":null,
       "population":31989256.0,
       "weekly_new_cases_per_ht":0.9909577141,
-      "weekly_pc_increase":99.6855345912
+      "weekly_pc_increase":99.6855345912,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"PER",
@@ -3757,9 +4425,11 @@
       "CumCase":671,
       "ndays":7,
       "NewCase_Rel":1.4307004471,
+      "NewCase_PercentDiff":2.0283911672,
       "population":31989256.0,
       "weekly_new_cases_per_ht":3.0010075883,
-      "weekly_pc_increase":143.0700447094
+      "weekly_pc_increase":143.0700447094,
+      "weekly_pc_change":202.8391167192
     },
     {
       "ISO_3_CODE":"PER",
@@ -3768,9 +4438,11 @@
       "CumCase":1746,
       "ndays":7,
       "NewCase_Rel":2.4639175258,
+      "NewCase_PercentDiff":3.48125,
       "population":31989256.0,
       "weekly_new_cases_per_ht":13.4482652551,
-      "weekly_pc_increase":246.3917525773
+      "weekly_pc_increase":246.3917525773,
+      "weekly_pc_change":348.125
     },
     {
       "ISO_3_CODE":"PER",
@@ -3779,9 +4451,11 @@
       "CumCase":6848,
       "ndays":7,
       "NewCase_Rel":1.1086448598,
+      "NewCase_PercentDiff":0.7647605765,
       "population":31989256.0,
       "weekly_new_cases_per_ht":23.7329683441,
-      "weekly_pc_increase":110.8644859813
+      "weekly_pc_increase":110.8644859813,
+      "weekly_pc_change":76.4760576476
     },
     {
       "ISO_3_CODE":"PER",
@@ -3790,9 +4464,11 @@
       "CumCase":14420,
       "ndays":7,
       "NewCase_Rel":0.5658113731,
+      "NewCase_PercentDiff":0.0746838778,
       "population":31989256.0,
       "weekly_new_cases_per_ht":25.505438451,
-      "weekly_pc_increase":56.5811373093
+      "weekly_pc_increase":56.5811373093,
+      "weekly_pc_change":7.4683877766
     },
     {
       "ISO_3_CODE":"PER",
@@ -3801,9 +4477,11 @@
       "CumCase":25331,
       "ndays":7,
       "NewCase_Rel":0.7426078718,
+      "NewCase_PercentDiff":1.305552151,
       "population":31989256.0,
       "weekly_new_cases_per_ht":58.8041184828,
-      "weekly_pc_increase":74.2607871778
+      "weekly_pc_increase":74.2607871778,
+      "weekly_pc_change":130.5552150999
     },
     {
       "ISO_3_CODE":"PER",
@@ -3812,9 +4490,11 @@
       "CumCase":42534,
       "ndays":7,
       "NewCase_Rel":0.502844783,
+      "NewCase_PercentDiff":0.1369943118,
       "population":31989256.0,
       "weekly_new_cases_per_ht":66.8599482276,
-      "weekly_pc_increase":50.2844782997
+      "weekly_pc_increase":50.2844782997,
+      "weekly_pc_change":13.6994311839
     },
     {
       "ISO_3_CODE":"PER",
@@ -3823,9 +4503,11 @@
       "CumCase":65015,
       "ndays":7,
       "NewCase_Rel":0.3483503807,
+      "NewCase_PercentDiff":0.0589115392,
       "population":31989256.0,
       "weekly_new_cases_per_ht":70.7987706873,
-      "weekly_pc_increase":34.8350380681
+      "weekly_pc_increase":34.8350380681,
+      "weekly_pc_change":5.8911539181
     },
     {
       "ISO_3_CODE":"PER",
@@ -3834,9 +4516,11 @@
       "CumCase":88541,
       "ndays":7,
       "NewCase_Rel":0.3072361957,
+      "NewCase_PercentDiff":0.2011215118,
       "population":31989256.0,
       "weekly_new_cases_per_ht":85.0379264838,
-      "weekly_pc_increase":30.7236195661
+      "weekly_pc_increase":30.7236195661,
+      "weekly_pc_change":20.1121511833
     },
     {
       "ISO_3_CODE":"PER",
@@ -3845,9 +4529,11 @@
       "CumCase":115754,
       "ndays":7,
       "NewCase_Rel":0.3160754704,
+      "NewCase_PercentDiff":0.3449619527,
       "population":31989256.0,
       "weekly_new_cases_per_ht":114.3727756594,
-      "weekly_pc_increase":31.6075470394
+      "weekly_pc_increase":31.6075470394,
+      "weekly_pc_change":34.4961952726
     },
     {
       "ISO_3_CODE":"PER",
@@ -3856,9 +4542,11 @@
       "CumCase":155671,
       "ndays":7,
       "NewCase_Rel":0.2512670953,
+      "NewCase_PercentDiff":0.0690955804,
       "population":31989256.0,
       "weekly_new_cases_per_ht":122.2754289753,
-      "weekly_pc_increase":25.1267095349
+      "weekly_pc_increase":25.1267095349,
+      "weekly_pc_change":6.9095580397
     }
   ],
   "PHL":[
@@ -3869,9 +4557,11 @@
       "CumCase":142,
       "ndays":7,
       "NewCase_Rel":1.6901408451,
+      "NewCase_PercentDiff":null,
       "population":106651922.0,
       "weekly_new_cases_per_ht":0.2250311063,
-      "weekly_pc_increase":169.014084507
+      "weekly_pc_increase":169.014084507,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3880,9 +4570,11 @@
       "CumCase":396,
       "ndays":7,
       "NewCase_Rel":1.7550505051,
+      "NewCase_PercentDiff":1.8958333333,
       "population":106651922.0,
       "weekly_new_cases_per_ht":0.6516525788,
-      "weekly_pc_increase":175.5050505051
+      "weekly_pc_increase":175.5050505051,
+      "weekly_pc_change":189.5833333333
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3891,9 +4583,11 @@
       "CumCase":1546,
       "ndays":7,
       "NewCase_Rel":1.3059508409,
+      "NewCase_PercentDiff":1.9050359712,
       "population":106651922.0,
       "weekly_new_cases_per_ht":1.893074182,
-      "weekly_pc_increase":130.595084088
+      "weekly_pc_increase":130.595084088,
+      "weekly_pc_change":190.5035971223
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3902,9 +4596,11 @@
       "CumCase":3246,
       "ndays":7,
       "NewCase_Rel":0.4787430684,
+      "NewCase_PercentDiff":-0.2303120357,
       "population":106651922.0,
       "weekly_new_cases_per_ht":1.4570764135,
-      "weekly_pc_increase":47.8743068392
+      "weekly_pc_increase":47.8743068392,
+      "weekly_pc_change":-23.0312035661
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3913,9 +4609,11 @@
       "CumCase":4932,
       "ndays":7,
       "NewCase_Rel":0.2917680454,
+      "NewCase_PercentDiff":-0.074002574,
       "population":106651922.0,
       "weekly_new_cases_per_ht":1.3492490084,
-      "weekly_pc_increase":29.1768045418
+      "weekly_pc_increase":29.1768045418,
+      "weekly_pc_change":-7.4002574003
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3924,9 +4622,11 @@
       "CumCase":6259,
       "ndays":7,
       "NewCase_Rel":0.1928423071,
+      "NewCase_PercentDiff":-0.1612230716,
       "population":106651922.0,
       "weekly_new_cases_per_ht":1.1317189389,
-      "weekly_pc_increase":19.2842307078
+      "weekly_pc_increase":19.2842307078,
+      "weekly_pc_change":-16.1223071577
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3935,9 +4635,11 @@
       "CumCase":7579,
       "ndays":7,
       "NewCase_Rel":0.215595725,
+      "NewCase_PercentDiff":0.3537696769,
       "population":106651922.0,
       "weekly_new_cases_per_ht":1.5320867823,
-      "weekly_pc_increase":21.559572503
+      "weekly_pc_increase":21.559572503,
+      "weekly_pc_change":35.3769676885
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3946,9 +4648,11 @@
       "CumCase":9223,
       "ndays":7,
       "NewCase_Rel":0.1823701616,
+      "NewCase_PercentDiff":0.029375765,
       "population":106651922.0,
       "weekly_new_cases_per_ht":1.5770930035,
-      "weekly_pc_increase":18.2370161553
+      "weekly_pc_increase":18.2370161553,
+      "weekly_pc_change":2.9375764994
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3957,9 +4661,11 @@
       "CumCase":10794,
       "ndays":7,
       "NewCase_Rel":0.1763016491,
+      "NewCase_PercentDiff":0.131391201,
       "population":106651922.0,
       "weekly_new_cases_per_ht":1.7843091473,
-      "weekly_pc_increase":17.6301649064
+      "weekly_pc_increase":17.6301649064,
+      "weekly_pc_change":13.1391200951
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3968,9 +4674,11 @@
       "CumCase":12718,
       "ndays":7,
       "NewCase_Rel":0.099386696,
+      "NewCase_PercentDiff":-0.3357856017,
       "population":106651922.0,
       "weekly_new_cases_per_ht":1.1851638267,
-      "weekly_pc_increase":9.9386696021
+      "weekly_pc_increase":9.9386696021,
+      "weekly_pc_change":-33.5785601682
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3979,9 +4687,11 @@
       "CumCase":14035,
       "ndays":7,
       "NewCase_Rel":0.3070181689,
+      "NewCase_PercentDiff":2.4090189873,
       "population":106651922.0,
       "weekly_new_cases_per_ht":4.0402459883,
-      "weekly_pc_increase":30.7018168864
+      "weekly_pc_increase":30.7018168864,
+      "weekly_pc_change":240.9018987342
     },
     {
       "ISO_3_CODE":"PHL",
@@ -3990,9 +4700,11 @@
       "CumCase":18086,
       "ndays":7,
       "NewCase_Rel":0.1799181687,
+      "NewCase_PercentDiff":-0.244836389,
       "population":106651922.0,
       "weekly_new_cases_per_ht":3.05104675,
-      "weekly_pc_increase":17.9918168749
+      "weekly_pc_increase":17.9918168749,
+      "weekly_pc_change":-24.4836388953
     }
   ],
   "PRY":[
@@ -4003,9 +4715,11 @@
       "CumCase":104,
       "ndays":7,
       "NewCase_Rel":0.3557692308,
+      "NewCase_PercentDiff":null,
       "population":6956071.0,
       "weekly_new_cases_per_ht":0.5319094644,
-      "weekly_pc_increase":35.5769230769
+      "weekly_pc_increase":35.5769230769,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"PRY",
@@ -4014,9 +4728,11 @@
       "CumCase":134,
       "ndays":7,
       "NewCase_Rel":0.5149253731,
+      "NewCase_PercentDiff":0.8648648649,
       "population":6956071.0,
       "weekly_new_cases_per_ht":0.9919392715,
-      "weekly_pc_increase":51.4925373134
+      "weekly_pc_increase":51.4925373134,
+      "weekly_pc_change":86.4864864865
     },
     {
       "ISO_3_CODE":"PRY",
@@ -4025,9 +4741,11 @@
       "CumCase":206,
       "ndays":7,
       "NewCase_Rel":0.1019417476,
+      "NewCase_PercentDiff":-0.6956521739,
       "population":6956071.0,
       "weekly_new_cases_per_ht":0.3018945609,
-      "weekly_pc_increase":10.1941747573
+      "weekly_pc_increase":10.1941747573,
+      "weekly_pc_change":-69.5652173913
     },
     {
       "ISO_3_CODE":"PRY",
@@ -4036,9 +4754,11 @@
       "CumCase":228,
       "ndays":7,
       "NewCase_Rel":0.4824561404,
+      "NewCase_PercentDiff":4.2380952381,
       "population":6956071.0,
       "weekly_new_cases_per_ht":1.5813524618,
-      "weekly_pc_increase":48.2456140351
+      "weekly_pc_increase":48.2456140351,
+      "weekly_pc_change":423.8095238095
     },
     {
       "ISO_3_CODE":"PRY",
@@ -4047,9 +4767,11 @@
       "CumCase":370,
       "ndays":7,
       "NewCase_Rel":0.9621621622,
+      "NewCase_PercentDiff":2.2363636364,
       "population":6956071.0,
       "weekly_new_cases_per_ht":5.1178316035,
-      "weekly_pc_increase":96.2162162162
+      "weekly_pc_increase":96.2162162162,
+      "weekly_pc_change":223.6363636364
     },
     {
       "ISO_3_CODE":"PRY",
@@ -4058,9 +4780,11 @@
       "CumCase":713,
       "ndays":7,
       "NewCase_Rel":0.1248246844,
+      "NewCase_PercentDiff":-0.75,
       "population":6956071.0,
       "weekly_new_cases_per_ht":1.2794579009,
-      "weekly_pc_increase":12.4824684432
+      "weekly_pc_increase":12.4824684432,
+      "weekly_pc_change":-75.0
     },
     {
       "ISO_3_CODE":"PRY",
@@ -4069,9 +4793,11 @@
       "CumCase":786,
       "ndays":7,
       "NewCase_Rel":0.0916030534,
+      "NewCase_PercentDiff":-0.191011236,
       "population":6956071.0,
       "weekly_new_cases_per_ht":1.0350670659,
-      "weekly_pc_increase":9.1603053435
+      "weekly_pc_increase":9.1603053435,
+      "weekly_pc_change":-19.1011235955
     },
     {
       "ISO_3_CODE":"PRY",
@@ -4080,9 +4806,11 @@
       "CumCase":862,
       "ndays":7,
       "NewCase_Rel":0.13225058,
+      "NewCase_PercentDiff":0.5833333333,
       "population":6956071.0,
       "weekly_new_cases_per_ht":1.6388561876,
-      "weekly_pc_increase":13.2250580046
+      "weekly_pc_increase":13.2250580046,
+      "weekly_pc_change":58.3333333333
     },
     {
       "ISO_3_CODE":"PRY",
@@ -4091,9 +4819,11 @@
       "CumCase":986,
       "ndays":7,
       "NewCase_Rel":0.1277890467,
+      "NewCase_PercentDiff":0.1052631579,
       "population":6956071.0,
       "weekly_new_cases_per_ht":1.8113673653,
-      "weekly_pc_increase":12.7789046653
+      "weekly_pc_increase":12.7789046653,
+      "weekly_pc_change":10.5263157895
     }
   ],
   "PSE":[
@@ -4104,9 +4834,11 @@
       "CumCase":115,
       "ndays":7,
       "NewCase_Rel":0.9652173913,
+      "NewCase_PercentDiff":null,
       "population":4569087.0,
       "weekly_new_cases_per_ht":2.4293693685,
-      "weekly_pc_increase":96.5217391304
+      "weekly_pc_increase":96.5217391304,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4115,9 +4847,11 @@
       "CumCase":253,
       "ndays":7,
       "NewCase_Rel":0.2015810277,
+      "NewCase_PercentDiff":-0.5405405405,
       "population":4569087.0,
       "weekly_new_cases_per_ht":1.1161967369,
-      "weekly_pc_increase":20.1581027668
+      "weekly_pc_increase":20.1581027668,
+      "weekly_pc_change":-54.0540540541
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4126,9 +4860,11 @@
       "CumCase":273,
       "ndays":7,
       "NewCase_Rel":0.1978021978,
+      "NewCase_PercentDiff":0.0588235294,
       "population":4569087.0,
       "weekly_new_cases_per_ht":1.1818553685,
-      "weekly_pc_increase":19.7802197802
+      "weekly_pc_increase":19.7802197802,
+      "weekly_pc_change":5.8823529412
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4137,9 +4873,11 @@
       "CumCase":329,
       "ndays":7,
       "NewCase_Rel":0.0607902736,
+      "NewCase_PercentDiff":-0.6296296296,
       "population":4569087.0,
       "weekly_new_cases_per_ht":0.4377242105,
-      "weekly_pc_increase":6.0790273556
+      "weekly_pc_increase":6.0790273556,
+      "weekly_pc_change":-62.962962963
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4148,9 +4886,11 @@
       "CumCase":342,
       "ndays":7,
       "NewCase_Rel":0.0321637427,
+      "NewCase_PercentDiff":-0.45,
       "population":4569087.0,
       "weekly_new_cases_per_ht":0.2407483158,
-      "weekly_pc_increase":3.216374269
+      "weekly_pc_increase":3.216374269,
+      "weekly_pc_change":-45.0
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4159,9 +4899,11 @@
       "CumCase":524,
       "ndays":7,
       "NewCase_Rel":0.3702290076,
+      "NewCase_PercentDiff":16.6363636364,
       "population":4569087.0,
       "weekly_new_cases_per_ht":4.2459248423,
-      "weekly_pc_increase":37.0229007634
+      "weekly_pc_increase":37.0229007634,
+      "weekly_pc_change":1663.6363636364
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4170,9 +4912,11 @@
       "CumCase":547,
       "ndays":7,
       "NewCase_Rel":0.0237659963,
+      "NewCase_PercentDiff":-0.9329896907,
       "population":4569087.0,
       "weekly_new_cases_per_ht":0.2845207369,
-      "weekly_pc_increase":2.3765996344
+      "weekly_pc_increase":2.3765996344,
+      "weekly_pc_change":-93.2989690722
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4181,9 +4925,11 @@
       "CumCase":560,
       "ndays":7,
       "NewCase_Rel":0.075,
+      "NewCase_PercentDiff":2.2307692308,
       "population":4569087.0,
       "weekly_new_cases_per_ht":0.9192208422,
-      "weekly_pc_increase":7.5
+      "weekly_pc_increase":7.5,
+      "weekly_pc_change":223.0769230769
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4192,9 +4938,11 @@
       "CumCase":602,
       "ndays":7,
       "NewCase_Rel":0.0398671096,
+      "NewCase_PercentDiff":-0.4285714286,
       "population":4569087.0,
       "weekly_new_cases_per_ht":0.5252690527,
-      "weekly_pc_increase":3.9867109635
+      "weekly_pc_increase":3.9867109635,
+      "weekly_pc_change":-42.8571428571
     },
     {
       "ISO_3_CODE":"PSE",
@@ -4203,9 +4951,11 @@
       "CumCase":627,
       "ndays":7,
       "NewCase_Rel":0.0271132376,
+      "NewCase_PercentDiff":-0.2916666667,
       "population":4569087.0,
       "weekly_new_cases_per_ht":0.372065579,
-      "weekly_pc_increase":2.711323764
+      "weekly_pc_increase":2.711323764,
+      "weekly_pc_change":-29.1666666667
     }
   ],
   "RWA":[
@@ -4216,9 +4966,11 @@
       "CumCase":102,
       "ndays":7,
       "NewCase_Rel":0.1764705882,
+      "NewCase_PercentDiff":null,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.1463183974,
-      "weekly_pc_increase":17.6470588235
+      "weekly_pc_increase":17.6470588235,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"RWA",
@@ -4227,9 +4979,11 @@
       "CumCase":126,
       "ndays":7,
       "NewCase_Rel":0.1904761905,
+      "NewCase_PercentDiff":0.3333333333,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.1950911966,
-      "weekly_pc_increase":19.0476190476
+      "weekly_pc_increase":19.0476190476,
+      "weekly_pc_change":33.3333333333
     },
     {
       "ISO_3_CODE":"RWA",
@@ -4238,9 +4992,11 @@
       "CumCase":147,
       "ndays":7,
       "NewCase_Rel":0.2653061224,
+      "NewCase_PercentDiff":0.625,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.3170231945,
-      "weekly_pc_increase":26.5306122449
+      "weekly_pc_increase":26.5306122449,
+      "weekly_pc_change":62.5
     },
     {
       "ISO_3_CODE":"RWA",
@@ -4249,9 +5005,11 @@
       "CumCase":191,
       "ndays":7,
       "NewCase_Rel":0.3769633508,
+      "NewCase_PercentDiff":0.8461538462,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.5852735898,
-      "weekly_pc_increase":37.6963350785
+      "weekly_pc_increase":37.6963350785,
+      "weekly_pc_change":84.6153846154
     },
     {
       "ISO_3_CODE":"RWA",
@@ -4260,9 +5018,11 @@
       "CumCase":259,
       "ndays":7,
       "NewCase_Rel":0.0965250965,
+      "NewCase_PercentDiff":-0.6527777778,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.2032199965,
-      "weekly_pc_increase":9.6525096525
+      "weekly_pc_increase":9.6525096525,
+      "weekly_pc_change":-65.2777777778
     },
     {
       "ISO_3_CODE":"RWA",
@@ -4271,9 +5031,11 @@
       "CumCase":284,
       "ndays":7,
       "NewCase_Rel":0.0316901408,
+      "NewCase_PercentDiff":-0.64,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.0731591987,
-      "weekly_pc_increase":3.1690140845
+      "weekly_pc_increase":3.1690140845,
+      "weekly_pc_change":-64.0
     },
     {
       "ISO_3_CODE":"RWA",
@@ -4282,9 +5044,11 @@
       "CumCase":292,
       "ndays":7,
       "NewCase_Rel":0.1232876712,
+      "NewCase_PercentDiff":3.0,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.2926367949,
-      "weekly_pc_increase":12.3287671233
+      "weekly_pc_increase":12.3287671233,
+      "weekly_pc_change":300.0
     },
     {
       "ISO_3_CODE":"RWA",
@@ -4293,9 +5057,11 @@
       "CumCase":327,
       "ndays":7,
       "NewCase_Rel":0.1039755352,
+      "NewCase_PercentDiff":-0.0555555556,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.2763791952,
-      "weekly_pc_increase":10.3975535168
+      "weekly_pc_increase":10.3975535168,
+      "weekly_pc_change":-5.5555555556
     },
     {
       "ISO_3_CODE":"RWA",
@@ -4304,9 +5070,11 @@
       "CumCase":370,
       "ndays":7,
       "NewCase_Rel":0.1945945946,
+      "NewCase_PercentDiff":1.1176470588,
       "population":12301939.0,
       "weekly_new_cases_per_ht":0.5852735898,
-      "weekly_pc_increase":19.4594594595
+      "weekly_pc_increase":19.4594594595,
+      "weekly_pc_change":111.7647058824
     }
   ],
   "SDN":[
@@ -4317,9 +5085,11 @@
       "CumCase":275,
       "ndays":7,
       "NewCase_Rel":1.2909090909,
+      "NewCase_PercentDiff":null,
       "population":41801533.0,
       "weekly_new_cases_per_ht":0.8492511507,
-      "weekly_pc_increase":129.0909090909
+      "weekly_pc_increase":129.0909090909,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"SDN",
@@ -4328,9 +5098,11 @@
       "CumCase":678,
       "ndays":7,
       "NewCase_Rel":0.8436578171,
+      "NewCase_PercentDiff":0.6112676056,
       "population":41801533.0,
       "weekly_new_cases_per_ht":1.3683708681,
-      "weekly_pc_increase":84.3657817109
+      "weekly_pc_increase":84.3657817109,
+      "weekly_pc_change":61.1267605634
     },
     {
       "ISO_3_CODE":"SDN",
@@ -4339,9 +5111,11 @@
       "CumCase":1365,
       "ndays":7,
       "NewCase_Rel":0.8241758242,
+      "NewCase_PercentDiff":0.9667832168,
       "population":41801533.0,
       "weekly_new_cases_per_ht":2.6912888578,
-      "weekly_pc_increase":82.4175824176
+      "weekly_pc_increase":82.4175824176,
+      "weekly_pc_change":96.6783216783
     },
     {
       "ISO_3_CODE":"SDN",
@@ -4350,9 +5124,11 @@
       "CumCase":2591,
       "ndays":7,
       "NewCase_Rel":0.5191045928,
+      "NewCase_PercentDiff":0.1955555556,
       "population":41801533.0,
       "weekly_new_cases_per_ht":3.2175853455,
-      "weekly_pc_increase":51.9104592821
+      "weekly_pc_increase":51.9104592821,
+      "weekly_pc_change":19.5555555556
     },
     {
       "ISO_3_CODE":"SDN",
@@ -4361,9 +5137,11 @@
       "CumCase":3826,
       "ndays":7,
       "NewCase_Rel":0.3047569263,
+      "NewCase_PercentDiff":-0.1330855019,
       "population":41801533.0,
       "weekly_new_cases_per_ht":2.789371385,
-      "weekly_pc_increase":30.4756926294
+      "weekly_pc_increase":30.4756926294,
+      "weekly_pc_change":-13.3085501859
     },
     {
       "ISO_3_CODE":"SDN",
@@ -4372,9 +5150,11 @@
       "CumCase":5026,
       "ndays":7,
       "NewCase_Rel":0.2548746518,
+      "NewCase_PercentDiff":0.0986277873,
       "population":41801533.0,
       "weekly_new_cases_per_ht":3.0644809127,
-      "weekly_pc_increase":25.4874651811
+      "weekly_pc_increase":25.4874651811,
+      "weekly_pc_change":9.8627787307
     }
   ],
   "SLE":[
@@ -4385,9 +5165,11 @@
       "CumCase":157,
       "ndays":7,
       "NewCase_Rel":0.8662420382,
+      "NewCase_PercentDiff":null,
       "population":7650154.0,
       "weekly_new_cases_per_ht":1.7777419906,
-      "weekly_pc_increase":86.6242038217
+      "weekly_pc_increase":86.6242038217,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"SLE",
@@ -4396,9 +5178,11 @@
       "CumCase":307,
       "ndays":7,
       "NewCase_Rel":0.5570032573,
+      "NewCase_PercentDiff":0.2573529412,
       "population":7650154.0,
       "weekly_new_cases_per_ht":2.2352491205,
-      "weekly_pc_increase":55.7003257329
+      "weekly_pc_increase":55.7003257329,
+      "weekly_pc_change":25.7352941176
     },
     {
       "ISO_3_CODE":"SLE",
@@ -4407,9 +5191,11 @@
       "CumCase":505,
       "ndays":7,
       "NewCase_Rel":0.3148514851,
+      "NewCase_PercentDiff":-0.0701754386,
       "population":7650154.0,
       "weekly_new_cases_per_ht":2.0783895331,
-      "weekly_pc_increase":31.4851485149
+      "weekly_pc_increase":31.4851485149,
+      "weekly_pc_change":-7.0175438596
     },
     {
       "ISO_3_CODE":"SLE",
@@ -4418,9 +5204,11 @@
       "CumCase":721,
       "ndays":7,
       "NewCase_Rel":0.3203883495,
+      "NewCase_PercentDiff":0.4528301887,
       "population":7650154.0,
       "weekly_new_cases_per_ht":3.0195470575,
-      "weekly_pc_increase":32.0388349515
+      "weekly_pc_increase":32.0388349515,
+      "weekly_pc_change":45.2830188679
     },
     {
       "ISO_3_CODE":"SLE",
@@ -4429,9 +5217,11 @@
       "CumCase":861,
       "ndays":7,
       "NewCase_Rel":0.1091753775,
+      "NewCase_PercentDiff":-0.5930735931,
       "population":7650154.0,
       "weekly_new_cases_per_ht":1.2287334346,
-      "weekly_pc_increase":10.9175377468
+      "weekly_pc_increase":10.9175377468,
+      "weekly_pc_change":-59.3073593074
     }
   ],
   "SOM":[
@@ -4442,9 +5232,11 @@
       "CumCase":164,
       "ndays":7,
       "NewCase_Rel":1.8353658537,
+      "NewCase_PercentDiff":null,
       "population":15008154.0,
       "weekly_new_cases_per_ht":2.0055764353,
-      "weekly_pc_increase":183.5365853659
+      "weekly_pc_increase":183.5365853659,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"SOM",
@@ -4453,9 +5245,11 @@
       "CumCase":480,
       "ndays":7,
       "NewCase_Rel":0.5958333333,
+      "NewCase_PercentDiff":-0.049833887,
       "population":15008154.0,
       "weekly_new_cases_per_ht":1.9056307658,
-      "weekly_pc_increase":59.5833333333
+      "weekly_pc_increase":59.5833333333,
+      "weekly_pc_change":-4.9833887043
     },
     {
       "ISO_3_CODE":"SOM",
@@ -4464,9 +5258,11 @@
       "CumCase":756,
       "ndays":7,
       "NewCase_Rel":0.4391534392,
+      "NewCase_PercentDiff":0.1608391608,
       "population":15008154.0,
       "weekly_new_cases_per_ht":2.212130819,
-      "weekly_pc_increase":43.9153439153
+      "weekly_pc_increase":43.9153439153,
+      "weekly_pc_change":16.0839160839
     },
     {
       "ISO_3_CODE":"SOM",
@@ -4475,9 +5271,11 @@
       "CumCase":1089,
       "ndays":7,
       "NewCase_Rel":0.3370064279,
+      "NewCase_PercentDiff":0.1054216867,
       "population":15008154.0,
       "weekly_new_cases_per_ht":2.4453373813,
-      "weekly_pc_increase":33.7006427916
+      "weekly_pc_increase":33.7006427916,
+      "weekly_pc_change":10.5421686747
     },
     {
       "ISO_3_CODE":"SOM",
@@ -4486,9 +5284,11 @@
       "CumCase":1455,
       "ndays":7,
       "NewCase_Rel":0.1189003436,
+      "NewCase_PercentDiff":-0.5286103542,
       "population":15008154.0,
       "weekly_new_cases_per_ht":1.152706722,
-      "weekly_pc_increase":11.8900343643
+      "weekly_pc_increase":11.8900343643,
+      "weekly_pc_change":-52.8610354223
     },
     {
       "ISO_3_CODE":"SOM",
@@ -4497,9 +5297,11 @@
       "CumCase":1594,
       "ndays":7,
       "NewCase_Rel":0.2020075282,
+      "NewCase_PercentDiff":0.8612716763,
       "population":15008154.0,
       "weekly_new_cases_per_ht":2.1455003727,
-      "weekly_pc_increase":20.2007528231
+      "weekly_pc_increase":20.2007528231,
+      "weekly_pc_change":86.1271676301
     },
     {
       "ISO_3_CODE":"SOM",
@@ -4508,9 +5310,11 @@
       "CumCase":1976,
       "ndays":7,
       "NewCase_Rel":0.1887651822,
+      "NewCase_PercentDiff":0.1583850932,
       "population":15008154.0,
       "weekly_new_cases_per_ht":2.4853156491,
-      "weekly_pc_increase":18.8765182186
+      "weekly_pc_increase":18.8765182186,
+      "weekly_pc_change":15.8385093168
     }
   ],
   "SSD":[
@@ -4521,9 +5325,11 @@
       "CumCase":156,
       "ndays":7,
       "NewCase_Rel":0.7115384615,
+      "NewCase_PercentDiff":null,
       "population":10975920.0,
       "weekly_new_cases_per_ht":1.0113047471,
-      "weekly_pc_increase":71.1538461538
+      "weekly_pc_increase":71.1538461538,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"SSD",
@@ -4532,9 +5338,11 @@
       "CumCase":282,
       "ndays":7,
       "NewCase_Rel":1.1773049645,
+      "NewCase_PercentDiff":1.990990991,
       "population":10975920.0,
       "weekly_new_cases_per_ht":3.0248033878,
-      "weekly_pc_increase":117.7304964539
+      "weekly_pc_increase":117.7304964539,
+      "weekly_pc_change":199.0990990991
     },
     {
       "ISO_3_CODE":"SSD",
@@ -4543,9 +5351,11 @@
       "CumCase":655,
       "ndays":7,
       "NewCase_Rel":0.6580152672,
+      "NewCase_PercentDiff":0.2981927711,
       "population":10975920.0,
       "weekly_new_cases_per_ht":3.926777892,
-      "weekly_pc_increase":65.8015267176
+      "weekly_pc_increase":65.8015267176,
+      "weekly_pc_change":29.8192771084
     },
     {
       "ISO_3_CODE":"SSD",
@@ -4554,9 +5364,11 @@
       "CumCase":994,
       "ndays":7,
       "NewCase_Rel":0.3249496982,
+      "NewCase_PercentDiff":-0.2505800464,
       "population":10975920.0,
       "weekly_new_cases_per_ht":2.9428057056,
-      "weekly_pc_increase":32.4949698189
+      "weekly_pc_increase":32.4949698189,
+      "weekly_pc_change":-25.0580046404
     }
   ],
   "SYR":[
@@ -4567,9 +5379,11 @@
       "CumCase":122,
       "ndays":7,
       "NewCase_Rel":0.0245901639,
+      "NewCase_PercentDiff":null,
       "population":16906283.0,
       "weekly_new_cases_per_ht":0.0177448822,
-      "weekly_pc_increase":2.4590163934
+      "weekly_pc_increase":2.4590163934,
+      "weekly_pc_change":null
     }
   ],
   "TCD":[
@@ -4580,9 +5394,11 @@
       "CumCase":117,
       "ndays":7,
       "NewCase_Rel":1.7521367521,
+      "NewCase_PercentDiff":null,
       "population":15477751.0,
       "weekly_new_cases_per_ht":1.324481832,
-      "weekly_pc_increase":175.2136752137
+      "weekly_pc_increase":175.2136752137,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TCD",
@@ -4591,9 +5407,11 @@
       "CumCase":322,
       "ndays":7,
       "NewCase_Rel":0.4720496894,
+      "NewCase_PercentDiff":-0.2585365854,
       "population":15477751.0,
       "weekly_new_cases_per_ht":0.9820548218,
-      "weekly_pc_increase":47.2049689441
+      "weekly_pc_increase":47.2049689441,
+      "weekly_pc_change":-25.8536585366
     },
     {
       "ISO_3_CODE":"TCD",
@@ -4602,9 +5420,11 @@
       "CumCase":503,
       "ndays":7,
       "NewCase_Rel":0.3459244533,
+      "NewCase_PercentDiff":0.1447368421,
       "population":15477751.0,
       "weekly_new_cases_per_ht":1.1241943355,
-      "weekly_pc_increase":34.592445328
+      "weekly_pc_increase":34.592445328,
+      "weekly_pc_change":14.4736842105
     },
     {
       "ISO_3_CODE":"TCD",
@@ -4613,9 +5433,11 @@
       "CumCase":675,
       "ndays":7,
       "NewCase_Rel":0.1644444444,
+      "NewCase_PercentDiff":-0.3620689655,
       "population":15477751.0,
       "weekly_new_cases_per_ht":0.7171584554,
-      "weekly_pc_increase":16.4444444444
+      "weekly_pc_increase":16.4444444444,
+      "weekly_pc_change":-36.2068965517
     },
     {
       "ISO_3_CODE":"TCD",
@@ -4624,9 +5446,11 @@
       "CumCase":778,
       "ndays":7,
       "NewCase_Rel":0.0989717224,
+      "NewCase_PercentDiff":-0.3063063063,
       "population":15477751.0,
       "weekly_new_cases_per_ht":0.4974882979,
-      "weekly_pc_increase":9.8971722365
+      "weekly_pc_increase":9.8971722365,
+      "weekly_pc_change":-30.6306306306
     }
   ],
   "TGO":[
@@ -4637,9 +5461,11 @@
       "CumCase":124,
       "ndays":7,
       "NewCase_Rel":0.2419354839,
+      "NewCase_PercentDiff":null,
       "population":7889094.0,
       "weekly_new_cases_per_ht":0.3802718031,
-      "weekly_pc_increase":24.1935483871
+      "weekly_pc_increase":24.1935483871,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TGO",
@@ -4648,9 +5474,11 @@
       "CumCase":173,
       "ndays":7,
       "NewCase_Rel":0.838150289,
+      "NewCase_PercentDiff":3.8333333333,
       "population":7889094.0,
       "weekly_new_cases_per_ht":1.8379803815,
-      "weekly_pc_increase":83.8150289017
+      "weekly_pc_increase":83.8150289017,
+      "weekly_pc_change":383.3333333333
     },
     {
       "ISO_3_CODE":"TGO",
@@ -4659,9 +5487,11 @@
       "CumCase":301,
       "ndays":7,
       "NewCase_Rel":0.2491694352,
+      "NewCase_PercentDiff":-0.4827586207,
       "population":7889094.0,
       "weekly_new_cases_per_ht":0.9506795077,
-      "weekly_pc_increase":24.9169435216
+      "weekly_pc_increase":24.9169435216,
+      "weekly_pc_change":-48.275862069
     },
     {
       "ISO_3_CODE":"TGO",
@@ -4670,9 +5500,11 @@
       "CumCase":381,
       "ndays":7,
       "NewCase_Rel":0.1443569554,
+      "NewCase_PercentDiff":-0.2666666667,
       "population":7889094.0,
       "weekly_new_cases_per_ht":0.6971649723,
-      "weekly_pc_increase":14.4356955381
+      "weekly_pc_increase":14.4356955381,
+      "weekly_pc_change":-26.6666666667
     },
     {
       "ISO_3_CODE":"TGO",
@@ -4681,9 +5513,11 @@
       "CumCase":442,
       "ndays":7,
       "NewCase_Rel":0.1334841629,
+      "NewCase_PercentDiff":0.0727272727,
       "population":7889094.0,
       "weekly_new_cases_per_ht":0.7478678794,
-      "weekly_pc_increase":13.3484162896
+      "weekly_pc_increase":13.3484162896,
+      "weekly_pc_change":7.2727272727
     }
   ],
   "TTO":[
@@ -4694,9 +5528,11 @@
       "CumCase":103,
       "ndays":7,
       "NewCase_Rel":0.0873786408,
+      "NewCase_PercentDiff":null,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.6475481668,
-      "weekly_pc_increase":8.7378640777
+      "weekly_pc_increase":8.7378640777,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TTO",
@@ -4705,9 +5541,11 @@
       "CumCase":112,
       "ndays":7,
       "NewCase_Rel":0.0446428571,
+      "NewCase_PercentDiff":-0.4444444444,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.3597489816,
-      "weekly_pc_increase":4.4642857143
+      "weekly_pc_increase":4.4642857143,
+      "weekly_pc_change":-44.4444444444
     },
     {
       "ISO_3_CODE":"TTO",
@@ -4716,9 +5554,11 @@
       "CumCase":114,
       "ndays":7,
       "NewCase_Rel":0.0087719298,
+      "NewCase_PercentDiff":-0.8,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.0719497963,
-      "weekly_pc_increase":0.8771929825
+      "weekly_pc_increase":0.8771929825,
+      "weekly_pc_change":-80.0
     },
     {
       "ISO_3_CODE":"TTO",
@@ -4727,9 +5567,11 @@
       "CumCase":115,
       "ndays":7,
       "NewCase_Rel":0.0086956522,
+      "NewCase_PercentDiff":0.0,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.0719497963,
-      "weekly_pc_increase":0.8695652174
+      "weekly_pc_increase":0.8695652174,
+      "weekly_pc_change":0.0
     },
     {
       "ISO_3_CODE":"TTO",
@@ -4738,9 +5580,11 @@
       "CumCase":116,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":-1.0,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":-100.0
     },
     {
       "ISO_3_CODE":"TTO",
@@ -4749,9 +5593,11 @@
       "CumCase":116,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TTO",
@@ -4760,9 +5606,11 @@
       "CumCase":116,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TTO",
@@ -4771,9 +5619,11 @@
       "CumCase":116,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TTO",
@@ -4782,9 +5632,11 @@
       "CumCase":117,
       "ndays":7,
       "NewCase_Rel":0.0085470085,
+      "NewCase_PercentDiff":null,
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.0719497963,
-      "weekly_pc_increase":0.8547008547
+      "weekly_pc_increase":0.8547008547,
+      "weekly_pc_change":null
     }
   ],
   "TUR":[
@@ -4795,9 +5647,11 @@
       "CumCase":1236,
       "ndays":7,
       "NewCase_Rel":5.2224919094,
+      "NewCase_PercentDiff":null,
       "population":82319724.0,
       "weekly_new_cases_per_ht":7.8413771164,
-      "weekly_pc_increase":522.2491909385
+      "weekly_pc_increase":522.2491909385,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4806,9 +5660,11 @@
       "CumCase":9271,
       "ndays":7,
       "NewCase_Rel":1.7831949089,
+      "NewCase_PercentDiff":1.5611154144,
       "population":82319724.0,
       "weekly_new_cases_per_ht":20.0826718029,
-      "weekly_pc_increase":178.3194908856
+      "weekly_pc_increase":178.3194908856,
+      "weekly_pc_change":156.1115414407
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4817,9 +5673,11 @@
       "CumCase":27069,
       "ndays":7,
       "NewCase_Rel":1.0430012191,
+      "NewCase_PercentDiff":0.7077788531,
       "population":82319724.0,
       "weekly_new_cases_per_ht":34.2967622195,
-      "weekly_pc_increase":104.3001219107
+      "weekly_pc_increase":104.3001219107,
+      "weekly_pc_change":70.7778853133
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4828,9 +5686,11 @@
       "CumCase":56956,
       "ndays":7,
       "NewCase_Rel":0.5295666831,
+      "NewCase_PercentDiff":0.0683243013,
       "population":82319724.0,
       "weekly_new_cases_per_ht":36.6400645367,
-      "weekly_pc_increase":52.9566683054
+      "weekly_pc_increase":52.9566683054,
+      "weekly_pc_change":6.8324301349
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4839,9 +5699,11 @@
       "CumCase":86306,
       "ndays":7,
       "NewCase_Rel":0.2948114847,
+      "NewCase_PercentDiff":-0.1564219879,
       "population":82319724.0,
       "weekly_new_cases_per_ht":30.9087528039,
-      "weekly_pc_increase":29.4811484717
+      "weekly_pc_increase":29.4811484717,
+      "weekly_pc_change":-15.6421987932
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4850,9 +5712,11 @@
       "CumCase":110130,
       "ndays":7,
       "NewCase_Rel":0.1507491147,
+      "NewCase_PercentDiff":-0.3475082534,
       "population":82319724.0,
       "weekly_new_cases_per_ht":20.1677061016,
-      "weekly_pc_increase":15.0749114683
+      "weekly_pc_increase":15.0749114683,
+      "weekly_pc_change":-34.7508253419
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4861,9 +5725,11 @@
       "CumCase":126045,
       "ndays":7,
       "NewCase_Rel":0.1010750129,
+      "NewCase_PercentDiff":-0.2326225756,
       "population":82319724.0,
       "weekly_new_cases_per_ht":15.4762423645,
-      "weekly_pc_increase":10.1075012892
+      "weekly_pc_increase":10.1075012892,
+      "weekly_pc_change":-23.2622575593
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4872,9 +5738,11 @@
       "CumCase":138657,
       "ndays":7,
       "NewCase_Rel":0.0789862755,
+      "NewCase_PercentDiff":-0.1403453689,
       "population":82319724.0,
       "weekly_new_cases_per_ht":13.3042234204,
-      "weekly_pc_increase":7.8986275486
+      "weekly_pc_increase":7.8986275486,
+      "weekly_pc_change":-14.0345368917
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4883,9 +5751,11 @@
       "CumCase":149435,
       "ndays":7,
       "NewCase_Rel":0.0509853783,
+      "NewCase_PercentDiff":-0.3043279766,
       "population":82319724.0,
       "weekly_new_cases_per_ht":9.2553760263,
-      "weekly_pc_increase":5.0985378258
+      "weekly_pc_increase":5.0985378258,
+      "weekly_pc_change":-30.4327976625
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4894,9 +5764,11 @@
       "CumCase":156827,
       "ndays":7,
       "NewCase_Rel":0.0472941522,
+      "NewCase_PercentDiff":-0.0265126657,
       "population":82319724.0,
       "weekly_new_cases_per_ht":9.0099913357,
-      "weekly_pc_increase":4.7294152155
+      "weekly_pc_increase":4.7294152155,
+      "weekly_pc_change":-2.6512665704
     },
     {
       "ISO_3_CODE":"TUR",
@@ -4905,9 +5777,11 @@
       "CumCase":163942,
       "ndays":7,
       "NewCase_Rel":0.0372997768,
+      "NewCase_PercentDiff":-0.1755426722,
       "population":82319724.0,
       "weekly_new_cases_per_ht":7.4283533798,
-      "weekly_pc_increase":3.729977675
+      "weekly_pc_increase":3.729977675,
+      "weekly_pc_change":-17.5542672239
     }
   ],
   "TZA":[
@@ -4918,9 +5792,11 @@
       "CumCase":171,
       "ndays":7,
       "NewCase_Rel":0.8888888889,
+      "NewCase_PercentDiff":null,
       "population":56318348.0,
       "weekly_new_cases_per_ht":0.2698942803,
-      "weekly_pc_increase":88.8888888889
+      "weekly_pc_increase":88.8888888889,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TZA",
@@ -4929,9 +5805,11 @@
       "CumCase":300,
       "ndays":7,
       "NewCase_Rel":0.6,
+      "NewCase_PercentDiff":0.1842105263,
       "population":56318348.0,
       "weekly_new_cases_per_ht":0.3196116477,
-      "weekly_pc_increase":60.0
+      "weekly_pc_increase":60.0,
+      "weekly_pc_change":18.4210526316
     },
     {
       "ISO_3_CODE":"TZA",
@@ -4940,9 +5818,11 @@
       "CumCase":480,
       "ndays":7,
       "NewCase_Rel":0.0604166667,
+      "NewCase_PercentDiff":-0.8388888889,
       "population":56318348.0,
       "weekly_new_cases_per_ht":0.0514929877,
-      "weekly_pc_increase":6.0416666667
+      "weekly_pc_increase":6.0416666667,
+      "weekly_pc_change":-83.8888888889
     },
     {
       "ISO_3_CODE":"TZA",
@@ -4951,9 +5831,11 @@
       "CumCase":509,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":-1.0,
       "population":56318348.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":-100.0
     },
     {
       "ISO_3_CODE":"TZA",
@@ -4962,9 +5844,11 @@
       "CumCase":509,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":56318348.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TZA",
@@ -4973,9 +5857,11 @@
       "CumCase":509,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":56318348.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"TZA",
@@ -4984,9 +5870,11 @@
       "CumCase":509,
       "ndays":7,
       "NewCase_Rel":0.0,
+      "NewCase_PercentDiff":null,
       "population":56318348.0,
       "weekly_new_cases_per_ht":0.0,
-      "weekly_pc_increase":0.0
+      "weekly_pc_increase":0.0,
+      "weekly_pc_change":null
     }
   ],
   "UGA":[
@@ -4997,9 +5885,11 @@
       "CumCase":121,
       "ndays":7,
       "NewCase_Rel":0.9173553719,
+      "NewCase_PercentDiff":null,
       "population":42723139.0,
       "weekly_new_cases_per_ht":0.2598123701,
-      "weekly_pc_increase":91.7355371901
+      "weekly_pc_increase":91.7355371901,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"UGA",
@@ -5008,9 +5898,11 @@
       "CumCase":227,
       "ndays":7,
       "NewCase_Rel":0.3744493392,
+      "NewCase_PercentDiff":-0.2342342342,
       "population":42723139.0,
       "weekly_new_cases_per_ht":0.1989554185,
-      "weekly_pc_increase":37.4449339207
+      "weekly_pc_increase":37.4449339207,
+      "weekly_pc_change":-23.4234234234
     },
     {
       "ISO_3_CODE":"UGA",
@@ -5019,9 +5911,11 @@
       "CumCase":304,
       "ndays":7,
       "NewCase_Rel":0.4407894737,
+      "NewCase_PercentDiff":0.5764705882,
       "population":42723139.0,
       "weekly_new_cases_per_ht":0.3136473657,
-      "weekly_pc_increase":44.0789473684
+      "weekly_pc_increase":44.0789473684,
+      "weekly_pc_change":57.6470588235
     },
     {
       "ISO_3_CODE":"UGA",
@@ -5030,9 +5924,11 @@
       "CumCase":458,
       "ndays":7,
       "NewCase_Rel":0.6026200873,
+      "NewCase_PercentDiff":1.0597014925,
       "population":42723139.0,
       "weekly_new_cases_per_ht":0.6460199472,
-      "weekly_pc_increase":60.2620087336
+      "weekly_pc_increase":60.2620087336,
+      "weekly_pc_change":105.9701492537
     }
   ],
   "UKR":[
@@ -5043,9 +5939,11 @@
       "CumCase":480,
       "ndays":7,
       "NewCase_Rel":1.7354166667,
+      "NewCase_PercentDiff":null,
       "population":44622516.0,
       "weekly_new_cases_per_ht":1.8667705783,
-      "weekly_pc_increase":173.5416666667
+      "weekly_pc_increase":173.5416666667,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5054,9 +5952,11 @@
       "CumCase":1319,
       "ndays":7,
       "NewCase_Rel":1.1569370735,
+      "NewCase_PercentDiff":0.8319327731,
       "population":44622516.0,
       "weekly_new_cases_per_ht":3.4197982023,
-      "weekly_pc_increase":115.6937073541
+      "weekly_pc_increase":115.6937073541,
+      "weekly_pc_change":83.1932773109
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5065,9 +5965,11 @@
       "CumCase":3102,
       "ndays":7,
       "NewCase_Rel":0.861379755,
+      "NewCase_PercentDiff":0.750982962,
       "population":44622516.0,
       "weekly_new_cases_per_ht":5.9880083857,
-      "weekly_pc_increase":86.1379754997
+      "weekly_pc_increase":86.1379754997,
+      "weekly_pc_change":75.0982961992
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5076,9 +5978,11 @@
       "CumCase":5710,
       "ndays":7,
       "NewCase_Rel":0.5548161121,
+      "NewCase_PercentDiff":0.1856287425,
       "population":44622516.0,
       "weekly_new_cases_per_ht":7.0995548525,
-      "weekly_pc_increase":55.4816112084
+      "weekly_pc_increase":55.4816112084,
+      "weekly_pc_change":18.5628742515
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5087,9 +5991,11 @@
       "CumCase":9009,
       "ndays":7,
       "NewCase_Rel":0.3658563659,
+      "NewCase_PercentDiff":0.0404040404,
       "population":44622516.0,
       "weekly_new_cases_per_ht":7.3864055536,
-      "weekly_pc_increase":36.5856365856
+      "weekly_pc_increase":36.5856365856,
+      "weekly_pc_change":4.0404040404
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5098,9 +6004,11 @@
       "CumCase":12331,
       "ndays":7,
       "NewCase_Rel":0.2691590301,
+      "NewCase_PercentDiff":0.0069781553,
       "population":44622516.0,
       "weekly_new_cases_per_ht":7.437949039,
-      "weekly_pc_increase":26.9159030087
+      "weekly_pc_increase":26.9159030087,
+      "weekly_pc_change":0.697815534
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5109,9 +6017,11 @@
       "CumCase":15648,
       "ndays":7,
       "NewCase_Rel":0.1954882413,
+      "NewCase_PercentDiff":-0.0783368484,
       "population":44622516.0,
       "weekly_new_cases_per_ht":6.8552835524,
-      "weekly_pc_increase":19.5488241309
+      "weekly_pc_increase":19.5488241309,
+      "weekly_pc_change":-7.8336848448
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5120,9 +6030,11 @@
       "CumCase":18616,
       "ndays":7,
       "NewCase_Rel":0.1447679416,
+      "NewCase_PercentDiff":-0.118993135,
       "population":44622516.0,
       "weekly_new_cases_per_ht":6.0395518711,
-      "weekly_pc_increase":14.4767941556
+      "weekly_pc_increase":14.4767941556,
+      "weekly_pc_change":-11.8993135011
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5131,9 +6043,11 @@
       "CumCase":21245,
       "ndays":7,
       "NewCase_Rel":0.1264297482,
+      "NewCase_PercentDiff":-0.0033395176,
       "population":44622516.0,
       "weekly_new_cases_per_ht":6.0193826812,
-      "weekly_pc_increase":12.6429748176
+      "weekly_pc_increase":12.6429748176,
+      "weekly_pc_change":-0.3339517625
     },
     {
       "ISO_3_CODE":"UKR",
@@ -5142,9 +6056,11 @@
       "CumCase":24012,
       "ndays":7,
       "NewCase_Rel":0.1385557221,
+      "NewCase_PercentDiff":0.238644825,
       "population":44622516.0,
       "weekly_new_cases_per_ht":7.4558772078,
-      "weekly_pc_increase":13.8555722139
+      "weekly_pc_increase":13.8555722139,
+      "weekly_pc_change":23.8644825019
     }
   ],
   "URY":[
@@ -5155,9 +6071,11 @@
       "CumCase":135,
       "ndays":7,
       "NewCase_Rel":1.3333333333,
+      "NewCase_PercentDiff":null,
       "population":3449299.0,
       "weekly_new_cases_per_ht":5.2184516332,
-      "weekly_pc_increase":133.3333333333
+      "weekly_pc_increase":133.3333333333,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"URY",
@@ -5166,9 +6084,11 @@
       "CumCase":303,
       "ndays":7,
       "NewCase_Rel":0.3696369637,
+      "NewCase_PercentDiff":-0.3777777778,
       "population":3449299.0,
       "weekly_new_cases_per_ht":3.2470365718,
-      "weekly_pc_increase":36.9636963696
+      "weekly_pc_increase":36.9636963696,
+      "weekly_pc_change":-37.7777777778
     },
     {
       "ISO_3_CODE":"URY",
@@ -5177,9 +6097,11 @@
       "CumCase":400,
       "ndays":7,
       "NewCase_Rel":0.1975,
+      "NewCase_PercentDiff":-0.2946428571,
       "population":3449299.0,
       "weekly_new_cases_per_ht":2.290320439,
-      "weekly_pc_increase":19.75
+      "weekly_pc_increase":19.75,
+      "weekly_pc_change":-29.4642857143
     },
     {
       "ISO_3_CODE":"URY",
@@ -5188,9 +6110,11 @@
       "CumCase":472,
       "ndays":7,
       "NewCase_Rel":0.0911016949,
+      "NewCase_PercentDiff":-0.4556962025,
       "population":3449299.0,
       "weekly_new_cases_per_ht":1.2466301124,
-      "weekly_pc_increase":9.1101694915
+      "weekly_pc_increase":9.1101694915,
+      "weekly_pc_change":-45.5696202532
     },
     {
       "ISO_3_CODE":"URY",
@@ -5199,9 +6123,11 @@
       "CumCase":517,
       "ndays":7,
       "NewCase_Rel":0.1063829787,
+      "NewCase_PercentDiff":0.2790697674,
       "population":3449299.0,
       "weekly_new_cases_per_ht":1.5945268879,
-      "weekly_pc_increase":10.6382978723
+      "weekly_pc_increase":10.6382978723,
+      "weekly_pc_change":27.9069767442
     },
     {
       "ISO_3_CODE":"URY",
@@ -5210,9 +6136,11 @@
       "CumCase":596,
       "ndays":7,
       "NewCase_Rel":0.1426174497,
+      "NewCase_PercentDiff":0.5454545455,
       "population":3449299.0,
       "weekly_new_cases_per_ht":2.4642688268,
-      "weekly_pc_increase":14.2617449664
+      "weekly_pc_increase":14.2617449664,
+      "weekly_pc_change":54.5454545455
     },
     {
       "ISO_3_CODE":"URY",
@@ -5221,9 +6149,11 @@
       "CumCase":652,
       "ndays":7,
       "NewCase_Rel":0.0705521472,
+      "NewCase_PercentDiff":-0.4588235294,
       "population":3449299.0,
       "weekly_new_cases_per_ht":1.3336043063,
-      "weekly_pc_increase":7.0552147239
+      "weekly_pc_increase":7.0552147239,
+      "weekly_pc_change":-45.8823529412
     },
     {
       "ISO_3_CODE":"URY",
@@ -5232,9 +6162,11 @@
       "CumCase":702,
       "ndays":7,
       "NewCase_Rel":0.0541310541,
+      "NewCase_PercentDiff":-0.1739130435,
       "population":3449299.0,
       "weekly_new_cases_per_ht":1.1016731226,
-      "weekly_pc_increase":5.4131054131
+      "weekly_pc_increase":5.4131054131,
+      "weekly_pc_change":-17.3913043478
     },
     {
       "ISO_3_CODE":"URY",
@@ -5243,9 +6175,11 @@
       "CumCase":734,
       "ndays":7,
       "NewCase_Rel":0.0286103542,
+      "NewCase_PercentDiff":-0.4473684211,
       "population":3449299.0,
       "weekly_new_cases_per_ht":0.6088193572,
-      "weekly_pc_increase":2.8610354223
+      "weekly_pc_increase":2.8610354223,
+      "weekly_pc_change":-44.7368421053
     },
     {
       "ISO_3_CODE":"URY",
@@ -5254,9 +6188,11 @@
       "CumCase":764,
       "ndays":7,
       "NewCase_Rel":0.082460733,
+      "NewCase_PercentDiff":2.0,
       "population":3449299.0,
       "weekly_new_cases_per_ht":1.8264580716,
-      "weekly_pc_increase":8.2460732984
+      "weekly_pc_increase":8.2460732984,
+      "weekly_pc_change":200.0
     },
     {
       "ISO_3_CODE":"URY",
@@ -5265,9 +6201,11 @@
       "CumCase":821,
       "ndays":7,
       "NewCase_Rel":0.0219244823,
+      "NewCase_PercentDiff":-0.7142857143,
       "population":3449299.0,
       "weekly_new_cases_per_ht":0.5218451633,
-      "weekly_pc_increase":2.1924482339
+      "weekly_pc_increase":2.1924482339,
+      "weekly_pc_change":-71.4285714286
     }
   ],
   "VEN":[
@@ -5278,9 +6216,11 @@
       "CumCase":113,
       "ndays":7,
       "NewCase_Rel":0.2743362832,
+      "NewCase_PercentDiff":null,
       "population":28870195.0,
       "weekly_new_cases_per_ht":0.1073771757,
-      "weekly_pc_increase":27.4336283186
+      "weekly_pc_increase":27.4336283186,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5289,9 +6229,11 @@
       "CumCase":144,
       "ndays":7,
       "NewCase_Rel":0.1875,
+      "NewCase_PercentDiff":-0.1290322581,
       "population":28870195.0,
       "weekly_new_cases_per_ht":0.0935220562,
-      "weekly_pc_increase":18.75
+      "weekly_pc_increase":18.75,
+      "weekly_pc_change":-12.9032258065
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5300,9 +6242,11 @@
       "CumCase":171,
       "ndays":7,
       "NewCase_Rel":0.1929824561,
+      "NewCase_PercentDiff":0.2222222222,
       "population":28870195.0,
       "weekly_new_cases_per_ht":0.1143047354,
-      "weekly_pc_increase":19.298245614
+      "weekly_pc_increase":19.298245614,
+      "weekly_pc_change":22.2222222222
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5311,9 +6255,11 @@
       "CumCase":228,
       "ndays":7,
       "NewCase_Rel":0.5,
+      "NewCase_PercentDiff":2.4545454545,
       "population":28870195.0,
       "weekly_new_cases_per_ht":0.3948709041,
-      "weekly_pc_increase":50.0
+      "weekly_pc_increase":50.0,
+      "weekly_pc_change":245.4545454545
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5322,9 +6268,11 @@
       "CumCase":323,
       "ndays":7,
       "NewCase_Rel":0.0835913313,
+      "NewCase_PercentDiff":-0.7631578947,
       "population":28870195.0,
       "weekly_new_cases_per_ht":0.0935220562,
-      "weekly_pc_increase":8.3591331269
+      "weekly_pc_increase":8.3591331269,
+      "weekly_pc_change":-76.3157894737
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5333,9 +6281,11 @@
       "CumCase":345,
       "ndays":7,
       "NewCase_Rel":0.1246376812,
+      "NewCase_PercentDiff":0.5925925926,
       "population":28870195.0,
       "weekly_new_cases_per_ht":0.148942534,
-      "weekly_pc_increase":12.4637681159
+      "weekly_pc_increase":12.4637681159,
+      "weekly_pc_change":59.2592592593
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5344,9 +6294,11 @@
       "CumCase":402,
       "ndays":7,
       "NewCase_Rel":0.2885572139,
+      "NewCase_PercentDiff":1.6976744186,
       "population":28870195.0,
       "weekly_new_cases_per_ht":0.4017984638,
-      "weekly_pc_increase":28.855721393
+      "weekly_pc_increase":28.855721393,
+      "weekly_pc_change":169.7674418605
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5355,9 +6307,11 @@
       "CumCase":541,
       "ndays":7,
       "NewCase_Rel":0.8133086876,
+      "NewCase_PercentDiff":2.7931034483,
       "population":28870195.0,
       "weekly_new_cases_per_ht":1.5240631385,
-      "weekly_pc_increase":81.3308687616
+      "weekly_pc_increase":81.3308687616,
+      "weekly_pc_change":279.3103448276
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5366,9 +6320,11 @@
       "CumCase":1010,
       "ndays":7,
       "NewCase_Rel":0.4217821782,
+      "NewCase_PercentDiff":-0.0318181818,
       "population":28870195.0,
       "weekly_new_cases_per_ht":1.4755702204,
-      "weekly_pc_increase":42.1782178218
+      "weekly_pc_increase":42.1782178218,
+      "weekly_pc_change":-3.1818181818
     },
     {
       "ISO_3_CODE":"VEN",
@@ -5377,9 +6333,11 @@
       "CumCase":1459,
       "ndays":7,
       "NewCase_Rel":0.5311857437,
+      "NewCase_PercentDiff":0.8192488263,
       "population":28870195.0,
       "weekly_new_cases_per_ht":2.6844293916,
-      "weekly_pc_increase":53.118574366
+      "weekly_pc_increase":53.118574366,
+      "weekly_pc_change":81.9248826291
     }
   ],
   "YEM":[
@@ -5390,9 +6348,11 @@
       "CumCase":132,
       "ndays":7,
       "NewCase_Rel":0.6818181818,
+      "NewCase_PercentDiff":null,
       "population":28498687.0,
       "weekly_new_cases_per_ht":0.3158040228,
-      "weekly_pc_increase":68.1818181818
+      "weekly_pc_increase":68.1818181818,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"YEM",
@@ -5401,9 +6361,11 @@
       "CumCase":226,
       "ndays":7,
       "NewCase_Rel":0.4336283186,
+      "NewCase_PercentDiff":0.0888888889,
       "population":28498687.0,
       "weekly_new_cases_per_ht":0.3438754915,
-      "weekly_pc_increase":43.3628318584
+      "weekly_pc_increase":43.3628318584,
+      "weekly_pc_change":8.8888888889
     },
     {
       "ISO_3_CODE":"YEM",
@@ -5412,9 +6374,11 @@
       "CumCase":327,
       "ndays":7,
       "NewCase_Rel":0.5259938838,
+      "NewCase_PercentDiff":0.7551020408,
       "population":28498687.0,
       "weekly_new_cases_per_ht":0.603536577,
-      "weekly_pc_increase":52.5993883792
+      "weekly_pc_increase":52.5993883792,
+      "weekly_pc_change":75.5102040816
     }
   ],
   "ZMB":[
@@ -5425,9 +6389,11 @@
       "CumCase":124,
       "ndays":7,
       "NewCase_Rel":1.0725806452,
+      "NewCase_PercentDiff":null,
       "population":17351822.0,
       "weekly_new_cases_per_ht":0.7664901127,
-      "weekly_pc_increase":107.2580645161
+      "weekly_pc_increase":107.2580645161,
+      "weekly_pc_change":null
     },
     {
       "ISO_3_CODE":"ZMB",
@@ -5436,9 +6402,11 @@
       "CumCase":267,
       "ndays":7,
       "NewCase_Rel":1.5992509363,
+      "NewCase_PercentDiff":2.2105263158,
       "population":17351822.0,
       "weekly_new_cases_per_ht":2.4608366776,
-      "weekly_pc_increase":159.925093633
+      "weekly_pc_increase":159.925093633,
+      "weekly_pc_change":221.0526315789
     },
     {
       "ISO_3_CODE":"ZMB",
@@ -5447,9 +6415,11 @@
       "CumCase":753,
       "ndays":7,
       "NewCase_Rel":0.3200531208,
+      "NewCase_PercentDiff":-0.4355971897,
       "population":17351822.0,
       "weekly_new_cases_per_ht":1.3889031365,
-      "weekly_pc_increase":32.005312085
+      "weekly_pc_increase":32.005312085,
+      "weekly_pc_change":-43.5597189696
     },
     {
       "ISO_3_CODE":"ZMB",
@@ -5458,9 +6428,11 @@
       "CumCase":920,
       "ndays":7,
       "NewCase_Rel":0.1489130435,
+      "NewCase_PercentDiff":-0.4315352697,
       "population":17351822.0,
       "weekly_new_cases_per_ht":0.7895424469,
-      "weekly_pc_increase":14.8913043478
+      "weekly_pc_increase":14.8913043478,
+      "weekly_pc_change":-43.153526971
     },
     {
       "ISO_3_CODE":"ZMB",
@@ -5469,9 +6441,11 @@
       "CumCase":1057,
       "ndays":7,
       "NewCase_Rel":0.091769158,
+      "NewCase_PercentDiff":-0.2919708029,
       "population":17351822.0,
       "weekly_new_cases_per_ht":0.5590191047,
-      "weekly_pc_increase":9.1769157994
+      "weekly_pc_increase":9.1769157994,
+      "weekly_pc_change":-29.197080292
     }
   ],
   "ZWE":[
@@ -5482,9 +6456,11 @@
       "CumCase":178,
       "ndays":7,
       "NewCase_Rel":0.5898876404,
+      "NewCase_PercentDiff":null,
       "population":14439018.0,
       "weekly_new_cases_per_ht":0.7271962678,
-      "weekly_pc_increase":58.9887640449
+      "weekly_pc_increase":58.9887640449,
+      "weekly_pc_change":null
     }
   ]
 }
