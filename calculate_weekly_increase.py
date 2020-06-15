@@ -31,6 +31,7 @@ def main():
     output_df=output_df[output_df['CumCase']>100]
     output_df=output_df.reset_index()
     output_df['NewCase_Rel']=output_df['NewCase']/output_df['CumCase']
+    output_df['NewCase_PercentDiff'] = output_df.groupby('ISO_3_CODE')['NewCase'].pct_change()
     
     # Read in pop
     df_pop=pd.read_excel(POPULATION_FILENAME,sheet_name='Data',header=1,skiprows=[0,1],usecols='B,BK').rename(
@@ -46,19 +47,28 @@ def main():
     # Get cases per hundred thousand
     output_df['weekly_new_cases_per_ht'] = output_df['NewCase'] / output_df['population'] * 1E5
     output_df['weekly_pc_increase'] = output_df['NewCase_Rel'] * 100
+    output_df['weekly_pc_change'] = output_df['NewCase_PercentDiff'] * 100
 
     # Show plots
     pd.plotting.register_matplotlib_converters()
-    for q in ['weekly_new_cases_per_ht', 'weekly_pc_increase']:
+    for q in ['weekly_new_cases_per_ht', 'weekly_pc_change']:
         fig,axs=plt.subplots(figsize=[15,10],nrows=8,ncols=8)
         fig.suptitle(q)
         ifig = 0
         for iso3, group in output_df.groupby('ISO_3_CODE'):
             axis = axs[ifig // 8][ifig % 8]
-            axis.plot(group['date_epicrv'], group[q])
+            if q == 'weekly_pc_change':
+                idx = group[q] > 0
+                axis.bar(x=group['date_epicrv'][idx], height=group[q][idx], color='r')
+                idx = group[q] < 0
+                axis.bar(x=group['date_epicrv'][idx], height=group[q][idx], color='b')
+                axis.set_ylim(-100, 100)
+                axis.axhline(y=0, c='k')
+            else:
+                axis.plot(group['date_epicrv'], group[q])
+                #axis.set_ylim(0, output_df[q].max())
             axis.set_title(iso3)
             axis.set_xticks([])
-            #axis.set_ylim(0, output_df[q].max())
             ifig += 1
     plt.show()
 
