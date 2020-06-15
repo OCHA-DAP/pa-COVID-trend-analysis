@@ -7,6 +7,8 @@ import datetime
 import os
 import yaml
 
+# NOT USED FOR NOW
+
 # filename for shapefile and WHO input dataset
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 WHO_COVID_FILENAME='WHO_data/Data_ WHO Coronavirus Covid-19 Cases and Deaths - WHO-COVID-19-global-data.csv'
@@ -92,8 +94,8 @@ def main():
     output_df = output_df.append({'iso3': 'PRK', 'date': datetime.datetime.today(), 'pc_growth_rate': 0.0 },
                                  ignore_index=True)
     # Save file
-    output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
-    output_df.groupby('iso3').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_rates.json', orient='index', indent=2)
+    # output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
+    # output_df.groupby('iso3').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_rates.json', orient='index', indent=2)
 
     plt.show()
 
