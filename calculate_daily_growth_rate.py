@@ -7,8 +7,6 @@ import datetime
 import os
 import yaml
 
-# NOT USED FOR NOW
-
 # filename for shapefile and WHO input dataset
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 WHO_COVID_FILENAME='WHO_data/Data_ WHO Coronavirus Covid-19 Cases and Deaths - WHO-COVID-19-global-data.csv'
@@ -16,8 +14,8 @@ FILENAME_SHP = 'ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
 # number of days to be selected for the analysis
 # use 15 days as reference with error bands from 7 and 30 days
 # additional uncertainity from comparison between fit and counts
- #TIME_RANGE={'mid': 15, 'min': 7, 'max': 30}
-TIME_RANGE={'mid': 30}
+TIME_RANGE={'mid': 15, 'min': 7, 'max': 30}
+# TIME_RANGE={'mid': 30}
 
 # Suppress warnings that come from the doubling time calc
 np.seterr(divide='ignore')
@@ -94,10 +92,9 @@ def main():
     output_df = output_df.append({'iso3': 'PRK', 'date': datetime.datetime.today(), 'pc_growth_rate': 0.0 },
                                  ignore_index=True)
     # Save file
-    # output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
-    # output_df.groupby('iso3').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_rates.json', orient='index', indent=2)
-
-    plt.show()
+    output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
+    output_df.groupby('iso3').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_doubling_rates.json', orient='index', indent=2)
+    output_df.to_excel('hrp_covid_doubling_rates.xlsx')
 
     world_boundaries=gpd.read_file('{}/{}'.format(DIR_PATH,FILENAME_SHP))
     output_df_geo=world_boundaries.merge(output_df.drop_duplicates(keep='first'),
