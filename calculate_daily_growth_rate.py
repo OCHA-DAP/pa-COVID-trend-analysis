@@ -37,8 +37,6 @@ def main():
     output_df=pd.DataFrame(columns=['iso3','date','pc_growth_rate','doubling_time'])
     # Loop over countries
     for ifig,iso3 in enumerate(HRP_iso3):
-        if iso3 is not 'HRP':
-            continue
         df_country = df_WHO[df_WHO['ISO_3_CODE'] == iso3].reset_index()
         axis = axs[ifig // 8][ifig % 8]
         # Loop over the dates
