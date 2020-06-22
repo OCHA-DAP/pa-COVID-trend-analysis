@@ -39,7 +39,7 @@ def main():
     for ifig,iso3 in enumerate(HRP_iso3):
         if iso3 is not 'HRP':
             continue
-        df_country = df_WHO[df_WHO['ISO_3_CODE'] == iso3]
+        df_country = df_WHO[df_WHO['ISO_3_CODE'] == iso3].reset_index()
         axis = axs[ifig // 8][ifig % 8]
         # Loop over the dates
         for iwindow, date in enumerate(df_country['date_epicrv'][::-1]):
@@ -60,16 +60,20 @@ def main():
                 growth_rate=np.exp(popt[1])-1
                 doubling_time_fit=np.log(2)/growth_rate
                 if time_type == 'mid':
-                    plot_mid_curve(axis,x,iwindow,time_range,df_date,func,popt,iso3)
+                    plot_mid_curve(axis,x,iwindow,df_date,func,popt,iso3)
+                    if iwindow == 0:
+                        plot_original_data(axis,df_country,iso3)
                 elif time_type in ['min', 'max']:
-                    plt_min_max_curves(axis,x,iwindow,time_range,func,popt,iso3)
+                    plt_min_max_curves(axis,x,iwindow,func,popt,iso3)
                 
                 # large plot for global
                 if iso3=='HRP':
                     if time_type == 'mid':
-                        plot_mid_curve(axs_HRP,x,iwindow,time_range,df_date,func,popt,iso3)
+                        plot_mid_curve(axs_HRP,x,iwindow,df_date,func,popt,iso3)
+                        if iwindow == 0:
+                            plot_original_data(axis,df_country,iso3)
                     elif time_type in ['min', 'max']:
-                        plt_min_max_curves(axs_HRP,x,iwindow,time_range,func,popt,iso3)
+                        plt_min_max_curves(axs_HRP,x,iwindow,func,popt,iso3)
                 # altertnative way of calculating doubling time form observations
                 # This is using the first and the last observations and not the exponentinal fit
                 initial_val=df_date['CumCase'].iloc[0]
@@ -105,25 +109,29 @@ def main():
     output_df_geo=world_boundaries.merge(output_df.drop_duplicates(keep='first'),
                                          left_on='ADM0_A3',right_on='iso3',how='left')
     # plotting map
-    print(output_df_geo)
+    # print(output_df_geo)
     fig_map, ax_map = plt.subplots(1, 1)
     output_df_geo.plot(column='pc_growth_rate',cmap='OrRd',ax=ax_map, legend=True)
     output_df_geo.boundary.plot(ax=ax_map,lw=0.5)
 
-    print(output_df)
+    # print(output_df)
     plt.show()
 
-def plot_mid_curve(axis,x,iwindow,time_range,df_date,func,popt,iso3):
-    # axis.plot(x.iloc[0]-iwindow, df_date['CumCase'].iloc[0], 'ko')
-    axis.plot(x - iwindow, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
+def plot_mid_curve(axis,x,iwindow,df_date,func,popt,iso3):
+    axis.plot(x.index[0], df_date['CumCase'].iloc[0], 'ko')
+    axis.plot(x.index, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
     if iwindow == 0:
-        axis.plot(x - iwindow, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
+        axis.plot(x.index, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
         axis.legend()
-    axis.set_xticks([])
+    # axis.set_xticks([])
 
-def plt_min_max_curves(axis,x,iwindow,time_range,func,popt,iso3):
-    print(time_range)
-    axis.plot(x - iwindow, func(x, *popt), 'y-', label=f"{iso3} - Fitted Curve", alpha=0.2)
+def plot_original_data(axis,df_country,iso3):
+    axis.plot(df_country.index, df_country['CumCase'], 'ko', label=f"{iso3} - Original Data")
+    axis.legend()
+
+def plt_min_max_curves(axis,x,iwindow,func,popt,iso3):
+    # print(x.index)
+    axis.plot(x.index, func(x, *popt), 'y-', label=f"{iso3} - Fitted Curve", alpha=0.2)
 
 def get_df_date(df_country, date, time_range):
     # TODO: fill in date gaps with repeated values
