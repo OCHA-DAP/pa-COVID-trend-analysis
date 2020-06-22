@@ -8,19 +8,23 @@ import geopandas as gpd
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 FILENAME_SHP = 'ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
 
-iso_codes=['H63','SDN','SSD']
+iso_codes=['H63','SDN','SSD','BRA','AFG','HTI','COD','PHL']
 
 output_df=pd.read_excel('hrp_covid_doubling_rates.xlsx')
 
-# world_boundaries=gpd.read_file('{}/{}'.format(DIR_PATH,FILENAME_SHP))
-# output_df_geo=world_boundaries.merge(output_df.drop_duplicates(keep='first'),
-#                                         left_on='ADM0_A3',right_on='iso3',how='left')
-# # plotting map
-# fig_map, ax_map = plt.subplots(figsize=[15,10],nrows=1,ncols=1)
-# output_df_geo.plot(column='pc_growth_rate',cmap='OrRd',ax=ax_map, legend=True)
-# output_df_geo.boundary.plot(ax=ax_map,lw=0.5)
+world_boundaries=gpd.read_file('{}/{}'.format(DIR_PATH,FILENAME_SHP))
+output_df_geo=world_boundaries.merge(output_df.drop_duplicates(keep='first'),
+                                        left_on='ADM0_A3',right_on='iso3',how='left')
+# plotting map
+_, ax_map_gr = plt.subplots(figsize=[15,10],nrows=1,ncols=1)
+output_df_geo.plot(column='pc_growth_rate',cmap='OrRd',ax=ax_map_gr, legend=True,legend_kwds={'label': "Daily Growth Rate",'orientation': "horizontal"})
+output_df_geo.boundary.plot(ax=ax_map_gr,lw=0.5)
 
-fig_gr, ax_gr = plt.subplots(figsize=[15,10],nrows=1,ncols=1)
+_, ax_map_dt = plt.subplots(figsize=[15,10],nrows=1,ncols=1)
+output_df_geo.plot(column='doubling_time',cmap='OrRd_r',scheme='quantiles',ax=ax_map_dt, legend=True)
+output_df_geo.boundary.plot(ax=ax_map_dt,lw=0.5)
+
+_, ax_gr = plt.subplots(figsize=[15,10],nrows=1,ncols=1)
 output_df=output_df[output_df['iso3'].isin(iso_codes)]
 output_df['date']=pd.to_datetime(output_df['date']).dt.date
 output_df.sort_values(by='date',ascending=True)

@@ -59,6 +59,8 @@ def main():
                 # calculate growth rate and doubling time
                 growth_rate=np.exp(popt[1])-1
                 doubling_time_fit=np.log(2)/growth_rate
+                if doubling_time_fit<0:
+                    continue
                 if time_type == 'mid':
                     plot_mid_curve(axis,x,iwindow,df_date,func,popt,iso3)
                     if iwindow == 0:
