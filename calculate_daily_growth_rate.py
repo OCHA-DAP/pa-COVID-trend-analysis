@@ -31,11 +31,14 @@ def main():
     # create canvas
     # TODO adjust rows and columns depending on the number of countries
     fig,axs=plt.subplots(figsize=[15,10],nrows=8,ncols=8)
+    fig_HRP,axs_HRP=plt.subplots(figsize=[15,10],nrows=1,ncols=1)
     # create output df
     # TODO do we need a dictionary for the columns names?
     output_df=pd.DataFrame(columns=['iso3','date','pc_growth_rate','doubling_time'])
     # Loop over countries
     for ifig,iso3 in enumerate(HRP_iso3):
+        if iso3 is not 'HRP':
+            continue
         df_country = df_WHO[df_WHO['ISO_3_CODE'] == iso3]
         axis = axs[ifig // 8][ifig % 8]
         # Loop over the dates
@@ -57,14 +60,16 @@ def main():
                 growth_rate=np.exp(popt[1])-1
                 doubling_time_fit=np.log(2)/growth_rate
                 if time_type == 'mid':
-                    axis.plot(x.iloc[0]-iwindow, df_date['CumCase'].iloc[0], 'ko')
-                    axis.plot(x-iwindow, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
-                    if iwindow == 0:
-                        axis.plot(x - iwindow, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
-                        axis.legend()
-                    axis.set_xticks([])
+                    plot_mid_curve(axis,x,iwindow,time_range,df_date,func,popt,iso3)
                 elif time_type in ['min', 'max']:
-                    axis.plot(x - iwindow, func(x, *popt), 'y-', label=f"{iso3} - Fitted Curve", alpha=0.2)
+                    plt_min_max_curves(axis,x,iwindow,time_range,func,popt,iso3)
+                
+                # large plot for global
+                if iso3=='HRP':
+                    if time_type == 'mid':
+                        plot_mid_curve(axs_HRP,x,iwindow,time_range,df_date,func,popt,iso3)
+                    elif time_type in ['min', 'max']:
+                        plt_min_max_curves(axs_HRP,x,iwindow,time_range,func,popt,iso3)
                 # altertnative way of calculating doubling time form observations
                 # This is using the first and the last observations and not the exponentinal fit
                 initial_val=df_date['CumCase'].iloc[0]
@@ -108,6 +113,17 @@ def main():
     print(output_df)
     plt.show()
 
+def plot_mid_curve(axis,x,iwindow,time_range,df_date,func,popt,iso3):
+    # axis.plot(x.iloc[0]-iwindow, df_date['CumCase'].iloc[0], 'ko')
+    axis.plot(x - iwindow, func(x, *popt), 'r-', label=f"{iso3} - Fitted Curve", alpha=0.2)
+    if iwindow == 0:
+        axis.plot(x - iwindow, df_date['CumCase'], 'ko', label=f"{iso3} - Original Data")
+        axis.legend()
+    axis.set_xticks([])
+
+def plt_min_max_curves(axis,x,iwindow,time_range,func,popt,iso3):
+    print(time_range)
+    axis.plot(x - iwindow, func(x, *popt), 'y-', label=f"{iso3} - Fitted Curve", alpha=0.2)
 
 def get_df_date(df_country, date, time_range):
     # TODO: fill in date gaps with repeated values
