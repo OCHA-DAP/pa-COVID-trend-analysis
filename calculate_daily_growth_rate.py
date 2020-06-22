@@ -26,7 +26,7 @@ def main():
     with open('countries/admins.yaml', 'r') as stream:
         country_list = yaml.safe_load(stream)['admin_info']
     HRP_iso3 = sorted(list(set([country.get('alpha_3', None) for country in country_list])))
-    # get WHO data and calculate sum as 'HRP'
+    # get WHO data and calculate sum as 'H63'
     df_WHO=get_WHO_data(HRP_iso3)
     # create canvas
     # TODO adjust rows and columns depending on the number of countries
@@ -38,6 +38,8 @@ def main():
     # Loop over countries
     for ifig,iso3 in enumerate(HRP_iso3):
         df_country = df_WHO[df_WHO['ISO_3_CODE'] == iso3].reset_index()
+        # not fitting when there are less than 100 cases
+        df_country=df_country[df_country['CumCase']>100]
         axis = axs[ifig // 8][ifig % 8]
         # Loop over the dates
         for iwindow, date in enumerate(df_country['date_epicrv'][::-1]):
@@ -65,7 +67,7 @@ def main():
                     plt_min_max_curves(axis,x,iwindow,func,popt,iso3)
                 
                 # large plot for global
-                if iso3=='HRP':
+                if iso3=='H63':
                     if time_type == 'mid':
                         plot_mid_curve(axs_HRP,x,iwindow,df_date,func,popt,iso3)
                         if iwindow == 0:
@@ -102,15 +104,6 @@ def main():
     output_df['date'] = output_df['date'].apply(lambda x: x.strftime('%Y-%m-%d'))
     output_df.groupby('iso3').apply(lambda x: x.to_dict('r')).to_json('hrp_covid_doubling_rates.json', orient='index', indent=2)
     output_df.to_excel('hrp_covid_doubling_rates.xlsx')
-
-    world_boundaries=gpd.read_file('{}/{}'.format(DIR_PATH,FILENAME_SHP))
-    output_df_geo=world_boundaries.merge(output_df.drop_duplicates(keep='first'),
-                                         left_on='ADM0_A3',right_on='iso3',how='left')
-    # plotting map
-    # print(output_df_geo)
-    fig_map, ax_map = plt.subplots(1, 1)
-    output_df_geo.plot(column='pc_growth_rate',cmap='OrRd',ax=ax_map, legend=True)
-    output_df_geo.boundary.plot(ax=ax_map,lw=0.5)
 
     # print(output_df)
     plt.show()
@@ -151,9 +144,9 @@ def get_WHO_data(HRP_iso3):
 
     # adding global by date
     df_all=df.groupby('date_epicrv').sum()
-    df_all['ISO_3_CODE']='HRP'
+    df_all['ISO_3_CODE']='H63'
     df_all=df_all.reset_index()
-    HRP_iso3.insert(0,'HRP')
+    HRP_iso3.insert(0,'H63')
     df=df.append(df_all)
     return df
 
