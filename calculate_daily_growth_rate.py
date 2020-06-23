@@ -58,7 +58,7 @@ def main():
                 # TODO check quality of the fit
                 # calculate growth rate and doubling time
                 growth_rate=np.exp(popt[1])-1
-                doubling_time_fit=np.log(2)/growth_rate
+                doubling_time_fit=np.log(2)/popt[1]
                 if doubling_time_fit<0:
                     continue
                 if time_type == 'mid':
@@ -134,8 +134,8 @@ def get_df_date(df_country, date, time_range):
     df = df[(df['day_fit'] > 0) & (df['day_fit'] <= time_range)]
     return df
 
-def func(x, p0, growth):
-    return p0 * np.exp(x*growth)
+def func(x, p0, beta):
+    return p0 * np.exp(x*beta)
 
 def get_WHO_data(HRP_iso3):
     df=pd.read_csv(f'{DIR_PATH}/{WHO_COVID_FILENAME}')
