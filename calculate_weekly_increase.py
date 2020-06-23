@@ -1,7 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
-import datetime
 import os
 import yaml
 
@@ -9,6 +7,8 @@ import yaml
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 WHO_COVID_FILENAME='WHO_data/Data_ WHO Coronavirus Covid-19 Cases and Deaths - WHO-COVID-19-global-data.csv'
 POPULATION_FILENAME='Population_data/API_SP.POP.TOTL_DS2_en_excel_v2_1121005.xls'
+
+MIN_CUMULATIVE_CASES = 100
 
 
 def main():
@@ -28,11 +28,15 @@ def main():
     output_df=pd.merge(left=new_cases_w,right=cumulative_w,left_index=True,right_index=True,how='inner')
     output_df=pd.merge(left=output_df,right=ndays_w,left_index=True,right_index=True,how='inner')
     output_df=output_df[output_df['ndays']==7]
-    output_df=output_df[output_df['CumCase']>100]
+    output_df=output_df[output_df['CumCase']>MIN_CUMULATIVE_CASES]
     output_df=output_df.reset_index()
     output_df['NewCase_Rel']=output_df['NewCase']/output_df['CumCase']
-    output_df['NewCase_PercentDiff'] = output_df.groupby('ISO_3_CODE')['NewCase'].pct_change()
-    
+    output_df['NewCase_PercentChange'] = output_df.groupby('ISO_3_CODE')['NewCase'].pct_change()
+    # For percent change, if the diff is actually 0, change nan to 0
+    output_df['diff'] = output_df.groupby('ISO_3_CODE')['NewCase'].diff()
+    output_df.loc[(output_df['NewCase_PercentChange'].isna()) & (output_df['diff']==0), 'NewCase_PercentChange'] = 0.0
+
+
     # Read in pop
     df_pop=pd.read_excel(POPULATION_FILENAME,sheet_name='Data',header=1,skiprows=[0,1],usecols='B,BK').rename(
         columns={'2018': 'population'})
@@ -47,7 +51,7 @@ def main():
     # Get cases per hundred thousand
     output_df['weekly_new_cases_per_ht'] = output_df['NewCase'] / output_df['population'] * 1E5
     output_df['weekly_pc_increase'] = output_df['NewCase_Rel'] * 100
-    output_df['weekly_pc_change'] = output_df['NewCase_PercentDiff'] * 100
+    output_df['weekly_pc_change'] = output_df['NewCase_PercentChange'] * 100
 
     # Show plots
     pd.plotting.register_matplotlib_converters()
@@ -74,7 +78,7 @@ def main():
 
     # Save as JSON
     output_df['date_epicrv'] = output_df['date_epicrv'].apply(lambda x: x.strftime('%Y-%m-%d'))
-    output_df = output_df.drop(['NewCase_Rel', 'NewCase_PercentDiff', 'weekly_pc_increase', 'ndays'], axis=1)
+    output_df = output_df.drop(['NewCase_Rel', 'NewCase_PercentChange', 'weekly_pc_increase', 'ndays', 'diff'], axis=1)
     output_df.groupby('ISO_3_CODE').apply(lambda x: x.to_dict('r')).to_json(
         'hrp_covid_weekly_trend.json', orient='index', indent=2)
 
