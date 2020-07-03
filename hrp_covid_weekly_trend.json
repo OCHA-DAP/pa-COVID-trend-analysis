@@ -53,6 +53,15 @@
       "population":105845.0,
       "weekly_new_cases_per_ht":0.0,
       "weekly_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"ABW",
+      "date_epicrv":"2020-06-28",
+      "NewCase":0,
+      "CumCase":101,
+      "population":105845.0,
+      "weekly_new_cases_per_ht":0.0,
+      "weekly_pc_change":0.0
     }
   ],
   "AFG":[
@@ -163,6 +172,15 @@
       "population":37172386.0,
       "weekly_new_cases_per_ht":10.9409172712,
       "weekly_pc_change":-8.0696202532
+    },
+    {
+      "ISO_3_CODE":"AFG",
+      "date_epicrv":"2020-06-28",
+      "NewCase":2134,
+      "CumCase":29143,
+      "population":37172386.0,
+      "weekly_new_cases_per_ht":5.7408206188,
+      "weekly_pc_change":-47.5288910745
     }
   ],
   "AGO":[
@@ -174,6 +192,15 @@
       "population":30809762.0,
       "weekly_new_cases_per_ht":0.1103546337,
       "weekly_pc_change":null
+    },
+    {
+      "ISO_3_CODE":"AGO",
+      "date_epicrv":"2020-06-28",
+      "NewCase":87,
+      "CumCase":176,
+      "population":30809762.0,
+      "weekly_new_cases_per_ht":0.2823780333,
+      "weekly_pc_change":155.8823529412
     }
   ],
   "ARG":[
@@ -293,6 +320,26 @@
       "population":44494502.0,
       "weekly_new_cases_per_ht":24.2861466345,
       "weekly_pc_change":39.8472887278
+    },
+    {
+      "ISO_3_CODE":"ARG",
+      "date_epicrv":"2020-06-28",
+      "NewCase":15773,
+      "CumCase":41204,
+      "population":44494502.0,
+      "weekly_new_cases_per_ht":35.4493236041,
+      "weekly_pc_change":45.965204516
+    }
+  ],
+  "BDI":[
+    {
+      "ISO_3_CODE":"BDI",
+      "date_epicrv":"2020-06-28",
+      "NewCase":0,
+      "CumCase":144,
+      "population":11175378.0,
+      "weekly_new_cases_per_ht":0.0,
+      "weekly_pc_change":null
     }
   ],
   "BEN":[
@@ -349,6 +396,15 @@
       "population":11485048.0,
       "weekly_new_cases_per_ht":2.0722595152,
       "weekly_pc_change":65.2777777778
+    },
+    {
+      "ISO_3_CODE":"BEN",
+      "date_epicrv":"2020-06-28",
+      "NewCase":474,
+      "CumCase":765,
+      "population":11485048.0,
+      "weekly_new_cases_per_ht":4.1271050848,
+      "weekly_pc_change":99.1596638655
     }
   ],
   "BFA":[
@@ -459,6 +515,15 @@
       "population":19751535.0,
       "weekly_new_cases_per_ht":0.0455660788,
       "weekly_pc_change":125.0
+    },
+    {
+      "ISO_3_CODE":"BFA",
+      "date_epicrv":"2020-06-28",
+      "NewCase":53,
+      "CumCase":901,
+      "population":19751535.0,
+      "weekly_new_cases_per_ht":0.2683335751,
+      "weekly_pc_change":488.8888888889
     }
   ],
   "BGD":[
@@ -560,6 +625,15 @@
       "population":161356039.0,
       "weekly_new_cases_per_ht":15.1193597409,
       "weekly_pc_change":14.2509249286
+    },
+    {
+      "ISO_3_CODE":"BGD",
+      "date_epicrv":"2020-06-28",
+      "NewCase":25203,
+      "CumCase":112306,
+      "population":161356039.0,
+      "weekly_new_cases_per_ht":15.6194959644,
+      "weekly_pc_change":3.307919331
     }
   ],
   "BOL":[
@@ -661,6 +735,15 @@
       "population":11353142.0,
       "weekly_new_cases_per_ht":48.8587212245,
       "weekly_pc_change":32.0399904785
+    },
+    {
+      "ISO_3_CODE":"BOL",
+      "date_epicrv":"2020-06-28",
+      "NewCase":6947,
+      "CumCase":23512,
+      "population":11353142.0,
+      "weekly_new_cases_per_ht":61.1901093107,
+      "weekly_pc_change":25.2388678565
     }
   ],
   "BRA":[
@@ -789,6 +872,15 @@
       "population":209469333.0,
       "weekly_new_cases_per_ht":97.4381295232,
       "weekly_pc_change":11.507930004
+    },
+    {
+      "ISO_3_CODE":"BRA",
+      "date_epicrv":"2020-06-28",
+      "NewCase":242061,
+      "CumCase":1067579,
+      "population":209469333.0,
+      "weekly_new_cases_per_ht":115.5591592016,
+      "weekly_pc_change":18.5974728446
     }
   ],
   "CAF":[
@@ -845,6 +937,15 @@
       "population":4666377.0,
       "weekly_new_cases_per_ht":16.0938561115,
       "weekly_pc_change":54.2094455852
+    },
+    {
+      "ISO_3_CODE":"CAF",
+      "date_epicrv":"2020-06-28",
+      "NewCase":532,
+      "CumCase":2808,
+      "population":4666377.0,
+      "weekly_new_cases_per_ht":11.4007076582,
+      "weekly_pc_change":-29.1611185087
     }
   ],
   "CHL":[
@@ -964,6 +1065,15 @@
       "population":18729160.0,
       "weekly_new_cases_per_ht":370.5078070773,
       "weekly_pc_change":75.1906084322
+    },
+    {
+      "ISO_3_CODE":"CHL",
+      "date_epicrv":"2020-06-28",
+      "NewCase":31018,
+      "CumCase":242355,
+      "population":18729160.0,
+      "weekly_new_cases_per_ht":165.6134071149,
+      "weekly_pc_change":-55.3009669563
     }
   ],
   "CMR":[
@@ -1074,6 +1184,15 @@
       "population":25216237.0,
       "weekly_new_cases_per_ht":7.514999165,
       "weekly_pc_change":65.6468531469
+    },
+    {
+      "ISO_3_CODE":"CMR",
+      "date_epicrv":"2020-06-28",
+      "NewCase":1954,
+      "CumCase":11281,
+      "population":25216237.0,
+      "weekly_new_cases_per_ht":7.7489753923,
+      "weekly_pc_change":3.1134564644
     }
   ],
   "COD":[
@@ -1175,6 +1294,15 @@
       "population":84068091.0,
       "weekly_new_cases_per_ht":1.1276573415,
       "weekly_pc_change":12.0567375887
+    },
+    {
+      "ISO_3_CODE":"COD",
+      "date_epicrv":"2020-06-28",
+      "NewCase":1018,
+      "CumCase":5825,
+      "population":84068091.0,
+      "weekly_new_cases_per_ht":1.2109231789,
+      "weekly_pc_change":7.3839662447
     }
   ],
   "COG":[
@@ -1258,6 +1386,15 @@
       "population":5244363.0,
       "weekly_new_cases_per_ht":1.983081644,
       "weekly_pc_change":-17.4603174603
+    },
+    {
+      "ISO_3_CODE":"COG",
+      "date_epicrv":"2020-06-28",
+      "NewCase":362,
+      "CumCase":883,
+      "population":5244363.0,
+      "weekly_new_cases_per_ht":6.9026495687,
+      "weekly_pc_change":248.0769230769
     }
   ],
   "COL":[
@@ -1377,6 +1514,15 @@
       "population":49648685.0,
       "weekly_new_cases_per_ht":33.0683481345,
       "weekly_pc_change":60.5986501027
+    },
+    {
+      "ISO_3_CODE":"COL",
+      "date_epicrv":"2020-06-28",
+      "NewCase":21166,
+      "CumCase":65633,
+      "population":49648685.0,
+      "weekly_new_cases_per_ht":42.6315420036,
+      "weekly_pc_change":28.919478621
     }
   ],
   "CRI":[
@@ -1496,6 +1642,15 @@
       "population":4999441.0,
       "weekly_new_cases_per_ht":8.9209973675,
       "weekly_pc_change":27.7936962751
+    },
+    {
+      "ISO_3_CODE":"CRI",
+      "date_epicrv":"2020-06-28",
+      "NewCase":778,
+      "CumCase":2127,
+      "population":4999441.0,
+      "weekly_new_cases_per_ht":15.5617398025,
+      "weekly_pc_change":74.4394618834
     }
   ],
   "DJI":[
@@ -1588,6 +1743,15 @@
       "population":958920.0,
       "weekly_new_cases_per_ht":12.0969423935,
       "weekly_pc_change":-58.5714285714
+    },
+    {
+      "ISO_3_CODE":"DJI",
+      "date_epicrv":"2020-06-28",
+      "NewCase":78,
+      "CumCase":4582,
+      "population":958920.0,
+      "weekly_new_cases_per_ht":8.1341509198,
+      "weekly_pc_change":-32.7586206897
     }
   ],
   "DOM":[
@@ -1698,6 +1862,15 @@
       "population":10627165.0,
       "weekly_new_cases_per_ht":30.1679704794,
       "weekly_pc_change":-5.0636659757
+    },
+    {
+      "ISO_3_CODE":"DOM",
+      "date_epicrv":"2020-06-28",
+      "NewCase":4841,
+      "CumCase":26677,
+      "population":10627165.0,
+      "weekly_new_cases_per_ht":45.5530708331,
+      "weekly_pc_change":50.998128509
     }
   ],
   "ECU":[
@@ -1817,6 +1990,15 @@
       "population":17084357.0,
       "weekly_new_cases_per_ht":22.4006089313,
       "weekly_pc_change":5.4851157663
+    },
+    {
+      "ISO_3_CODE":"ECU",
+      "date_epicrv":"2020-06-28",
+      "NewCase":4391,
+      "CumCase":50640,
+      "population":17084357.0,
+      "weekly_new_cases_per_ht":25.7018745277,
+      "weekly_pc_change":14.7373922132
     }
   ],
   "EGY":[
@@ -1945,6 +2127,15 @@
       "population":98423595.0,
       "weekly_new_cases_per_ht":10.9506262193,
       "weekly_pc_change":3.9544753086
+    },
+    {
+      "ISO_3_CODE":"EGY",
+      "date_epicrv":"2020-06-28",
+      "NewCase":10165,
+      "CumCase":55233,
+      "population":98423595.0,
+      "weekly_new_cases_per_ht":10.327808083,
+      "weekly_pc_change":-5.6875115977
     }
   ],
   "ETH":[
@@ -2028,6 +2219,15 @@
       "population":109224559.0,
       "weekly_new_cases_per_ht":1.1929551485,
       "weekly_pc_change":5.762987013
+    },
+    {
+      "ISO_3_CODE":"ETH",
+      "date_epicrv":"2020-06-28",
+      "NewCase":1101,
+      "CumCase":4532,
+      "population":109224559.0,
+      "weekly_new_cases_per_ht":1.0080150564,
+      "weekly_pc_change":-15.502686109
     }
   ],
   "GUY":[
@@ -2075,6 +2275,15 @@
       "population":779004.0,
       "weekly_new_cases_per_ht":3.0808570944,
       "weekly_pc_change":300.0
+    },
+    {
+      "ISO_3_CODE":"GUY",
+      "date_epicrv":"2020-06-28",
+      "NewCase":47,
+      "CumCase":183,
+      "population":779004.0,
+      "weekly_new_cases_per_ht":6.0333451433,
+      "weekly_pc_change":95.8333333333
     }
   ],
   "H63":[
@@ -2221,6 +2430,15 @@
       "population":2464947274.0,
       "weekly_new_cases_per_ht":21.0101451444,
       "weekly_pc_change":15.7161977071
+    },
+    {
+      "ISO_3_CODE":"H63",
+      "date_epicrv":"2020-06-28",
+      "NewCase":528899,
+      "CumCase":2938391,
+      "population":2464947274.0,
+      "weekly_new_cases_per_ht":21.4568078425,
+      "weekly_pc_change":2.1259381837
     }
   ],
   "HTI":[
@@ -2277,6 +2495,15 @@
       "population":11123176.0,
       "weekly_new_cases_per_ht":9.3408573235,
       "weekly_pc_change":2.1632251721
+    },
+    {
+      "ISO_3_CODE":"HTI",
+      "date_epicrv":"2020-06-28",
+      "NewCase":742,
+      "CumCase":5077,
+      "population":11123176.0,
+      "weekly_new_cases_per_ht":6.6707566256,
+      "weekly_pc_change":-28.5851780558
     }
   ],
   "IRN":[
@@ -2423,6 +2650,15 @@
       "population":81800269.0,
       "weekly_new_cases_per_ht":21.5512738717,
       "weekly_pc_change":13.5157759176
+    },
+    {
+      "ISO_3_CODE":"IRN",
+      "date_epicrv":"2020-06-28",
+      "NewCase":17596,
+      "CumCase":204952,
+      "population":81800269.0,
+      "weekly_new_cases_per_ht":21.5109317061,
+      "weekly_pc_change":-0.1871915594
     }
   ],
   "IRQ":[
@@ -2551,6 +2787,15 @@
       "population":38433600.0,
       "weekly_new_cases_per_ht":26.7266142126,
       "weekly_pc_change":30.8201732043
+    },
+    {
+      "ISO_3_CODE":"IRQ",
+      "date_epicrv":"2020-06-28",
+      "NewCase":14040,
+      "CumCase":30868,
+      "population":38433600.0,
+      "weekly_new_cases_per_ht":36.5305357812,
+      "weekly_pc_change":36.6822429907
     }
   ],
   "JOR":[
@@ -2670,6 +2915,15 @@
       "population":9956011.0,
       "weekly_new_cases_per_ht":0.6227393682,
       "weekly_pc_change":-60.7594936709
+    },
+    {
+      "ISO_3_CODE":"JOR",
+      "date_epicrv":"2020-06-28",
+      "NewCase":96,
+      "CumCase":1033,
+      "population":9956011.0,
+      "weekly_new_cases_per_ht":0.9642416024,
+      "weekly_pc_change":54.8387096774
     }
   ],
   "KEN":[
@@ -2771,6 +3025,15 @@
       "population":51393010.0,
       "weekly_new_cases_per_ht":1.9866514921,
       "weekly_pc_change":19.1365227538
+    },
+    {
+      "ISO_3_CODE":"KEN",
+      "date_epicrv":"2020-06-28",
+      "NewCase":1333,
+      "CumCase":4738,
+      "population":51393010.0,
+      "weekly_new_cases_per_ht":2.5937379422,
+      "weekly_pc_change":30.5582761998
     }
   ],
   "LBN":[
@@ -2890,6 +3153,15 @@
       "population":6848925.0,
       "weekly_new_cases_per_ht":1.3724781626,
       "weekly_pc_change":-22.9508196721
+    },
+    {
+      "ISO_3_CODE":"LBN",
+      "date_epicrv":"2020-06-28",
+      "NewCase":183,
+      "CumCase":1587,
+      "population":6848925.0,
+      "weekly_new_cases_per_ht":2.6719521677,
+      "weekly_pc_change":94.6808510638
     }
   ],
   "LBR":[
@@ -2964,6 +3236,15 @@
       "population":4818977.0,
       "weekly_new_cases_per_ht":3.2164502964,
       "weekly_pc_change":53.4653465347
+    },
+    {
+      "ISO_3_CODE":"LBR",
+      "date_epicrv":"2020-06-28",
+      "NewCase":83,
+      "CumCase":626,
+      "population":4818977.0,
+      "weekly_new_cases_per_ht":1.7223572555,
+      "weekly_pc_change":-46.4516129032
     }
   ],
   "LBY":[
@@ -2993,6 +3274,15 @@
       "population":6678567.0,
       "weekly_new_cases_per_ht":1.8866322671,
       "weekly_pc_change":-22.2222222222
+    },
+    {
+      "ISO_3_CODE":"LBY",
+      "date_epicrv":"2020-06-28",
+      "NewCase":183,
+      "CumCase":571,
+      "population":6678567.0,
+      "weekly_new_cases_per_ht":2.7401087688,
+      "weekly_pc_change":45.2380952381
     }
   ],
   "MEX":[
@@ -3112,6 +3402,15 @@
       "population":126190788.0,
       "weekly_new_cases_per_ht":24.7949953367,
       "weekly_pc_change":7.26431265
+    },
+    {
+      "ISO_3_CODE":"MEX",
+      "date_epicrv":"2020-06-28",
+      "NewCase":37907,
+      "CumCase":175202,
+      "population":126190788.0,
+      "weekly_new_cases_per_ht":30.0394352082,
+      "weekly_pc_change":21.1512032983
     }
   ],
   "MLI":[
@@ -3195,6 +3494,15 @@
       "population":19077690.0,
       "weekly_new_cases_per_ht":0.822950787,
       "weekly_pc_change":-37.9446640316
+    },
+    {
+      "ISO_3_CODE":"MLI",
+      "date_epicrv":"2020-06-28",
+      "NewCase":127,
+      "CumCase":1961,
+      "population":19077690.0,
+      "weekly_new_cases_per_ht":0.6656990443,
+      "weekly_pc_change":-19.1082802548
     }
   ],
   "MMR":[
@@ -3278,6 +3586,15 @@
       "population":53708395.0,
       "weekly_new_cases_per_ht":0.046547658,
       "weekly_pc_change":19.0476190476
+    },
+    {
+      "ISO_3_CODE":"MMR",
+      "date_epicrv":"2020-06-28",
+      "NewCase":10,
+      "CumCase":290,
+      "population":53708395.0,
+      "weekly_new_cases_per_ht":0.0186190632,
+      "weekly_pc_change":-60.0
     }
   ],
   "MOZ":[
@@ -3325,6 +3642,15 @@
       "population":29495962.0,
       "weekly_new_cases_per_ht":0.4576897678,
       "weekly_pc_change":-6.25
+    },
+    {
+      "ISO_3_CODE":"MOZ",
+      "date_epicrv":"2020-06-28",
+      "NewCase":151,
+      "CumCase":733,
+      "population":29495962.0,
+      "weekly_new_cases_per_ht":0.5119344811,
+      "weekly_pc_change":11.8518518519
     }
   ],
   "NER":[
@@ -3426,6 +3752,15 @@
       "population":22442948.0,
       "weekly_new_cases_per_ht":0.2539773295,
       "weekly_pc_change":612.5
+    },
+    {
+      "ISO_3_CODE":"NER",
+      "date_epicrv":"2020-06-28",
+      "NewCase":24,
+      "CumCase":1036,
+      "population":22442948.0,
+      "weekly_new_cases_per_ht":0.106937823,
+      "weekly_pc_change":-57.8947368421
     }
   ],
   "NGA":[
@@ -3527,6 +3862,15 @@
       "population":195874740.0,
       "weekly_new_cases_per_ht":2.3622239396,
       "weekly_pc_change":56.9538670285
+    },
+    {
+      "ISO_3_CODE":"NGA",
+      "date_epicrv":"2020-06-28",
+      "NewCase":4269,
+      "CumCase":20244,
+      "population":195874740.0,
+      "weekly_new_cases_per_ht":2.1794540736,
+      "weekly_pc_change":-7.7371947266
     }
   ],
   "PAK":[
@@ -3646,6 +3990,15 @@
       "population":212215030.0,
       "weekly_new_cases_per_ht":17.617508053,
       "weekly_pc_change":-7.1983518257
+    },
+    {
+      "ISO_3_CODE":"PAK",
+      "date_epicrv":"2020-06-28",
+      "NewCase":26338,
+      "CumCase":181088,
+      "population":212215030.0,
+      "weekly_new_cases_per_ht":12.4109965256,
+      "weekly_pc_change":-29.5530532003
     }
   ],
   "PAN":[
@@ -3765,6 +4118,15 @@
       "population":4176873.0,
       "weekly_new_cases_per_ht":121.2150812342,
       "weekly_pc_change":35.0853788687
+    },
+    {
+      "ISO_3_CODE":"PAN",
+      "date_epicrv":"2020-06-28",
+      "NewCase":5631,
+      "CumCase":25222,
+      "population":4176873.0,
+      "weekly_new_cases_per_ht":134.8137709717,
+      "weekly_pc_change":11.2186450721
     }
   ],
   "PER":[
@@ -3884,6 +4246,15 @@
       "population":31989256.0,
       "weekly_new_cases_per_ht":84.9535231454,
       "weekly_pc_change":-18.5103001589
+    },
+    {
+      "ISO_3_CODE":"PER",
+      "date_epicrv":"2020-06-28",
+      "NewCase":24439,
+      "CumCase":251338,
+      "population":31989256.0,
+      "weekly_new_cases_per_ht":76.3975254692,
+      "weekly_pc_change":-10.0713865175
     }
   ],
   "PHL":[
@@ -4012,6 +4383,15 @@
       "population":106651922.0,
       "weekly_new_cases_per_ht":3.7580194757,
       "weekly_pc_change":-1.0858835143
+    },
+    {
+      "ISO_3_CODE":"PHL",
+      "date_epicrv":"2020-06-28",
+      "NewCase":5403,
+      "CumCase":30052,
+      "population":106651922.0,
+      "weekly_new_cases_per_ht":5.0660127813,
+      "weekly_pc_change":34.8053892216
     }
   ],
   "PRY":[
@@ -4113,6 +4493,15 @@
       "population":6956071.0,
       "weekly_new_cases_per_ht":1.4519690785,
       "weekly_pc_change":-40.9356725146
+    },
+    {
+      "ISO_3_CODE":"PRY",
+      "date_epicrv":"2020-06-28",
+      "NewCase":349,
+      "CumCase":1379,
+      "population":6956071.0,
+      "weekly_new_cases_per_ht":5.0172000832,
+      "weekly_pc_change":245.5445544554
     }
   ],
   "PSE":[
@@ -4223,6 +4612,15 @@
       "population":4569087.0,
       "weekly_new_cases_per_ht":6.6971804214,
       "weekly_pc_change":920.0
+    },
+    {
+      "ISO_3_CODE":"PSE",
+      "date_epicrv":"2020-06-28",
+      "NewCase":1074,
+      "CumCase":1028,
+      "population":4569087.0,
+      "weekly_new_cases_per_ht":23.5057901064,
+      "weekly_pc_change":250.9803921569
     }
   ],
   "RWA":[
@@ -4324,6 +4722,15 @@
       "population":12301939.0,
       "weekly_new_cases_per_ht":1.3087367772,
       "weekly_pc_change":46.3636363636
+    },
+    {
+      "ISO_3_CODE":"RWA",
+      "date_epicrv":"2020-06-28",
+      "NewCase":176,
+      "CumCase":728,
+      "population":12301939.0,
+      "weekly_new_cases_per_ht":1.4306687751,
+      "weekly_pc_change":9.3167701863
     }
   ],
   "SDN":[
@@ -4398,6 +4805,15 @@
       "population":41801533.0,
       "weekly_new_cases_per_ht":3.7630198873,
       "weekly_pc_change":69.8704103672
+    },
+    {
+      "ISO_3_CODE":"SDN",
+      "date_epicrv":"2020-06-28",
+      "NewCase":678,
+      "CumCase":8580,
+      "population":41801533.0,
+      "weekly_new_cases_per_ht":1.6219500849,
+      "weekly_pc_change":-56.8976478067
     }
   ],
   "SLE":[
@@ -4463,6 +4879,15 @@
       "population":7650154.0,
       "weekly_new_cases_per_ht":2.3136789142,
       "weekly_pc_change":-4.8387096774
+    },
+    {
+      "ISO_3_CODE":"SLE",
+      "date_epicrv":"2020-06-28",
+      "NewCase":101,
+      "CumCase":1327,
+      "population":7650154.0,
+      "weekly_new_cases_per_ht":1.3202348606,
+      "weekly_pc_change":-42.9378531073
     }
   ],
   "SOM":[
@@ -4546,6 +4971,15 @@
       "population":15008154.0,
       "weekly_new_cases_per_ht":1.1726958559,
       "weekly_pc_change":-39.3103448276
+    },
+    {
+      "ISO_3_CODE":"SOM",
+      "date_epicrv":"2020-06-28",
+      "NewCase":123,
+      "CumCase":2779,
+      "population":15008154.0,
+      "weekly_new_cases_per_ht":0.8195544902,
+      "weekly_pc_change":-30.1136363636
     }
   ],
   "SSD":[
@@ -4602,6 +5036,15 @@
       "population":10975920.0,
       "weekly_new_cases_per_ht":1.639953644,
       "weekly_pc_change":-50.9536784741
+    },
+    {
+      "ISO_3_CODE":"SSD",
+      "date_epicrv":"2020-06-28",
+      "NewCase":94,
+      "CumCase":1882,
+      "population":10975920.0,
+      "weekly_new_cases_per_ht":0.8564202363,
+      "weekly_pc_change":-47.7777777778
     }
   ],
   "SYR":[
@@ -4631,6 +5074,15 @@
       "population":16906283.0,
       "weekly_new_cases_per_ht":0.1656189004,
       "weekly_pc_change":-37.7777777778
+    },
+    {
+      "ISO_3_CODE":"SYR",
+      "date_epicrv":"2020-06-28",
+      "NewCase":58,
+      "CumCase":204,
+      "population":16906283.0,
+      "weekly_new_cases_per_ht":0.3430677222,
+      "weekly_pc_change":107.1428571429
     }
   ],
   "TCD":[
@@ -4696,6 +5148,15 @@
       "population":15477751.0,
       "weekly_new_cases_per_ht":0.0646088699,
       "weekly_pc_change":-16.6666666667
+    },
+    {
+      "ISO_3_CODE":"TCD",
+      "date_epicrv":"2020-06-28",
+      "NewCase":7,
+      "CumCase":858,
+      "population":15477751.0,
+      "weekly_new_cases_per_ht":0.0452262089,
+      "weekly_pc_change":-30.0
     }
   ],
   "TGO":[
@@ -4761,6 +5222,15 @@
       "population":7889094.0,
       "weekly_new_cases_per_ht":0.4563261637,
       "weekly_pc_change":-5.2631578947
+    },
+    {
+      "ISO_3_CODE":"TGO",
+      "date_epicrv":"2020-06-28",
+      "NewCase":54,
+      "CumCase":569,
+      "population":7889094.0,
+      "weekly_new_cases_per_ht":0.6844892455,
+      "weekly_pc_change":50.0
     }
   ],
   "TTO":[
@@ -4862,6 +5332,15 @@
       "population":1389858.0,
       "weekly_new_cases_per_ht":0.4316987779,
       "weekly_pc_change":null
+    },
+    {
+      "ISO_3_CODE":"TTO",
+      "date_epicrv":"2020-06-28",
+      "NewCase":1,
+      "CumCase":123,
+      "population":1389858.0,
+      "weekly_new_cases_per_ht":0.0719497963,
+      "weekly_pc_change":-83.3333333333
     }
   ],
   "TUR":[
@@ -4981,6 +5460,15 @@
       "population":82319724.0,
       "weekly_new_cases_per_ht":11.92423823,
       "weekly_pc_change":31.5994101086
+    },
+    {
+      "ISO_3_CODE":"TUR",
+      "date_epicrv":"2020-06-28",
+      "NewCase":9390,
+      "CumCase":187685,
+      "population":82319724.0,
+      "weekly_new_cases_per_ht":11.4067437835,
+      "weekly_pc_change":-4.3398533007
     }
   ],
   "TZA":[
@@ -5064,6 +5552,15 @@
       "population":56318348.0,
       "weekly_new_cases_per_ht":0.0,
       "weekly_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"TZA",
+      "date_epicrv":"2020-06-28",
+      "NewCase":0,
+      "CumCase":509,
+      "population":56318348.0,
+      "weekly_new_cases_per_ht":0.0,
+      "weekly_pc_change":0.0
     }
   ],
   "UGA":[
@@ -5120,6 +5617,15 @@
       "population":42723139.0,
       "weekly_new_cases_per_ht":0.0,
       "weekly_pc_change":-100.0
+    },
+    {
+      "ISO_3_CODE":"UGA",
+      "date_epicrv":"2020-06-28",
+      "NewCase":10,
+      "CumCase":755,
+      "population":42723139.0,
+      "weekly_new_cases_per_ht":0.0234065198,
+      "weekly_pc_change":null
     }
   ],
   "UKR":[
@@ -5230,6 +5736,15 @@
       "population":44622516.0,
       "weekly_new_cases_per_ht":12.1149600798,
       "weekly_pc_change":30.1083032491
+    },
+    {
+      "ISO_3_CODE":"UKR",
+      "date_epicrv":"2020-06-28",
+      "NewCase":6422,
+      "CumCase":37241,
+      "population":44622516.0,
+      "weekly_new_cases_per_ht":14.3918375199,
+      "weekly_pc_change":18.7939326674
     }
   ],
   "URY":[
@@ -5349,6 +5864,15 @@
       "population":3449299.0,
       "weekly_new_cases_per_ht":0.1739483878,
       "weekly_pc_change":-53.8461538462
+    },
+    {
+      "ISO_3_CODE":"URY",
+      "date_epicrv":"2020-06-28",
+      "NewCase":66,
+      "CumCase":859,
+      "population":3449299.0,
+      "weekly_new_cases_per_ht":1.9134322655,
+      "weekly_pc_change":1000.0
     }
   ],
   "VEN":[
@@ -5459,6 +5983,15 @@
       "population":28870195.0,
       "weekly_new_cases_per_ht":2.4662112604,
       "weekly_pc_change":-2.9972752044
+    },
+    {
+      "ISO_3_CODE":"VEN",
+      "date_epicrv":"2020-06-28",
+      "NewCase":1188,
+      "CumCase":3790,
+      "population":28870195.0,
+      "weekly_new_cases_per_ht":4.1149704739,
+      "weekly_pc_change":66.8539325843
     }
   ],
   "YEM":[
@@ -5506,6 +6039,15 @@
       "population":28498687.0,
       "weekly_new_cases_per_ht":0.7614385884,
       "weekly_pc_change":-2.6905829596
+    },
+    {
+      "ISO_3_CODE":"YEM",
+      "date_epicrv":"2020-06-28",
+      "NewCase":181,
+      "CumCase":945,
+      "population":28498687.0,
+      "weekly_new_cases_per_ht":0.6351169792,
+      "weekly_pc_change":-16.5898617512
     }
   ],
   "ZMB":[
@@ -5571,6 +6113,15 @@
       "population":17351822.0,
       "weekly_new_cases_per_ht":0.4207050994,
       "weekly_pc_change":-64.039408867
+    },
+    {
+      "ISO_3_CODE":"ZMB",
+      "date_epicrv":"2020-06-28",
+      "NewCase":101,
+      "CumCase":1430,
+      "population":17351822.0,
+      "weekly_new_cases_per_ht":0.582071439,
+      "weekly_pc_change":38.3561643836
     }
   ],
   "ZWE":[
@@ -5600,6 +6151,15 @@
       "population":14439018.0,
       "weekly_new_cases_per_ht":0.8518584851,
       "weekly_pc_change":59.7402597403
+    },
+    {
+      "ISO_3_CODE":"ZWE",
+      "date_epicrv":"2020-06-28",
+      "NewCase":88,
+      "CumCase":489,
+      "population":14439018.0,
+      "weekly_new_cases_per_ht":0.6094597292,
+      "weekly_pc_change":-28.4552845528
     }
   ]
 }
