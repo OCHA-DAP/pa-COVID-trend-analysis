@@ -86,6 +86,7 @@ def main():
     output_df = output_df.drop(['NewCase_PercentChange','NewDeath_PercentChange', 'ndays', 'diff_cases','diff_deaths'], axis=1)
     output_df.groupby('ISO_3_CODE').apply(lambda x: x.to_dict('r')).to_json(
         'hrp_covid_weekly_trend.json', orient='index', indent=2)
+    output_df.to_excel('hrp_covid_weekly_trend.xlsx')
     plt.show()
 
 
