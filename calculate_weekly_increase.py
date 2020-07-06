@@ -42,7 +42,7 @@ def main(download_covid=False):
     
     # Download latest covid file tiles and read them in
     if download_covid:
-        get_covid_data(WHO_COVID_URL,WHO_COVID_FILENAME)
+        get_covid_data(WHO_COVID_URL,f'{DIR_PATH}/{WHO_COVID_FILENAME}')
     
     # get WHO data and calculate sum as 'HRP'
     df_WHO=get_WHO_data(HRP_iso3)
