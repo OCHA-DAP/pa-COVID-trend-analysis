@@ -1,4 +1,6 @@
+import argparse
 import pandas as pd
+import requests
 import matplotlib.pyplot as plt
 import os
 import yaml
@@ -6,16 +8,42 @@ import yaml
 # filename for shapefile and WHO input dataset
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 WHO_COVID_FILENAME='WHO_data/Data_ WHO Coronavirus Covid-19 Cases and Deaths - WHO-COVID-19-global-data.csv'
+WHO_COVID_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vSe-8lf6l_ShJHvd126J-jGti992SUbNLu-kmJfx1IRkvma_r4DHi0bwEW89opArs8ZkSY5G2-Bc1yT/pub?gid=0&single=true&output=csv'
 POPULATION_FILENAME='Population_data/API_SP.POP.TOTL_DS2_en_excel_v2_1121005.xls'
 
 MIN_CUMULATIVE_CASES = 100
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-d', '--download-covid', action='store_true',
+                        help='Download the COVID-19 data')
+    return parser.parse_args()
 
-def main():
+def download_url(url, save_path, chunk_size=128):
+    r = requests.get(url, stream=True)
+    with open(save_path, 'wb') as fd:
+        for chunk in r.iter_content(chunk_size=chunk_size):
+            fd.write(chunk)
+    print(f'Downloaded "{url}" to "{save_path}"')
+
+def get_covid_data(url, save_path):
+    # download covid data from HDX
+    print(f'Getting upadated COVID data from WHO')
+    try:
+        download_url(url, save_path)
+    except Exception:
+        print(f'Cannot download COVID file from from HDX')
+
+def main(download_covid=False):
     # Read in list of countries
     with open('countries/admins.yaml', 'r') as stream:
         country_list = yaml.safe_load(stream)['admin_info']
     HRP_iso3 = sorted(list(set([country.get('alpha_3', None) for country in country_list])))
+    
+    # Download latest covid file tiles and read them in
+    if download_covid:
+        get_covid_data(WHO_COVID_URL,WHO_COVID_FILENAME)
+    
     # get WHO data and calculate sum as 'HRP'
     df_WHO=get_WHO_data(HRP_iso3)
     
@@ -106,4 +134,5 @@ def get_WHO_data(HRP_iso3):
     return df
 
 if __name__ == '__main__':
-    main()
+    args = parse_args()
+    main(download_covid=args.download_covid)
