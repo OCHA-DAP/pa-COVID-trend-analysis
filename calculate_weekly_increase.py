@@ -4,6 +4,7 @@ import requests
 import matplotlib.pyplot as plt
 import os
 import yaml
+import math
 
 # filename for shapefile and WHO input dataset
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -44,7 +45,7 @@ def main(download_covid=False):
     if download_covid:
         get_covid_data(WHO_COVID_URL,f'{DIR_PATH}/{WHO_COVID_FILENAME}')
     
-    # get WHO data and calculate sum as 'HRP'
+    # get WHO data and calculate sum as 'H63'
     df_WHO=get_WHO_data(HRP_iso3)
     
     # get weekly new cases
@@ -68,13 +69,7 @@ def main(download_covid=False):
 
     output_df=output_df[output_df['CumCase']>MIN_CUMULATIVE_CASES]
 
-    # Read in pop
-    df_pop=pd.read_excel(POPULATION_FILENAME,sheet_name='Data',header=1,skiprows=[0,1],usecols='B,BK').rename(
-        columns={'2018': 'population'})
-    # Add HRP
-    df_pop = df_pop.append({'Country Code': 'H63',
-                            'population':  df_pop.loc[df_pop['Country Code'].isin(HRP_iso3), 'population'].sum()},
-                           ignore_index=True)
+    df_pop=get_pop_data(HRP_iso3)
 
     # Add pop to output df
     output_df = output_df.merge(df_pop, left_on='ISO_3_CODE', right_on='Country Code', how='left').drop(
@@ -89,12 +84,15 @@ def main(download_covid=False):
 
     # Show plots
     pd.plotting.register_matplotlib_converters()
+    nplots=math.sqrt(len(set(df_WHO['ISO_3_CODE'])))
+    nplots=math.ceil(nplots)
+    
     for q in ['weekly_new_cases_per_ht', 'weekly_new_cases_pc_change','weekly_new_deaths_per_ht', 'weekly_new_deaths_pc_change']:
-        fig,axs=plt.subplots(figsize=[15,10],nrows=8,ncols=8)
+        fig,axs=plt.subplots(figsize=[15,10],nrows=nplots,ncols=nplots)
         fig.suptitle(q)
         ifig = 0
         for iso3, group in output_df.groupby('ISO_3_CODE'):
-            axis = axs[ifig // 8][ifig % 8]
+            axis = axs[ifig // nplots][ifig % nplots]
             if q in ['weekly_new_cases_pc_change','weekly_new_deaths_pc_change']:
                 idx = group[q] > 0
                 axis.bar(x=group['date_epicrv'][idx], height=group[q][idx], color='r')
@@ -126,12 +124,45 @@ def get_WHO_data(HRP_iso3):
     df=df[['date_epicrv','ISO_3_CODE','CumCase','NewCase','NewDeath','CumDeath']]
 
     # adding global by date
-    df_all=df.groupby('date_epicrv').sum()
-    df_all['ISO_3_CODE']='H63'
-    HRP_iso3=HRP_iso3.insert(0,'H63')
-    df_all=df_all.reset_index()
-    df=df.append(df_all)
+    df_H63=df.groupby('date_epicrv').sum()
+    df_H63['ISO_3_CODE']='H63'
+    df_H63=df_H63.reset_index()
+
+    # adding regional by date
+    dict_regions=get_dict_regions(HRP_iso3)
+    df=pd.merge(left=df,right=dict_regions,left_on='ISO_3_CODE',right_on='ISO3',how='left')
+    df=df.drop(labels='ISO3',axis='columns')
+    df_regional=df.groupby(['date_epicrv','Regional_office']).sum().reset_index()
+    df_regional=df_regional.rename(columns={'Regional_office':'ISO_3_CODE'})    
+
+    df=df.append(df_H63)
+    df=df.append(df_regional)
     return df
+
+def get_dict_regions(HRP_iso3):
+    dict_regions=pd.read_csv('countries/tbl_regcov_2020_ocha.csv')
+    dict_regions=dict_regions[['ISO3','Regional_office']]
+    dict_regions=dict_regions[dict_regions['ISO3'].isin(HRP_iso3)]
+    return dict_regions
+
+
+def get_pop_data(HRP_iso3):
+    # Read in pop
+    df_pop=pd.read_excel(POPULATION_FILENAME,sheet_name='Data',header=1,skiprows=[0,1],usecols='B,BK').rename(
+        columns={'2018': 'population'})
+    # Add HRP
+    df_pop = df_pop.append({'Country Code': 'H63',
+                            'population':  df_pop.loc[df_pop['Country Code'].isin(HRP_iso3), 'population'].sum()},
+                           ignore_index=True)
+    # add regions
+    dict_regions=get_dict_regions(HRP_iso3)
+    df=pd.merge(left=df_pop,right=dict_regions,left_on='Country Code',right_on='ISO3',how='left')
+    df=df.drop(labels='ISO3',axis='columns')
+    df_regional=df.groupby(['Regional_office']).sum().reset_index()
+    df_regional=df_regional.rename(columns={'Regional_office':'Country Code'})
+    df_pop=df_pop.append(df_regional)
+
+    return df_pop
 
 if __name__ == '__main__':
     args = parse_args()
