@@ -14,7 +14,7 @@ FILENAME_SHP = 'ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
 # number of days to be selected for the analysis
 # use 15 days as reference with error bands from 7 and 30 days
 # additional uncertainity from comparison between fit and counts
-TIME_RANGE={'mid': 15, 'min': 7, 'max': 30}
+TIME_RANGE={'mid': 30, 'min': 15, 'max': 45}
 # TIME_RANGE={'mid': 30}
 
 # Suppress warnings that come from the doubling time calc
