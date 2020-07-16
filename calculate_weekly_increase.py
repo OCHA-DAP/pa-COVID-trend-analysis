@@ -45,7 +45,6 @@ def main(download_covid=False):
     # Download latest covid file tiles and read them in
     if download_covid:
         get_covid_data(WHO_COVID_URL,f'{DIR_PATH}/{WHO_COVID_FILENAME}')
-    
     # get WHO data and calculate sum as 'H63'
     df_WHO=get_WHO_data(H63_iso3)
     
@@ -129,9 +128,9 @@ def get_WHO_data(H63_iso3):
     df_H63['ISO_3_CODE']='H63'
     df_H63=df_H63.reset_index()
 
-    # adding global by date
+    # adding global H25 by date
     df_H25=df.loc[df['ISO_3_CODE'].isin(H25_iso3),:]
-    df_H25=df.groupby('date_epicrv').sum()
+    df_H25=df_H25.groupby('date_epicrv').sum()
     df_H25['ISO_3_CODE']='H25'
     df_H25=df_H25.reset_index()
 
