@@ -113,7 +113,7 @@ def main(download_covid=False):
     output_df.groupby('ISO_3_CODE').apply(lambda x: x.to_dict('r')).to_json(
         'hrp_covid_weekly_trend.json', orient='index', indent=2)
     output_df.to_excel('hrp_covid_weekly_trend.xlsx')
-    plt.show()
+    # plt.show()
 
 
 def get_WHO_data(H63_iso3):
@@ -150,6 +150,7 @@ def get_dict_regions(H63_iso3):
     dict_regions=pd.read_csv('countries/tbl_regcov_2020_ocha.csv')
     dict_regions=dict_regions[['ISO3','Regional_office']]
     dict_regions=dict_regions[dict_regions['ISO3'].isin(H63_iso3)]
+    dict_regions=dict_regions.drop_duplicates(subset='ISO3')
     return dict_regions
 
 
