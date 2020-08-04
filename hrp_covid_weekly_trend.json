@@ -142,6 +142,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":200.0,
       "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"ABW",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":3,
+      "weekly_new_deaths":0,
+      "cumulative_cases":117,
+      "cumulative_deaths":3,
+      "population":105845.0,
+      "weekly_new_cases_per_ht":2.8343332231,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":-66.6666666667,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "AFG":[
@@ -365,6 +378,19 @@
       "weekly_new_deaths_per_ht":0.209833181,
       "weekly_new_cases_pc_change":-33.3984375,
       "weekly_new_deaths_pc_change":-54.3859649123
+    },
+    {
+      "ISO_3_CODE":"AFG",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":553,
+      "weekly_new_deaths":24,
+      "cumulative_cases":36263,
+      "cumulative_deaths":1269,
+      "population":37172386.0,
+      "weekly_new_cases_per_ht":1.48766345,
+      "weekly_new_deaths_per_ht":0.0645640557,
+      "weekly_new_cases_pc_change":-18.9149560117,
+      "weekly_new_deaths_pc_change":-69.2307692308
     }
   ],
   "AGO":[
@@ -445,6 +471,19 @@
       "weekly_new_deaths_per_ht":0.0324572452,
       "weekly_new_cases_pc_change":12.2549019608,
       "weekly_new_deaths_pc_change":150.0
+    },
+    {
+      "ISO_3_CODE":"AGO",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":232,
+      "weekly_new_deaths":13,
+      "cumulative_cases":932,
+      "cumulative_deaths":40,
+      "population":30809762.0,
+      "weekly_new_cases_per_ht":0.7530080888,
+      "weekly_new_deaths_per_ht":0.0421944188,
+      "weekly_new_cases_pc_change":1.3100436681,
+      "weekly_new_deaths_pc_change":30.0
     }
   ],
   "ARG":[
@@ -458,7 +497,7 @@
       "population":44494502.0,
       "weekly_new_cases_per_ht":1.1956533416,
       "weekly_new_deaths_per_ht":0.0314645616,
-      "weekly_new_cases_pc_change":370.796460177,
+      "weekly_new_cases_pc_change":388.0733944954,
       "weekly_new_deaths_pc_change":1300.0
     },
     {
@@ -681,6 +720,19 @@
       "weekly_new_deaths_per_ht":1.4451223659,
       "weekly_new_cases_pc_change":35.5691137435,
       "weekly_new_deaths_pc_change":54.1966426859
+    },
+    {
+      "ISO_3_CODE":"ARG",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":37782,
+      "weekly_new_deaths":696,
+      "cumulative_cases":158321,
+      "cumulative_deaths":2913,
+      "population":44494502.0,
+      "weekly_new_cases_per_ht":84.9138619419,
+      "weekly_new_deaths_per_ht":1.5642382063,
+      "weekly_new_cases_pc_change":10.4123440194,
+      "weekly_new_deaths_pc_change":8.2426127527
     }
   ],
   "BDI":[
@@ -747,6 +799,19 @@
       "weekly_new_cases_per_ht":0.3131885114,
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":-41.6666666667,
+      "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"BDI",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":42,
+      "weekly_new_deaths":0,
+      "cumulative_cases":361,
+      "cumulative_deaths":1,
+      "population":11175378.0,
+      "weekly_new_cases_per_ht":0.3758262137,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":20.0,
       "weekly_new_deaths_pc_change":0.0
     }
   ],
@@ -893,6 +958,19 @@
       "weekly_new_deaths_per_ht":0.0261209183,
       "weekly_new_cases_pc_change":-58.9285714286,
       "weekly_new_deaths_pc_change":-40.0
+    },
+    {
+      "ISO_3_CODE":"BEN",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":111,
+      "weekly_new_deaths":2,
+      "cumulative_cases":1770,
+      "cumulative_deaths":35,
+      "population":11485048.0,
+      "weekly_new_cases_per_ht":0.9664739756,
+      "weekly_new_deaths_per_ht":0.0174139455,
+      "weekly_new_cases_pc_change":20.652173913,
+      "weekly_new_deaths_pc_change":-33.3333333333
     }
   ],
   "BFA":[
@@ -1116,6 +1194,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":25.9259259259,
       "weekly_new_deaths_pc_change":-100.0
+    },
+    {
+      "ISO_3_CODE":"BFA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":62,
+      "weekly_new_deaths":0,
+      "cumulative_cases":1086,
+      "cumulative_deaths":53,
+      "population":19751535.0,
+      "weekly_new_cases_per_ht":0.3138996539,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":82.3529411765,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "BGD":[
@@ -1326,6 +1417,19 @@
       "weekly_new_deaths_per_ht":0.1815860143,
       "weekly_new_cases_pc_change":-8.7166260687,
       "weekly_new_deaths_pc_change":6.1594202899
+    },
+    {
+      "ISO_3_CODE":"BGD",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":18682,
+      "weekly_new_deaths":258,
+      "cumulative_cases":223453,
+      "cumulative_deaths":2928,
+      "population":161356039.0,
+      "weekly_new_cases_per_ht":11.5781225889,
+      "weekly_new_deaths_per_ht":0.1598948522,
+      "weekly_new_cases_pc_change":-2.2498953537,
+      "weekly_new_deaths_pc_change":-11.9453924915
     }
   ],
   "BOL":[
@@ -1536,20 +1640,33 @@
       "weekly_new_deaths_per_ht":3.7346489633,
       "weekly_new_cases_pc_change":-1.7367372117,
       "weekly_new_deaths_pc_change":22.1902017291
+    },
+    {
+      "ISO_3_CODE":"BOL",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":10333,
+      "weekly_new_deaths":504,
+      "cumulative_cases":68281,
+      "cumulative_deaths":2535,
+      "population":11353142.0,
+      "weekly_new_cases_per_ht":91.0144522107,
+      "weekly_new_deaths_per_ht":4.439299711,
+      "weekly_new_cases_pc_change":-0.2028201661,
+      "weekly_new_deaths_pc_change":18.8679245283
     }
   ],
   "BRA":[
     {
       "ISO_3_CODE":"BRA",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":783,
+      "weekly_new_cases":779,
       "weekly_new_deaths":11,
-      "cumulative_cases":200,
+      "cumulative_cases":204,
       "cumulative_deaths":0,
       "population":209469333.0,
-      "weekly_new_cases_per_ht":0.3738017345,
+      "weekly_new_cases_per_ht":0.3718921471,
       "weekly_new_deaths_per_ht":0.0052513654,
-      "weekly_new_cases_pc_change":667.6470588235,
+      "weekly_new_cases_pc_change":663.7254901961,
       "weekly_new_deaths_pc_change":null
     },
     {
@@ -1562,7 +1679,7 @@
       "population":209469333.0,
       "weekly_new_cases_per_ht":1.1996982871,
       "weekly_new_deaths_per_ht":0.0386691449,
-      "weekly_new_cases_pc_change":220.945083014,
+      "weekly_new_cases_pc_change":222.5930680359,
       "weekly_new_deaths_pc_change":636.3636363636
     },
     {
@@ -1785,6 +1902,19 @@
       "weekly_new_deaths_per_ht":3.5265305399,
       "weekly_new_cases_pc_change":20.9925825149,
       "weekly_new_deaths_pc_change":-0.8855494432
+    },
+    {
+      "ISO_3_CODE":"BRA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":319119,
+      "weekly_new_deaths":7237,
+      "cumulative_cases":2394513,
+      "cumulative_deaths":86449,
+      "population":209469333.0,
+      "weekly_new_cases_per_ht":152.3464057624,
+      "weekly_new_deaths_per_ht":3.4549210122,
+      "weekly_new_cases_pc_change":7.4337290178,
+      "weekly_new_deaths_pc_change":-2.0305942873
     }
   ],
   "CAF":[
@@ -1930,6 +2060,19 @@
       "weekly_new_deaths_per_ht":0.0857196065,
       "weekly_new_cases_pc_change":-42.6395939086,
       "weekly_new_deaths_pc_change":100.0
+    },
+    {
+      "ISO_3_CODE":"CAF",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":16,
+      "weekly_new_deaths":0,
+      "cumulative_cases":4598,
+      "cumulative_deaths":59,
+      "population":4666377.0,
+      "weekly_new_cases_per_ht":0.3428784258,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":-85.8407079646,
+      "weekly_new_deaths_pc_change":-100.0
     }
   ],
   "CHL":[
@@ -1943,7 +2086,7 @@
       "population":18729160.0,
       "weekly_new_cases_per_ht":7.8754199334,
       "weekly_new_deaths_per_ht":0.0266963388,
-      "weekly_new_cases_pc_change":295.4423592493,
+      "weekly_new_cases_pc_change":299.72899729,
       "weekly_new_deaths_pc_change":400.0
     },
     {
@@ -2166,6 +2309,19 @@
       "weekly_new_deaths_per_ht":3.0700789571,
       "weekly_new_cases_pc_change":-12.3149194268,
       "weekly_new_deaths_pc_change":-63.2352941176
+    },
+    {
+      "ISO_3_CODE":"CHL",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":14066,
+      "weekly_new_deaths":513,
+      "cumulative_cases":345790,
+      "cumulative_deaths":9112,
+      "population":18729160.0,
+      "weekly_new_cases_per_ht":75.1021401921,
+      "weekly_new_deaths_per_ht":2.7390443565,
+      "weekly_new_cases_pc_change":-4.6114200461,
+      "weekly_new_deaths_pc_change":-10.7826086957
     }
   ],
   "CMR":[
@@ -2389,6 +2545,19 @@
       "weekly_new_deaths_per_ht":0.0475883852,
       "weekly_new_cases_pc_change":-55.6003223207,
       "weekly_new_deaths_pc_change":-14.2857142857
+    },
+    {
+      "ISO_3_CODE":"CMR",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":547,
+      "weekly_new_deaths":6,
+      "cumulative_cases":17110,
+      "cumulative_deaths":391,
+      "population":25216237.0,
+      "weekly_new_cases_per_ht":2.169237226,
+      "weekly_new_deaths_per_ht":0.0237941926,
+      "weekly_new_cases_pc_change":-0.7259528131,
+      "weekly_new_deaths_pc_change":-50.0
     }
   ],
   "COD":[
@@ -2599,6 +2768,19 @@
       "weekly_new_deaths_per_ht":0.0095160957,
       "weekly_new_cases_pc_change":85.3046594982,
       "weekly_new_deaths_pc_change":100.0
+    },
+    {
+      "ISO_3_CODE":"COD",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":303,
+      "weekly_new_deaths":14,
+      "cumulative_cases":8830,
+      "cumulative_deaths":203,
+      "population":84068091.0,
+      "weekly_new_cases_per_ht":0.360422125,
+      "weekly_new_deaths_per_ht":0.0166531675,
+      "weekly_new_cases_pc_change":-41.3926499033,
+      "weekly_new_deaths_pc_change":75.0
     }
   ],
   "COG":[
@@ -2783,6 +2965,19 @@
       "weekly_new_deaths_per_ht":0.0381361855,
       "weekly_new_cases_pc_change":-23.5849056604,
       "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"COG",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":349,
+      "weekly_new_deaths":5,
+      "cumulative_cases":3159,
+      "cumulative_deaths":54,
+      "population":5244363.0,
+      "weekly_new_cases_per_ht":6.6547643632,
+      "weekly_new_deaths_per_ht":0.0953404637,
+      "weekly_new_cases_pc_change":-13.8271604938,
+      "weekly_new_deaths_pc_change":150.0
     }
   ],
   "COL":[
@@ -2796,7 +2991,7 @@
       "population":49648685.0,
       "weekly_new_cases_per_ht":0.6908541485,
       "weekly_new_deaths_per_ht":0.0120849122,
-      "weekly_new_cases_pc_change":99.4186046512,
+      "weekly_new_cases_pc_change":104.1666666667,
       "weekly_new_deaths_pc_change":null
     },
     {
@@ -3019,6 +3214,19 @@
       "weekly_new_deaths_per_ht":3.3978744855,
       "weekly_new_cases_pc_change":24.2650614061,
       "weekly_new_deaths_pc_change":23.7710931768
+    },
+    {
+      "ISO_3_CODE":"COL",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":61967,
+      "weekly_new_deaths":2130,
+      "cumulative_cases":240795,
+      "cumulative_deaths":8269,
+      "population":49648685.0,
+      "weekly_new_cases_per_ht":124.8109592429,
+      "weekly_new_deaths_per_ht":4.2901438376,
+      "weekly_new_cases_pc_change":20.5560203109,
+      "weekly_new_deaths_pc_change":26.2596324837
     }
   ],
   "CRI":[
@@ -3032,7 +3240,7 @@
       "population":4999441.0,
       "weekly_new_cases_per_ht":3.0003354375,
       "weekly_new_deaths_per_ht":0.0,
-      "weekly_new_cases_pc_change":66.6666666667,
+      "weekly_new_cases_pc_change":74.4186046512,
       "weekly_new_deaths_pc_change":-100.0
     },
     {
@@ -3255,6 +3463,19 @@
       "weekly_new_deaths_per_ht":0.80008945,
       "weekly_new_cases_pc_change":18.437900128,
       "weekly_new_deaths_pc_change":100.0
+    },
+    {
+      "ISO_3_CODE":"CRI",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":4151,
+      "weekly_new_deaths":63,
+      "cumulative_cases":14600,
+      "cumulative_deaths":98,
+      "population":4999441.0,
+      "weekly_new_cases_per_ht":83.0292826738,
+      "weekly_new_deaths_per_ht":1.2601408838,
+      "weekly_new_cases_pc_change":12.1891891892,
+      "weekly_new_deaths_pc_change":57.5
     }
   ],
   "DJI":[
@@ -3452,6 +3673,19 @@
       "weekly_new_deaths_per_ht":0.2085679723,
       "weekly_new_cases_pc_change":2.8571428571,
       "weekly_new_deaths_pc_change":null
+    },
+    {
+      "ISO_3_CODE":"DJI",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":42,
+      "weekly_new_deaths":0,
+      "cumulative_cases":5050,
+      "cumulative_deaths":58,
+      "population":958920.0,
+      "weekly_new_cases_per_ht":4.3799274183,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":16.6666666667,
+      "weekly_new_deaths_pc_change":-100.0
     }
   ],
   "DOM":[
@@ -3675,6 +3909,19 @@
       "weekly_new_deaths_per_ht":0.7904271741,
       "weekly_new_cases_pc_change":11.5645449137,
       "weekly_new_deaths_pc_change":-7.6923076923
+    },
+    {
+      "ISO_3_CODE":"DOM",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":10519,
+      "weekly_new_deaths":115,
+      "cumulative_cases":62908,
+      "cumulative_deaths":1063,
+      "population":10627165.0,
+      "weekly_new_cases_per_ht":98.9821838656,
+      "weekly_new_deaths_per_ht":1.0821324408,
+      "weekly_new_cases_pc_change":12.1787352032,
+      "weekly_new_deaths_pc_change":36.9047619048
     }
   ],
   "ECU":[
@@ -3688,7 +3935,7 @@
       "population":17084357.0,
       "weekly_new_cases_per_ht":7.708806366,
       "weekly_new_deaths_per_ht":0.0058533078,
-      "weekly_new_cases_pc_change":172.6708074534,
+      "weekly_new_cases_pc_change":174.9478079332,
       "weekly_new_deaths_pc_change":-85.7142857143
     },
     {
@@ -3911,20 +4158,33 @@
       "weekly_new_deaths_per_ht":1.3169942539,
       "weekly_new_cases_pc_change":7.7919974081,
       "weekly_new_deaths_pc_change":-10.3585657371
+    },
+    {
+      "ISO_3_CODE":"ECU",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":6196,
+      "weekly_new_deaths":229,
+      "cumulative_cases":80694,
+      "cumulative_deaths":5515,
+      "population":17084357.0,
+      "weekly_new_cases_per_ht":36.2670950976,
+      "weekly_new_deaths_per_ht":1.340407485,
+      "weekly_new_cases_pc_change":-6.8830778479,
+      "weekly_new_deaths_pc_change":1.7777777778
     }
   ],
   "EGY":[
     {
       "ISO_3_CODE":"EGY",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":184,
+      "weekly_new_cases":180,
       "weekly_new_deaths":8,
-      "cumulative_cases":126,
+      "cumulative_cases":130,
       "cumulative_deaths":2,
       "population":98423595.0,
-      "weekly_new_cases_per_ht":0.1869470425,
+      "weekly_new_cases_per_ht":0.1828829764,
       "weekly_new_deaths_per_ht":0.0081281323,
-      "weekly_new_cases_pc_change":201.6393442623,
+      "weekly_new_cases_pc_change":195.0819672131,
       "weekly_new_deaths_pc_change":700.0
     },
     {
@@ -3937,7 +4197,7 @@
       "population":98423595.0,
       "weekly_new_cases_per_ht":0.286516663,
       "weekly_new_deaths_per_ht":0.0264164299,
-      "weekly_new_cases_pc_change":53.2608695652,
+      "weekly_new_cases_pc_change":56.6666666667,
       "weekly_new_deaths_pc_change":225.0
     },
     {
@@ -4160,6 +4420,19 @@
       "weekly_new_deaths_per_ht":0.3119170764,
       "weekly_new_cases_pc_change":-26.6544728966,
       "weekly_new_deaths_pc_change":-36.3070539419
+    },
+    {
+      "ISO_3_CODE":"EGY",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":2733,
+      "weekly_new_deaths":276,
+      "cumulative_cases":92062,
+      "cumulative_deaths":4606,
+      "population":98423595.0,
+      "weekly_new_cases_per_ht":2.7767731914,
+      "weekly_new_deaths_per_ht":0.2804205638,
+      "weekly_new_cases_pc_change":-38.0412604852,
+      "weekly_new_deaths_pc_change":-10.0977198697
     }
   ],
   "ETH":[
@@ -4344,6 +4617,19 @@
       "weekly_new_deaths_per_ht":0.0384528904,
       "weekly_new_cases_pc_change":92.7431806485,
       "weekly_new_deaths_pc_change":5.0
+    },
+    {
+      "ISO_3_CODE":"ETH",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":4751,
+      "weekly_new_deaths":75,
+      "cumulative_cases":13968,
+      "cumulative_deaths":223,
+      "population":109224559.0,
+      "weekly_new_cases_per_ht":4.3497543442,
+      "weekly_new_deaths_per_ht":0.0686658758,
+      "weekly_new_cases_pc_change":26.8624833111,
+      "weekly_new_deaths_pc_change":78.5714285714
     }
   ],
   "GUY":[
@@ -4476,33 +4762,59 @@
       "weekly_new_deaths_per_ht":0.1283690456,
       "weekly_new_cases_pc_change":6.6666666667,
       "weekly_new_deaths_pc_change":-66.6666666667
+    },
+    {
+      "ISO_3_CODE":"GUY",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":61,
+      "weekly_new_deaths":0,
+      "cumulative_cases":360,
+      "cumulative_deaths":20,
+      "population":779004.0,
+      "weekly_new_cases_per_ht":7.8305117817,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":90.625,
+      "weekly_new_deaths_pc_change":-100.0
     }
   ],
   "H25":[
     {
       "ISO_3_CODE":"H25",
+      "date_epicrv":"2020-03-15",
+      "weekly_new_cases":171,
+      "weekly_new_deaths":5,
+      "cumulative_cases":123,
+      "cumulative_deaths":6,
+      "population":909431508.0,
+      "weekly_new_cases_per_ht":0.0188029553,
+      "weekly_new_deaths_per_ht":0.000549794,
+      "weekly_new_cases_pc_change":106.0240963855,
+      "weekly_new_deaths_pc_change":-16.6666666667
+    },
+    {
+      "ISO_3_CODE":"H25",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":538,
+      "weekly_new_cases":506,
       "weekly_new_deaths":17,
-      "cumulative_cases":271,
+      "cumulative_cases":327,
       "cumulative_deaths":11,
       "population":909431508.0,
-      "weekly_new_cases_per_ht":0.059157836,
+      "weekly_new_cases_per_ht":0.0556391543,
       "weekly_new_deaths_per_ht":0.0018692997,
-      "weekly_new_cases_pc_change":265.9863945578,
+      "weekly_new_cases_pc_change":195.9064327485,
       "weekly_new_deaths_pc_change":240.0
     },
     {
       "ISO_3_CODE":"H25",
       "date_epicrv":"2020-03-29",
-      "weekly_new_cases":1530,
+      "weekly_new_cases":1510,
       "weekly_new_deaths":52,
-      "cumulative_cases":871,
+      "cumulative_cases":879,
       "cumulative_deaths":35,
       "population":909431508.0,
-      "weekly_new_cases_per_ht":0.1682369685,
+      "weekly_new_cases_per_ht":0.1660377925,
       "weekly_new_deaths_per_ht":0.0057178578,
-      "weekly_new_cases_pc_change":184.3866171004,
+      "weekly_new_cases_pc_change":198.418972332,
       "weekly_new_deaths_pc_change":205.8823529412
     },
     {
@@ -4515,7 +4827,7 @@
       "population":909431508.0,
       "weekly_new_cases_per_ht":0.3730902185,
       "weekly_new_deaths_per_ht":0.0123153859,
-      "weekly_new_cases_pc_change":121.7647058824,
+      "weekly_new_cases_pc_change":124.701986755,
       "weekly_new_deaths_pc_change":115.3846153846
     },
     {
@@ -4725,72 +5037,85 @@
       "weekly_new_deaths_per_ht":0.3053555958,
       "weekly_new_cases_pc_change":19.7932790094,
       "weekly_new_deaths_pc_change":7.2200772201
+    },
+    {
+      "ISO_3_CODE":"H25",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":108687,
+      "weekly_new_deaths":3081,
+      "cumulative_cases":603912,
+      "cumulative_deaths":19422,
+      "population":909431508.0,
+      "weekly_new_cases_per_ht":11.9510924181,
+      "weekly_new_deaths_per_ht":0.3387830719,
+      "weekly_new_cases_pc_change":16.0615509472,
+      "weekly_new_deaths_pc_change":10.9470651782
     }
   ],
   "H63":[
     {
       "ISO_3_CODE":"H63",
       "date_epicrv":"2020-03-08",
-      "weekly_new_cases":6194,
+      "weekly_new_cases":6246,
       "weekly_new_deaths":159,
-      "cumulative_cases":1567,
+      "cumulative_cases":1619,
       "cumulative_deaths":67,
       "population":2464947274.0,
-      "weekly_new_cases_per_ht":0.2512832654,
+      "weekly_new_cases_per_ht":0.253392844,
       "weekly_new_deaths_per_ht":0.0064504422,
-      "weekly_new_cases_pc_change":951.6129032258,
+      "weekly_new_cases_pc_change":912.3176661264,
       "weekly_new_deaths_pc_change":354.2857142857
     },
     {
       "ISO_3_CODE":"H63",
       "date_epicrv":"2020-03-15",
-      "weekly_new_cases":8220,
+      "weekly_new_cases":8284,
       "weekly_new_deaths":553,
-      "cumulative_cases":7469,
+      "cumulative_cases":7565,
       "cumulative_deaths":246,
       "population":2464947274.0,
-      "weekly_new_cases_per_ht":0.3334756928,
+      "weekly_new_cases_per_ht":0.3360720973,
       "weekly_new_deaths_per_ht":0.022434557,
-      "weekly_new_cases_pc_change":32.7090732967,
+      "weekly_new_cases_pc_change":32.6288824848,
       "weekly_new_deaths_pc_change":247.7987421384
     },
     {
       "ISO_3_CODE":"H63",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":13017,
+      "weekly_new_cases":12901,
       "weekly_new_deaths":1055,
-      "cumulative_cases":16359,
+      "cumulative_cases":16523,
       "cumulative_deaths":887,
       "population":2464947274.0,
-      "weekly_new_cases_per_ht":0.528084318,
+      "weekly_new_cases_per_ht":0.5233783349,
       "weekly_new_deaths_per_ht":0.0428001041,
-      "weekly_new_cases_pc_change":58.3576642336,
+      "weekly_new_cases_pc_change":55.7339449541,
       "weekly_new_deaths_pc_change":90.7775768535
     },
     {
       "ISO_3_CODE":"H63",
       "date_epicrv":"2020-03-29",
-      "weekly_new_cases":35442,
+      "weekly_new_cases":35402,
       "weekly_new_deaths":1341,
-      "cumulative_cases":30691,
+      "cumulative_cases":30707,
       "cumulative_deaths":1972,
       "population":2464947274.0,
-      "weekly_new_cases_per_ht":1.4378400858,
+      "weekly_new_cases_per_ht":1.4362173331,
       "weekly_new_deaths_per_ht":0.0544027864,
-      "weekly_new_cases_pc_change":172.2747176769,
+      "weekly_new_cases_pc_change":174.4128362142,
       "weekly_new_deaths_pc_change":27.1090047393
     },
     {
       "ISO_3_CODE":"H63",
       "date_epicrv":"2020-04-05",
-      "weekly_new_cases":58743,
+      "weekly_new_cases":58739,
       "weekly_new_deaths":2312,
-      "cumulative_cases":70430,
+      "cumulative_cases":70434,
       "cumulative_deaths":3363,
       "population":2464947274.0,
-      "weekly_new_cases_per_ht":2.3831341392,
+      "weekly_new_cases_per_ht":2.3829718639,
       "weekly_new_deaths_per_ht":0.0937951097,
-      "weekly_new_cases_pc_change":65.7440325038,
+      "weekly_new_cases_pc_change":65.9200045195,
       "weekly_new_deaths_pc_change":72.408650261
     },
     {
@@ -4803,7 +5128,7 @@
       "population":2464947274.0,
       "weekly_new_cases_per_ht":3.203435661,
       "weekly_new_deaths_per_ht":0.1328223137,
-      "weekly_new_cases_pc_change":34.4211225167,
+      "weekly_new_cases_pc_change":34.4302763071,
       "weekly_new_deaths_pc_change":41.6089965398
     },
     {
@@ -5000,6 +5325,19 @@
       "weekly_new_deaths_per_ht":0.9925161588,
       "weekly_new_cases_pc_change":14.2293875722,
       "weekly_new_deaths_pc_change":13.7483726985
+    },
+    {
+      "ISO_3_CODE":"H63",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":677587,
+      "weekly_new_deaths":20415,
+      "cumulative_cases":5792364,
+      "cumulative_deaths":227374,
+      "population":2464947274.0,
+      "weekly_new_cases_per_ht":27.4889044138,
+      "weekly_new_deaths_per_ht":0.8282124415,
+      "weekly_new_cases_pc_change":7.1876927944,
+      "weekly_new_deaths_pc_change":-16.5542611895
     }
   ],
   "HTI":[
@@ -5145,6 +5483,19 @@
       "weekly_new_deaths_per_ht":0.0899023804,
       "weekly_new_cases_pc_change":-20.3910614525,
       "weekly_new_deaths_pc_change":-9.0909090909
+    },
+    {
+      "ISO_3_CODE":"HTI",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":164,
+      "weekly_new_deaths":5,
+      "cumulative_cases":7297,
+      "cumulative_deaths":157,
+      "population":11123176.0,
+      "weekly_new_cases_per_ht":1.4743990385,
+      "weekly_new_deaths_per_ht":0.0449511902,
+      "weekly_new_cases_pc_change":-42.4561403509,
+      "weekly_new_deaths_pc_change":-50.0
     }
   ],
   "IRN":[
@@ -5153,7 +5504,7 @@
       "date_epicrv":"2020-03-08",
       "weekly_new_cases":5973,
       "weekly_new_deaths":151,
-      "cumulative_cases":1501,
+      "cumulative_cases":1505,
       "cumulative_deaths":66,
       "population":81800269.0,
       "weekly_new_cases_per_ht":7.3019319778,
@@ -5166,7 +5517,7 @@
       "date_epicrv":"2020-03-15",
       "weekly_new_cases":7417,
       "weekly_new_deaths":530,
-      "cumulative_cases":7161,
+      "cumulative_cases":7165,
       "cumulative_deaths":237,
       "population":81800269.0,
       "weekly_new_cases_per_ht":9.0672073462,
@@ -5177,14 +5528,14 @@
     {
       "ISO_3_CODE":"IRN",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":7655,
+      "weekly_new_cases":7651,
       "weekly_new_deaths":961,
-      "cumulative_cases":14991,
+      "cumulative_cases":14995,
       "cumulative_deaths":853,
       "population":81800269.0,
-      "weekly_new_cases_per_ht":9.3581599347,
+      "weekly_new_cases_per_ht":9.3532699752,
       "weekly_new_deaths_per_ht":1.1748127625,
-      "weekly_new_cases_pc_change":3.2088445463,
+      "weekly_new_cases_pc_change":3.1549143859,
       "weekly_new_deaths_pc_change":81.320754717
     },
     {
@@ -5197,7 +5548,7 @@
       "population":81800269.0,
       "weekly_new_cases_per_ht":20.3801285788,
       "weekly_new_deaths_per_ht":1.1674778233,
-      "weekly_new_cases_pc_change":117.7792292619,
+      "weekly_new_cases_pc_change":117.8930858711,
       "weekly_new_deaths_pc_change":-0.6243496358
     },
     {
@@ -5420,20 +5771,33 @@
       "weekly_new_deaths_per_ht":1.8398472504,
       "weekly_new_cases_pc_change":4.5120989751,
       "weekly_new_deaths_pc_change":11.9791666667
+    },
+    {
+      "ISO_3_CODE":"IRN",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":17913,
+      "weekly_new_deaths":1498,
+      "cumulative_cases":291172,
+      "cumulative_deaths":15700,
+      "population":81800269.0,
+      "weekly_new_cases_per_ht":21.8984609941,
+      "weekly_new_deaths_per_ht":1.8312898213,
+      "weekly_new_cases_pc_change":3.945917716,
+      "weekly_new_deaths_pc_change":-0.4651162791
     }
   ],
   "IRQ":[
     {
       "ISO_3_CODE":"IRQ",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":109,
+      "weekly_new_cases":105,
       "weekly_new_deaths":11,
-      "cumulative_cases":124,
+      "cumulative_cases":128,
       "cumulative_deaths":9,
       "population":38433600.0,
-      "weekly_new_cases_per_ht":0.2836060114,
+      "weekly_new_cases_per_ht":0.2731984514,
       "weekly_new_deaths_per_ht":0.0286207901,
-      "weekly_new_cases_pc_change":70.3125,
+      "weekly_new_cases_pc_change":64.0625,
       "weekly_new_deaths_pc_change":266.6666666667
     },
     {
@@ -5446,7 +5810,7 @@
       "population":38433600.0,
       "weekly_new_cases_per_ht":0.8169934641,
       "weekly_new_deaths_per_ht":0.0572415803,
-      "weekly_new_cases_pc_change":188.0733944954,
+      "weekly_new_cases_pc_change":199.0476190476,
       "weekly_new_deaths_pc_change":100.0
     },
     {
@@ -5669,6 +6033,19 @@
       "weekly_new_deaths_per_ht":1.5429207777,
       "weekly_new_cases_pc_change":15.4864900839,
       "weekly_new_deaths_pc_change":-6.7610062893
+    },
+    {
+      "ISO_3_CODE":"IRQ",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":19131,
+      "weekly_new_deaths":521,
+      "cumulative_cases":110032,
+      "cumulative_deaths":4362,
+      "population":38433600.0,
+      "weekly_new_cases_per_ht":49.7767578369,
+      "weekly_new_deaths_per_ht":1.3555846967,
+      "weekly_new_cases_pc_change":10.2460669625,
+      "weekly_new_deaths_pc_change":-12.1416526138
     }
   ],
   "JOR":[
@@ -5682,7 +6059,7 @@
       "population":9956011.0,
       "weekly_new_cases_per_ht":1.4764949537,
       "weekly_new_deaths_per_ht":0.0100441834,
-      "weekly_new_cases_pc_change":58.064516129,
+      "weekly_new_cases_pc_change":65.1685393258,
       "weekly_new_deaths_pc_change":null
     },
     {
@@ -5905,6 +6282,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":152.6315789474,
       "weekly_new_deaths_pc_change":-100.0
+    },
+    {
+      "ISO_3_CODE":"JOR",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":-102,
+      "weekly_new_deaths":0,
+      "cumulative_cases":1168,
+      "cumulative_deaths":11,
+      "population":9956011.0,
+      "weekly_new_cases_per_ht":-1.0245067025,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":-206.25,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "KEN":[
@@ -6115,9 +6505,35 @@
       "weekly_new_deaths_per_ht":0.1031268649,
       "weekly_new_cases_pc_change":28.7367724868,
       "weekly_new_deaths_pc_change":29.2682926829
+    },
+    {
+      "ISO_3_CODE":"KEN",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":4720,
+      "weekly_new_deaths":86,
+      "cumulative_cases":16643,
+      "cumulative_deaths":278,
+      "population":51393010.0,
+      "weekly_new_cases_per_ht":9.1841283474,
+      "weekly_new_deaths_per_ht":0.1673379318,
+      "weekly_new_cases_pc_change":21.2432571282,
+      "weekly_new_deaths_pc_change":62.2641509434
     }
   ],
   "LBN":[
+    {
+      "ISO_3_CODE":"LBN",
+      "date_epicrv":"2020-03-22",
+      "weekly_new_cases":145,
+      "weekly_new_deaths":1,
+      "cumulative_cases":103,
+      "cumulative_deaths":3,
+      "population":6848925.0,
+      "weekly_new_cases_per_ht":2.11712057,
+      "weekly_new_deaths_per_ht":0.0146008315,
+      "weekly_new_cases_pc_change":116.4179104478,
+      "weekly_new_deaths_pc_change":-66.6666666667
+    },
     {
       "ISO_3_CODE":"LBN",
       "date_epicrv":"2020-03-29",
@@ -6128,7 +6544,7 @@
       "population":6848925.0,
       "weekly_new_cases_per_ht":2.7741579883,
       "weekly_new_deaths_per_ht":0.0876049891,
-      "weekly_new_cases_pc_change":27.5167785235,
+      "weekly_new_cases_pc_change":31.0344827586,
       "weekly_new_deaths_pc_change":500.0
     },
     {
@@ -6351,6 +6767,19 @@
       "weekly_new_deaths_per_ht":0.1022058206,
       "weekly_new_cases_pc_change":32.9489291598,
       "weekly_new_deaths_pc_change":75.0
+    },
+    {
+      "ISO_3_CODE":"LBN",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":1148,
+      "weekly_new_deaths":14,
+      "cumulative_cases":3750,
+      "cumulative_deaths":51,
+      "population":6848925.0,
+      "weekly_new_cases_per_ht":16.7617545819,
+      "weekly_new_deaths_per_ht":0.2044116412,
+      "weekly_new_cases_pc_change":42.2552664188,
+      "weekly_new_deaths_pc_change":100.0
     }
   ],
   "LBR":[
@@ -6522,6 +6951,19 @@
       "weekly_new_deaths_per_ht":0.0207512922,
       "weekly_new_cases_pc_change":-47.7777777778,
       "weekly_new_deaths_pc_change":-95.652173913
+    },
+    {
+      "ISO_3_CODE":"LBR",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":54,
+      "weekly_new_deaths":4,
+      "cumulative_cases":1162,
+      "cumulative_deaths":72,
+      "population":4818977.0,
+      "weekly_new_cases_per_ht":1.1205697807,
+      "weekly_new_deaths_per_ht":0.0830051689,
+      "weekly_new_cases_pc_change":14.8936170213,
+      "weekly_new_deaths_pc_change":300.0
     }
   ],
   "LBY":[
@@ -6628,6 +7070,19 @@
       "weekly_new_deaths_per_ht":0.1497327196,
       "weekly_new_cases_pc_change":88.0597014925,
       "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"LBY",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":1144,
+      "weekly_new_deaths":22,
+      "cumulative_cases":2669,
+      "cumulative_deaths":60,
+      "population":6678567.0,
+      "weekly_new_cases_per_ht":17.1294231233,
+      "weekly_new_deaths_per_ht":0.3294119831,
+      "weekly_new_cases_pc_change":51.3227513228,
+      "weekly_new_deaths_pc_change":120.0
     }
   ],
   "MEX":[
@@ -6641,7 +7096,7 @@
       "population":126190788.0,
       "weekly_new_cases_per_ht":0.4382253323,
       "weekly_new_deaths_per_ht":0.0087169596,
-      "weekly_new_cases_pc_change":349.593495935,
+      "weekly_new_cases_pc_change":364.7058823529,
       "weekly_new_deaths_pc_change":1000.0
     },
     {
@@ -6864,6 +7319,19 @@
       "weekly_new_deaths_per_ht":3.4352745305,
       "weekly_new_cases_pc_change":11.544487703,
       "weekly_new_deaths_pc_change":5.24399126
+    },
+    {
+      "ISO_3_CODE":"MEX",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":46352,
+      "weekly_new_deaths":4043,
+      "cumulative_cases":385036,
+      "cumulative_deaths":43374,
+      "population":126190788.0,
+      "weekly_new_cases_per_ht":36.731682823,
+      "weekly_new_deaths_per_ht":3.2038788758,
+      "weekly_new_cases_pc_change":-1.3514376317,
+      "weekly_new_deaths_pc_change":-6.7358708189
     }
   ],
   "MLI":[
@@ -7048,6 +7516,19 @@
       "weekly_new_deaths_per_ht":0.0104834495,
       "weekly_new_cases_pc_change":-53.0303030303,
       "weekly_new_deaths_pc_change":null
+    },
+    {
+      "ISO_3_CODE":"MLI",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":32,
+      "weekly_new_deaths":1,
+      "cumulative_cases":2510,
+      "cumulative_deaths":123,
+      "population":19077690.0,
+      "weekly_new_cases_per_ht":0.1677351923,
+      "weekly_new_deaths_per_ht":0.0052417248,
+      "weekly_new_cases_pc_change":3.2258064516,
+      "weekly_new_deaths_pc_change":-50.0
     }
   ],
   "MMR":[
@@ -7232,6 +7713,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":-27.2727272727,
       "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"MMR",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":4,
+      "weekly_new_deaths":0,
+      "cumulative_cases":350,
+      "cumulative_deaths":6,
+      "population":53708395.0,
+      "weekly_new_cases_per_ht":0.0074476253,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":-50.0,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "MOZ":[
@@ -7363,6 +7857,19 @@
       "weekly_new_cases_per_ht":0.6136433184,
       "weekly_new_deaths_per_ht":0.0033902946,
       "weekly_new_cases_pc_change":-39.6666666667,
+      "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"MOZ",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":291,
+      "weekly_new_deaths":1,
+      "cumulative_cases":1669,
+      "cumulative_deaths":11,
+      "population":29495962.0,
+      "weekly_new_cases_per_ht":0.9865757218,
+      "weekly_new_deaths_per_ht":0.0033902946,
+      "weekly_new_cases_pc_change":60.773480663,
       "weekly_new_deaths_pc_change":0.0
     }
   ],
@@ -7574,6 +8081,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":300.0,
       "weekly_new_deaths_pc_change":-100.0
+    },
+    {
+      "ISO_3_CODE":"NER",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":12,
+      "weekly_new_deaths":0,
+      "cumulative_cases":1132,
+      "cumulative_deaths":69,
+      "population":22442948.0,
+      "weekly_new_cases_per_ht":0.0534689115,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":-40.0,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "NGA":[
@@ -7784,6 +8304,19 @@
       "weekly_new_deaths_per_ht":0.0398213675,
       "weekly_new_cases_pc_change":-6.067961165,
       "weekly_new_deaths_pc_change":44.4444444444
+    },
+    {
+      "ISO_3_CODE":"NGA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":3560,
+      "weekly_new_deaths":27,
+      "cumulative_cases":40532,
+      "cumulative_deaths":858,
+      "population":195874740.0,
+      "weekly_new_cases_per_ht":1.8174880538,
+      "weekly_new_deaths_per_ht":0.0137843195,
+      "weekly_new_cases_pc_change":-8.0103359173,
+      "weekly_new_deaths_pc_change":-65.3846153846
     }
   ],
   "PAK":[
@@ -7797,7 +8330,7 @@
       "population":212215030.0,
       "weekly_new_cases_per_ht":0.4146737392,
       "weekly_new_deaths_per_ht":0.0047122016,
-      "weekly_new_cases_pc_change":48.1481481481,
+      "weekly_new_cases_pc_change":49.1525423729,
       "weekly_new_deaths_pc_change":233.3333333333
     },
     {
@@ -8020,6 +8553,19 @@
       "weekly_new_deaths_per_ht":0.1196899202,
       "weekly_new_cases_pc_change":-34.238238512,
       "weekly_new_deaths_pc_change":-31.5363881402
+    },
+    {
+      "ISO_3_CODE":"PAK",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":5192,
+      "weekly_new_deaths":129,
+      "cumulative_cases":274289,
+      "cumulative_deaths":5842,
+      "population":212215030.0,
+      "weekly_new_cases_per_ht":2.4465750612,
+      "weekly_new_deaths_per_ht":0.0607874004,
+      "weekly_new_cases_pc_change":-46.0122699387,
+      "weekly_new_deaths_pc_change":-49.2125984252
     }
   ],
   "PAN":[
@@ -8033,7 +8579,7 @@
       "population":4176873.0,
       "weekly_new_cases_per_ht":15.5379395064,
       "weekly_new_deaths_per_ht":0.3112376172,
-      "weekly_new_cases_pc_change":490.0,
+      "weekly_new_cases_pc_change":512.2641509434,
       "weekly_new_deaths_pc_change":null
     },
     {
@@ -8256,6 +8802,19 @@
       "weekly_new_deaths_per_ht":5.0755672964,
       "weekly_new_cases_pc_change":-19.2123665808,
       "weekly_new_deaths_pc_change":21.1428571429
+    },
+    {
+      "ISO_3_CODE":"PAN",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":7263,
+      "weekly_new_deaths":171,
+      "cumulative_cases":58864,
+      "cumulative_deaths":1275,
+      "population":4176873.0,
+      "weekly_new_cases_per_ht":173.8860626119,
+      "weekly_new_deaths_per_ht":4.0939717344,
+      "weekly_new_cases_pc_change":10.2961275626,
+      "weekly_new_deaths_pc_change":-19.3396226415
     }
   ],
   "PER":[
@@ -8269,7 +8828,7 @@
       "population":31989256.0,
       "weekly_new_cases_per_ht":0.9909577141,
       "weekly_new_deaths_per_ht":0.0281344461,
-      "weekly_new_cases_pc_change":15.2727272727,
+      "weekly_new_cases_pc_change":16.9741697417,
       "weekly_new_deaths_pc_change":350.0
     },
     {
@@ -8492,20 +9051,33 @@
       "weekly_new_deaths_per_ht":15.7677940368,
       "weekly_new_cases_pc_change":17.5080143679,
       "weekly_new_deaths_pc_change":288.298691301
+    },
+    {
+      "ISO_3_CODE":"PER",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":31531,
+      "weekly_new_deaths":1178,
+      "cumulative_cases":379884,
+      "cumulative_deaths":18030,
+      "population":31989256.0,
+      "weekly_new_cases_per_ht":98.5674690277,
+      "weekly_new_deaths_per_ht":3.6824863948,
+      "weekly_new_cases_pc_change":3.6385748094,
+      "weekly_new_deaths_pc_change":-76.645519429
     }
   ],
   "PHL":[
     {
       "ISO_3_CODE":"PHL",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":240,
+      "weekly_new_cases":236,
       "weekly_new_deaths":13,
-      "cumulative_cases":142,
+      "cumulative_cases":146,
       "cumulative_deaths":12,
       "population":106651922.0,
-      "weekly_new_cases_per_ht":0.2250311063,
+      "weekly_new_cases_per_ht":0.2212805879,
       "weekly_new_deaths_per_ht":0.0121891849,
-      "weekly_new_cases_pc_change":84.6153846154,
+      "weekly_new_cases_pc_change":81.5384615385,
       "weekly_new_deaths_pc_change":18.1818181818
     },
     {
@@ -8518,7 +9090,7 @@
       "population":106651922.0,
       "weekly_new_cases_per_ht":0.6516525788,
       "weekly_new_deaths_per_ht":0.0403180732,
-      "weekly_new_cases_pc_change":189.5833333333,
+      "weekly_new_cases_pc_change":194.4915254237,
       "weekly_new_deaths_pc_change":230.7692307692
     },
     {
@@ -8741,6 +9313,19 @@
       "weekly_new_deaths_per_ht":0.1162660716,
       "weekly_new_cases_pc_change":18.2818985743,
       "weekly_new_deaths_pc_change":-69.0773067332
+    },
+    {
+      "ISO_3_CODE":"PHL",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":19820,
+      "weekly_new_deaths":142,
+      "cumulative_cases":80448,
+      "cumulative_deaths":1932,
+      "population":106651922.0,
+      "weekly_new_cases_per_ht":18.5838188645,
+      "weekly_new_deaths_per_ht":0.1331434046,
+      "weekly_new_cases_pc_change":51.2053707659,
+      "weekly_new_deaths_pc_change":14.5161290323
     }
   ],
   "PRY":[
@@ -8951,6 +9536,19 @@
       "weekly_new_deaths_per_ht":0.1437593147,
       "weekly_new_cases_pc_change":6.3800277393,
       "weekly_new_deaths_pc_change":25.0
+    },
+    {
+      "ISO_3_CODE":"PRY",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":1114,
+      "weekly_new_deaths":11,
+      "cumulative_cases":4328,
+      "cumulative_deaths":40,
+      "population":6956071.0,
+      "weekly_new_cases_per_ht":16.0147876581,
+      "weekly_new_deaths_per_ht":0.1581352462,
+      "weekly_new_cases_pc_change":45.2411994785,
+      "weekly_new_deaths_pc_change":10.0
     }
   ],
   "PSE":[
@@ -9174,20 +9772,33 @@
       "weekly_new_deaths_per_ht":0.3501793684,
       "weekly_new_cases_pc_change":10.6588478786,
       "weekly_new_deaths_pc_change":-46.6666666667
+    },
+    {
+      "ISO_3_CODE":"PSE",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":2760,
+      "weekly_new_deaths":8,
+      "cumulative_cases":13125,
+      "cumulative_deaths":79,
+      "population":4569087.0,
+      "weekly_new_cases_per_ht":60.4059410556,
+      "weekly_new_deaths_per_ht":0.1750896842,
+      "weekly_new_cases_pc_change":-13.9650872818,
+      "weekly_new_deaths_pc_change":-50.0
     }
   ],
   "ROAP":[
     {
       "ISO_3_CODE":"ROAP",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":873,
+      "weekly_new_cases":857,
       "weekly_new_deaths":18,
-      "cumulative_cases":224,
+      "cumulative_cases":240,
       "cumulative_deaths":12,
       "population":596653591.0,
-      "weekly_new_cases_per_ht":0.1463160556,
+      "weekly_new_cases_per_ht":0.1436344326,
       "weekly_new_deaths_per_ht":0.0030168259,
-      "weekly_new_cases_pc_change":364.3617021277,
+      "weekly_new_cases_pc_change":355.8510638298,
       "weekly_new_deaths_pc_change":63.6363636364
     },
     {
@@ -9200,7 +9811,7 @@
       "population":596653591.0,
       "weekly_new_cases_per_ht":0.2827436264,
       "weekly_new_deaths_per_ht":0.0100560863,
-      "weekly_new_cases_pc_change":93.2416953036,
+      "weekly_new_cases_pc_change":96.8494749125,
       "weekly_new_deaths_pc_change":233.3333333333
     },
     {
@@ -9423,6 +10034,19 @@
       "weekly_new_deaths_per_ht":0.1255334773,
       "weekly_new_cases_pc_change":-10.8037249885,
       "weekly_new_deaths_pc_change":-38.5561936013
+    },
+    {
+      "ISO_3_CODE":"ROAP",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":44251,
+      "weekly_new_deaths":553,
+      "cumulative_cases":614803,
+      "cumulative_deaths":11977,
+      "population":596653591.0,
+      "weekly_new_cases_per_ht":7.4165312448,
+      "weekly_new_deaths_per_ht":0.0926835954,
+      "weekly_new_cases_pc_change":4.0538951725,
+      "weekly_new_deaths_pc_change":-26.1682242991
     }
   ],
   "ROCCA":[
@@ -9646,46 +10270,72 @@
       "weekly_new_deaths_per_ht":0.2689225323,
       "weekly_new_cases_pc_change":12.8923134749,
       "weekly_new_deaths_pc_change":17.6470588235
+    },
+    {
+      "ISO_3_CODE":"ROCCA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":7319,
+      "weekly_new_deaths":120,
+      "cumulative_cases":65656,
+      "cumulative_deaths":1616,
+      "population":44622516.0,
+      "weekly_new_cases_per_ht":16.4020334488,
+      "weekly_new_deaths_per_ht":0.2689225323,
+      "weekly_new_cases_pc_change":21.8411852838,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "ROLAC":[
     {
       "ISO_3_CODE":"ROLAC",
+      "date_epicrv":"2020-03-15",
+      "weekly_new_cases":403,
+      "weekly_new_deaths":3,
+      "cumulative_cases":128,
+      "cumulative_deaths":1,
+      "population":581595950.0,
+      "weekly_new_cases_per_ht":0.0692920919,
+      "weekly_new_deaths_per_ht":0.000515822,
+      "weekly_new_cases_pc_change":307.0707070707,
+      "weekly_new_deaths_pc_change":200.0
+    },
+    {
+      "ISO_3_CODE":"ROLAC",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":2742,
+      "weekly_new_cases":2682,
       "weekly_new_deaths":29,
-      "cumulative_cases":657,
+      "cumulative_cases":725,
       "cumulative_deaths":6,
       "population":581595950.0,
-      "weekly_new_cases_per_ht":0.4714613298,
+      "weekly_new_cases_per_ht":0.4611448893,
       "weekly_new_deaths_per_ht":0.0049862796,
-      "weekly_new_cases_pc_change":631.2,
+      "weekly_new_cases_pc_change":565.5086848635,
       "weekly_new_deaths_pc_change":866.6666666667
     },
     {
       "ISO_3_CODE":"ROLAC",
       "date_epicrv":"2020-03-29",
-      "weekly_new_cases":8824,
+      "weekly_new_cases":8820,
       "weekly_new_deaths":164,
-      "cumulative_cases":3811,
+      "cumulative_cases":3815,
       "cumulative_deaths":39,
       "population":581595950.0,
-      "weekly_new_cases_per_ht":1.5172045129,
+      "weekly_new_cases_per_ht":1.5165167502,
       "weekly_new_deaths_per_ht":0.0281982706,
-      "weekly_new_cases_pc_change":221.8088986142,
+      "weekly_new_cases_pc_change":228.8590604027,
       "weekly_new_deaths_pc_change":465.5172413793
     },
     {
       "ISO_3_CODE":"ROLAC",
       "date_epicrv":"2020-04-05",
-      "weekly_new_cases":15126,
+      "weekly_new_cases":15122,
       "weekly_new_deaths":691,
-      "cumulative_cases":12995,
+      "cumulative_cases":12999,
       "cumulative_deaths":229,
       "population":581595950.0,
-      "weekly_new_cases_per_ht":2.6007746443,
+      "weekly_new_cases_per_ht":2.6000868816,
       "weekly_new_deaths_per_ht":0.1188110062,
-      "weekly_new_cases_pc_change":71.4188576609,
+      "weekly_new_cases_pc_change":71.4512471655,
       "weekly_new_deaths_pc_change":321.3414634146
     },
     {
@@ -9698,7 +10348,7 @@
       "population":581595950.0,
       "weekly_new_cases_per_ht":4.8740023035,
       "weekly_new_deaths_per_ht":0.2376220123,
-      "weekly_new_cases_pc_change":87.4057913526,
+      "weekly_new_cases_pc_change":87.4553630472,
       "weekly_new_deaths_pc_change":100.0
     },
     {
@@ -9895,46 +10545,59 @@
       "weekly_new_deaths_per_ht":3.5602036087,
       "weekly_new_cases_pc_change":18.0607755799,
       "weekly_new_deaths_pc_change":20.7487753674
+    },
+    {
+      "ISO_3_CODE":"ROLAC",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":555057,
+      "weekly_new_deaths":16926,
+      "cumulative_cases":4218067,
+      "cumulative_deaths":179034,
+      "population":581595950.0,
+      "weekly_new_cases_per_ht":95.4368750333,
+      "weekly_new_deaths_per_ht":2.9102678586,
+      "weekly_new_cases_pc_change":7.6127733908,
+      "weekly_new_deaths_pc_change":-18.2555780933
     }
   ],
   "ROMENA":[
     {
       "ISO_3_CODE":"ROMENA",
       "date_epicrv":"2020-03-08",
-      "weekly_new_cases":6104,
+      "weekly_new_cases":6112,
       "weekly_new_deaths":158,
-      "cumulative_cases":1543,
+      "cumulative_cases":1563,
       "cumulative_deaths":66,
       "population":374434748.0,
-      "weekly_new_cases_per_ht":1.6301905826,
+      "weekly_new_cases_per_ht":1.6323271365,
       "weekly_new_deaths_per_ht":0.0421969384,
-      "weekly_new_cases_pc_change":956.0553633218,
+      "weekly_new_cases_pc_change":950.1718213058,
       "weekly_new_deaths_pc_change":351.4285714286
     },
     {
       "ISO_3_CODE":"ROMENA",
       "date_epicrv":"2020-03-15",
-      "weekly_new_cases":7638,
+      "weekly_new_cases":7642,
       "weekly_new_deaths":537,
-      "cumulative_cases":7338,
+      "cumulative_cases":7362,
       "cumulative_deaths":244,
       "population":374434748.0,
-      "weekly_new_cases_per_ht":2.0398747821,
+      "weekly_new_cases_per_ht":2.0409430591,
       "weekly_new_deaths_per_ht":0.1434161767,
-      "weekly_new_cases_pc_change":25.131061599,
+      "weekly_new_cases_pc_change":25.0327225131,
       "weekly_new_deaths_pc_change":239.8734177215
     },
     {
       "ISO_3_CODE":"ROMENA",
       "date_epicrv":"2020-03-22",
-      "weekly_new_cases":9153,
+      "weekly_new_cases":9125,
       "weekly_new_deaths":1002,
-      "cumulative_cases":15432,
+      "cumulative_cases":15460,
       "cumulative_deaths":867,
       "population":374434748.0,
-      "weekly_new_cases_per_ht":2.4444846663,
+      "weekly_new_cases_per_ht":2.4370067278,
       "weekly_new_deaths_per_ht":0.2676033689,
-      "weekly_new_cases_pc_change":19.8350353496,
+      "weekly_new_cases_pc_change":19.405914682,
       "weekly_new_deaths_pc_change":86.5921787709
     },
     {
@@ -9947,7 +10610,7 @@
       "population":374434748.0,
       "weekly_new_cases_per_ht":6.4411756999,
       "weekly_new_deaths_per_ht":0.2935090843,
-      "weekly_new_cases_pc_change":163.4983065662,
+      "weekly_new_cases_pc_change":164.3068493151,
       "weekly_new_deaths_pc_change":9.6806387226
     },
     {
@@ -10170,6 +10833,19 @@
       "weekly_new_deaths_per_ht":0.6946470684,
       "weekly_new_cases_pc_change":4.1950978169,
       "weekly_new_deaths_pc_change":-4.5854732208
+    },
+    {
+      "ISO_3_CODE":"ROMENA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":51632,
+      "weekly_new_deaths":2480,
+      "cumulative_cases":742413,
+      "cumulative_deaths":31000,
+      "population":374434748.0,
+      "weekly_new_cases_per_ht":13.7893185063,
+      "weekly_new_deaths_per_ht":0.6623316915,
+      "weekly_new_cases_pc_change":2.1525799304,
+      "weekly_new_deaths_pc_change":-4.6520569012
     }
   ],
   "ROSEA":[
@@ -10183,7 +10859,7 @@
       "population":420500147.0,
       "weekly_new_cases_per_ht":0.0549345825,
       "weekly_new_deaths_per_ht":0.0019024964,
-      "weekly_new_cases_pc_change":110.0,
+      "weekly_new_cases_pc_change":168.6046511628,
       "weekly_new_deaths_pc_change":300.0
     },
     {
@@ -10393,20 +11069,33 @@
       "weekly_new_deaths_per_ht":0.04185492,
       "weekly_new_cases_pc_change":43.9181361823,
       "weekly_new_deaths_pc_change":-13.7254901961
+    },
+    {
+      "ISO_3_CODE":"ROSEA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":13788,
+      "weekly_new_deaths":275,
+      "cumulative_cases":63786,
+      "cumulative_deaths":1665,
+      "population":420500147.0,
+      "weekly_new_cases_per_ht":3.2789524804,
+      "weekly_new_deaths_per_ht":0.0653983125,
+      "weekly_new_cases_pc_change":23.31634022,
+      "weekly_new_deaths_pc_change":56.25
     }
   ],
   "ROWCA":[
     {
       "ISO_3_CODE":"ROWCA",
       "date_epicrv":"2020-03-29",
-      "weekly_new_cases":332,
+      "weekly_new_cases":320,
       "weekly_new_deaths":10,
-      "cumulative_cases":216,
+      "cumulative_cases":224,
       "cumulative_deaths":5,
       "population":447140322.0,
-      "weekly_new_cases_per_ht":0.0742496222,
+      "weekly_new_cases_per_ht":0.071565901,
       "weekly_new_deaths_per_ht":0.0022364344,
-      "weekly_new_cases_pc_change":89.7142857143,
+      "weekly_new_cases_pc_change":106.4516129032,
       "weekly_new_deaths_pc_change":150.0
     },
     {
@@ -10419,7 +11108,7 @@
       "population":447140322.0,
       "weekly_new_cases_per_ht":0.2469023583,
       "weekly_new_deaths_per_ht":0.0114058155,
-      "weekly_new_cases_pc_change":232.5301204819,
+      "weekly_new_cases_pc_change":245.0,
       "weekly_new_deaths_pc_change":410.0
     },
     {
@@ -10629,6 +11318,19 @@
       "weekly_new_deaths_per_ht":0.0252717088,
       "weekly_new_cases_pc_change":-15.7574920591,
       "weekly_new_deaths_pc_change":3.6697247706
+    },
+    {
+      "ISO_3_CODE":"ROWCA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":5540,
+      "weekly_new_deaths":61,
+      "cumulative_cases":87639,
+      "cumulative_deaths":2082,
+      "population":447140322.0,
+      "weekly_new_cases_per_ht":1.2389846604,
+      "weekly_new_deaths_per_ht":0.0136422499,
+      "weekly_new_cases_pc_change":-9.1803278689,
+      "weekly_new_deaths_pc_change":-46.017699115
     }
   ],
   "RWA":[
@@ -10839,6 +11541,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":-11.25,
       "weekly_new_deaths_pc_change":-100.0
+    },
+    {
+      "ISO_3_CODE":"RWA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":290,
+      "weekly_new_deaths":0,
+      "cumulative_cases":1823,
+      "cumulative_deaths":5,
+      "population":12301939.0,
+      "weekly_new_cases_per_ht":2.3573519589,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":36.1502347418,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "SDN":[
@@ -11010,6 +11725,19 @@
       "weekly_new_deaths_per_ht":0.0885135002,
       "weekly_new_cases_pc_change":21.6796875,
       "weekly_new_deaths_pc_change":23.3333333333
+    },
+    {
+      "ISO_3_CODE":"SDN",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":353,
+      "weekly_new_deaths":35,
+      "cumulative_cases":11424,
+      "cumulative_deaths":720,
+      "population":41801533.0,
+      "weekly_new_cases_per_ht":0.8444666371,
+      "weekly_new_deaths_per_ht":0.0837289867,
+      "weekly_new_cases_pc_change":-43.3386837881,
+      "weekly_new_deaths_pc_change":-5.4054054054
     }
   ],
   "SLE":[
@@ -11168,6 +11896,19 @@
       "weekly_new_deaths_per_ht":0.0130716323,
       "weekly_new_cases_pc_change":-19.2771084337,
       "weekly_new_deaths_pc_change":-50.0
+    },
+    {
+      "ISO_3_CODE":"SLE",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":67,
+      "weekly_new_deaths":1,
+      "cumulative_cases":1783,
+      "cumulative_deaths":66,
+      "population":7650154.0,
+      "weekly_new_cases_per_ht":0.875799363,
+      "weekly_new_deaths_per_ht":0.0130716323,
+      "weekly_new_cases_pc_change":0.0,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "SOM":[
@@ -11352,6 +12093,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":11.6666666667,
       "weekly_new_deaths_pc_change":-100.0
+    },
+    {
+      "ISO_3_CODE":"SOM",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":34,
+      "weekly_new_deaths":0,
+      "cumulative_cases":3178,
+      "cumulative_deaths":93,
+      "population":15008154.0,
+      "weekly_new_cases_per_ht":0.2265435176,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":-49.2537313433,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "SSD":[
@@ -11497,6 +12251,19 @@
       "weekly_new_deaths_per_ht":0.0182217072,
       "weekly_new_cases_pc_change":1.6393442623,
       "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"SSD",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":167,
+      "weekly_new_deaths":1,
+      "cumulative_cases":2305,
+      "cumulative_deaths":46,
+      "population":10975920.0,
+      "weekly_new_cases_per_ht":1.5215125475,
+      "weekly_new_deaths_per_ht":0.0091108536,
+      "weekly_new_cases_pc_change":169.3548387097,
+      "weekly_new_deaths_pc_change":-50.0
     }
   ],
   "SYR":[
@@ -11603,6 +12370,19 @@
       "weekly_new_deaths_per_ht":0.065064568,
       "weekly_new_cases_pc_change":28.431372549,
       "weekly_new_deaths_pc_change":22.2222222222
+    },
+    {
+      "ISO_3_CODE":"SYR",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":153,
+      "weekly_new_deaths":7,
+      "cumulative_cases":650,
+      "cumulative_deaths":38,
+      "population":16906283.0,
+      "weekly_new_cases_per_ht":0.9049889914,
+      "weekly_new_deaths_per_ht":0.0414047251,
+      "weekly_new_cases_pc_change":16.7938931298,
+      "weekly_new_deaths_pc_change":-36.3636363636
     }
   ],
   "TCD":[
@@ -11761,6 +12541,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":73.3333333333,
       "weekly_new_deaths_pc_change":-100.0
+    },
+    {
+      "ISO_3_CODE":"TCD",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":21,
+      "weekly_new_deaths":0,
+      "cumulative_cases":915,
+      "cumulative_deaths":75,
+      "population":15477751.0,
+      "weekly_new_cases_per_ht":0.1356786267,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":-19.2307692308,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "TGO":[
@@ -11919,6 +12712,19 @@
       "weekly_new_deaths_per_ht":0.0253514535,
       "weekly_new_cases_pc_change":23.4375,
       "weekly_new_deaths_pc_change":null
+    },
+    {
+      "ISO_3_CODE":"TGO",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":74,
+      "weekly_new_deaths":1,
+      "cumulative_cases":868,
+      "cumulative_deaths":18,
+      "population":7889094.0,
+      "weekly_new_cases_per_ht":0.9380037809,
+      "weekly_new_deaths_per_ht":0.0126757268,
+      "weekly_new_cases_pc_change":-6.3291139241,
+      "weekly_new_deaths_pc_change":-50.0
     }
   ],
   "TTO":[
@@ -12129,6 +12935,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":266.6666666667,
       "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"TTO",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":26,
+      "weekly_new_deaths":0,
+      "cumulative_cases":147,
+      "cumulative_deaths":8,
+      "population":1389858.0,
+      "weekly_new_cases_per_ht":1.8706947041,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":136.3636363636,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "TUR":[
@@ -12142,7 +12961,7 @@
       "population":82319724.0,
       "weekly_new_cases_per_ht":7.8413771164,
       "weekly_new_deaths_per_ht":0.1056854855,
-      "weekly_new_cases_pc_change":585.2441613588,
+      "weekly_new_cases_pc_change":588.1663113006,
       "weekly_new_deaths_pc_change":314.2857142857
     },
     {
@@ -12365,6 +13184,19 @@
       "weekly_new_deaths_per_ht":0.1469878592,
       "weekly_new_cases_pc_change":-4.1567695962,
       "weekly_new_deaths_pc_change":-7.6335877863
+    },
+    {
+      "ISO_3_CODE":"TUR",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":6696,
+      "weekly_new_deaths":114,
+      "cumulative_cases":226100,
+      "cumulative_deaths":5613,
+      "population":82319724.0,
+      "weekly_new_cases_per_ht":8.1341380591,
+      "weekly_new_deaths_per_ht":0.1384844293,
+      "weekly_new_cases_pc_change":3.717472119,
+      "weekly_new_deaths_pc_change":-5.7851239669
     }
   ],
   "TZA":[
@@ -12549,6 +13381,19 @@
       "weekly_new_deaths_per_ht":0.0,
       "weekly_new_cases_pc_change":0.0,
       "weekly_new_deaths_pc_change":0.0
+    },
+    {
+      "ISO_3_CODE":"TZA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":0,
+      "weekly_new_deaths":0,
+      "cumulative_cases":509,
+      "cumulative_deaths":21,
+      "population":56318348.0,
+      "weekly_new_cases_per_ht":0.0,
+      "weekly_new_deaths_per_ht":0.0,
+      "weekly_new_cases_pc_change":0.0,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "UGA":[
@@ -12694,6 +13539,19 @@
       "weekly_new_deaths_per_ht":0.002340652,
       "weekly_new_cases_pc_change":-16.3265306122,
       "weekly_new_deaths_pc_change":null
+    },
+    {
+      "ISO_3_CODE":"UGA",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":73,
+      "weekly_new_deaths":3,
+      "cumulative_cases":1115,
+      "cumulative_deaths":2,
+      "population":42723139.0,
+      "weekly_new_cases_per_ht":0.1708675947,
+      "weekly_new_deaths_per_ht":0.0070219559,
+      "weekly_new_cases_pc_change":78.0487804878,
+      "weekly_new_deaths_pc_change":200.0
     }
   ],
   "UKR":[
@@ -12917,6 +13775,19 @@
       "weekly_new_deaths_per_ht":0.2689225323,
       "weekly_new_cases_pc_change":12.8923134749,
       "weekly_new_deaths_pc_change":17.6470588235
+    },
+    {
+      "ISO_3_CODE":"UKR",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":7319,
+      "weekly_new_deaths":120,
+      "cumulative_cases":65656,
+      "cumulative_deaths":1616,
+      "population":44622516.0,
+      "weekly_new_cases_per_ht":16.4020334488,
+      "weekly_new_deaths_per_ht":0.2689225323,
+      "weekly_new_cases_pc_change":21.8411852838,
+      "weekly_new_deaths_pc_change":0.0
     }
   ],
   "URY":[
@@ -12930,7 +13801,7 @@
       "population":3449299.0,
       "weekly_new_cases_per_ht":5.2184516332,
       "weekly_new_deaths_per_ht":0.0,
-      "weekly_new_cases_pc_change":100.0,
+      "weekly_new_cases_pc_change":109.3023255814,
       "weekly_new_deaths_pc_change":0.0
     },
     {
@@ -13153,6 +14024,19 @@
       "weekly_new_deaths_per_ht":0.0579827959,
       "weekly_new_cases_pc_change":148.0769230769,
       "weekly_new_deaths_pc_change":-33.3333333333
+    },
+    {
+      "ISO_3_CODE":"URY",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":99,
+      "weekly_new_deaths":1,
+      "cumulative_cases":1174,
+      "cumulative_deaths":34,
+      "population":3449299.0,
+      "weekly_new_cases_per_ht":2.8701483983,
+      "weekly_new_deaths_per_ht":0.028991398,
+      "weekly_new_cases_pc_change":-23.2558139535,
+      "weekly_new_deaths_pc_change":-50.0
     }
   ],
   "VEN":[
@@ -13166,7 +14050,7 @@
       "population":28870195.0,
       "weekly_new_cases_per_ht":0.1073771757,
       "weekly_new_deaths_per_ht":0.0034637799,
-      "weekly_new_cases_pc_change":-59.7402597403,
+      "weekly_new_cases_pc_change":-57.5342465753,
       "weekly_new_deaths_pc_change":-50.0
     },
     {
@@ -13376,6 +14260,19 @@
       "weekly_new_deaths_per_ht":0.0935220562,
       "weekly_new_cases_pc_change":28.6432160804,
       "weekly_new_deaths_pc_change":12.5
+    },
+    {
+      "ISO_3_CODE":"VEN",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":4311,
+      "weekly_new_deaths":30,
+      "cumulative_cases":14929,
+      "cumulative_deaths":138,
+      "population":28870195.0,
+      "weekly_new_cases_per_ht":14.9323549772,
+      "weekly_new_deaths_per_ht":0.1039133958,
+      "weekly_new_cases_pc_change":40.33203125,
+      "weekly_new_deaths_pc_change":11.1111111111
     }
   ],
   "YEM":[
@@ -13508,6 +14405,19 @@
       "weekly_new_deaths_per_ht":0.1087769412,
       "weekly_new_cases_pc_change":-52.5510204082,
       "weekly_new_deaths_pc_change":-60.7594936709
+    },
+    {
+      "ISO_3_CODE":"YEM",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":56,
+      "weekly_new_deaths":20,
+      "cumulative_cases":1685,
+      "cumulative_deaths":480,
+      "population":28498687.0,
+      "weekly_new_cases_per_ht":0.1965002809,
+      "weekly_new_deaths_per_ht":0.0701786717,
+      "weekly_new_cases_pc_change":-39.7849462366,
+      "weekly_new_deaths_pc_change":-35.4838709677
     }
   ],
   "ZMB":[
@@ -13666,6 +14576,19 @@
       "weekly_new_deaths_per_ht":0.1094985875,
       "weekly_new_cases_pc_change":24.2396313364,
       "weekly_new_deaths_pc_change":-75.641025641
+    },
+    {
+      "ISO_3_CODE":"ZMB",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":1900,
+      "weekly_new_deaths":26,
+      "cumulative_cases":4481,
+      "cumulative_deaths":139,
+      "population":17351822.0,
+      "weekly_new_cases_per_ht":10.9498587526,
+      "weekly_new_deaths_per_ht":0.1498401724,
+      "weekly_new_cases_pc_change":40.9495548961,
+      "weekly_new_deaths_pc_change":36.8421052632
     }
   ],
   "ZWE":[
@@ -13772,6 +14695,19 @@
       "weekly_new_deaths_per_ht":0.0623311087,
       "weekly_new_cases_pc_change":92.7419354839,
       "weekly_new_deaths_pc_change":28.5714285714
+    },
+    {
+      "ISO_3_CODE":"ZWE",
+      "date_epicrv":"2020-08-02",
+      "weekly_new_cases":1225,
+      "weekly_new_deaths":35,
+      "cumulative_cases":2512,
+      "cumulative_deaths":34,
+      "population":14439018.0,
+      "weekly_new_cases_per_ht":8.4839564574,
+      "weekly_new_deaths_per_ht":0.2423987559,
+      "weekly_new_cases_pc_change":28.1380753138,
+      "weekly_new_deaths_pc_change":288.8888888889
     }
   ]
 }
